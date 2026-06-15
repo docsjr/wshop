@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Manrope:wght@400;500;600;700;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
 :root {
   --color-off-white: #f7f4ef;
   --color-graphite: #222222;
@@ -11,7 +10,7 @@
   --color-white: #ffffff;
   --color-soft-black: #151515;
 
-  --font-title: "Bodoni Moda", serif;
+ --font-title: "Cormorant Garamond", serif;
   --font-body: "Manrope", sans-serif;
 
   --container: 1180px;
