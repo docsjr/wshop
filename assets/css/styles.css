@@ -656,7 +656,7 @@ ul {
   padding: clamp(1.55rem, 4vw, 2.65rem);
   border: 1px solid rgba(217, 209, 199, 0.88);
   border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.25);
   box-shadow: var(--shadow-card);
 }
 
