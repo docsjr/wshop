@@ -60,7 +60,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.55;
+  opacity: 0.1;
   transform: scale(1.01);
 }
 
@@ -70,18 +70,18 @@ body {
   inset: 0;
   background:
     linear-gradient(
-      90deg,
-      rgba(247, 244, 239, 0.82) 0%,
-      rgba(247, 244, 239, 0.72) 38%,
-      rgba(247, 244, 239, 0.5) 68%,
-      rgba(247, 244, 239, 0.42) 100%
-    ),
-    linear-gradient(
-      180deg,
-      rgba(247, 244, 239, 0.5) 0%,
-      rgba(247, 244, 239, 0.72) 58%,
-      rgba(247, 244, 239, 0.9) 100%
-    );
+     90deg,
+        rgba(247, 244, 239, 0.58) 1%,
+        rgba(247, 244, 239, 0.42) 1%,
+        rgba(247, 244, 239, 0.22) 2%,
+        rgba(247, 244, 239, 0.12) 88%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(247, 244, 239, 0.16) 20%,
+        rgba(247, 244, 239, 0.36) 70%,
+        rgba(247, 244, 239, 0.68) 200%
+      );
 }
 .site-header,
 main,
