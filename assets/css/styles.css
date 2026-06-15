@@ -39,13 +39,55 @@ body {
   margin: 0;
   font-family: var(--font-body);
   color: var(--color-graphite);
-  background:
-    radial-gradient(circle at top left, rgba(183, 156, 109, 0.13), transparent 32rem),
-    linear-gradient(180deg, var(--color-off-white), #f2eee7 100%);
+  background: var(--color-off-white);
   line-height: 1.7;
   overflow-x: hidden;
 }
+.page-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
 
+.page-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../img/img2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transform: scale(1.01);
+}
+
+.page-background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(247, 244, 239, 0.96) 0%,
+      rgba(247, 244, 239, 0.88) 34%,
+      rgba(247, 244, 239, 0.72) 64%,
+      rgba(247, 244, 239, 0.62) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(247, 244, 239, 0.72) 0%,
+      rgba(247, 244, 239, 0.9) 52%,
+      rgba(247, 244, 239, 0.96) 100%
+    );
+}
+.site-header,
+main,
+.site-footer,
+.floating-cta {
+  position: relative;
+  z-index: 1;
+}
 body.nav-open {
   overflow: hidden;
 }
@@ -289,26 +331,25 @@ ul {
 .hero::before {
   content: "";
   position: absolute;
-  top: 12%;
+  top: 10%;
   right: -12rem;
   width: 34rem;
   height: 34rem;
-  border: 1px solid rgba(85, 107, 93, 0.18);
+  border: 1px solid rgba(85, 107, 93, 0.16);
   border-radius: 50%;
 }
 
 .hero::after {
   content: "";
   position: absolute;
-  bottom: 6%;
+  bottom: 4%;
   left: -10rem;
-  width: 22rem;
-  height: 22rem;
+  width: 24rem;
+  height: 24rem;
   border-radius: 50%;
-  background: rgba(217, 209, 199, 0.28);
-  filter: blur(4px);
+  background: rgba(217, 209, 199, 0.18);
+  filter: blur(8px);
 }
-
 .hero-grid {
   position: relative;
   z-index: 1;
@@ -1265,7 +1306,21 @@ ul {
     justify-content: center;
   }
 }
+@media (max-width: 680px) {
+  .page-background::before {
+    background-position: 62% center;
+  }
 
+  .page-background::after {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(247, 244, 239, 0.94) 0%,
+        rgba(247, 244, 239, 0.9) 45%,
+        rgba(247, 244, 239, 0.97) 100%
+      );
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
