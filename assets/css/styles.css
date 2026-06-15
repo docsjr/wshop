@@ -55,11 +55,12 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../img/img2.png");
+  background-image: url("../img/img2.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   transform: scale(1.01);
+  opacity: 0.68;
 }
 
 .page-background::after {
@@ -69,16 +70,16 @@ body {
   background:
     linear-gradient(
       90deg,
-      rgba(247, 244, 239, 0.96) 0%,
-      rgba(247, 244, 239, 0.88) 34%,
-      rgba(247, 244, 239, 0.72) 64%,
-      rgba(247, 244, 239, 0.62) 100%
+      rgba(247, 244, 239, 0.985) 0%,
+      rgba(247, 244, 239, 0.96) 34%,
+      rgba(247, 244, 239, 0.9) 64%,
+      rgba(247, 244, 239, 0.84) 100%
     ),
     linear-gradient(
       180deg,
-      rgba(247, 244, 239, 0.72) 0%,
-      rgba(247, 244, 239, 0.9) 52%,
-      rgba(247, 244, 239, 0.96) 100%
+      rgba(247, 244, 239, 0.9) 0%,
+      rgba(247, 244, 239, 0.96) 52%,
+      rgba(247, 244, 239, 0.985) 100%
     );
 }
 .site-header,
