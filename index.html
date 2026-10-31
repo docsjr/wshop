@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script src="assets/js/config.js" defer></script>
     <script src="assets/js/main.js" defer></script>
   </head>
   <body>
@@ -37,40 +36,20 @@
         <div class="hero-copy">
           <p class="eyebrow"><span class="tiny-line"></span> MÉTODO REGULAR™ · DOCLIV</p>
           <h1>Aprenda a cuidar da saúde<br><em>na rotina que você tem.</em></h1>
-          <p class="lead">Aprenda a organizar alimentação, movimento e sono com um método que cabe na vida real.</p>
-          <p class="hero-description">No curso Método Regular, você usa dez aulas, um livro e atividades práticas para identificar o que atrapalha sua rotina e montar seu próprio plano de hábitos.</p>
+          <p class="lead">Organize suas refeições, encontre espaço para se movimentar e cuide do sono, mesmo nas semanas mais corridas.</p>
+          <p class="hero-description">No Método Regular, você identifica o que dificulta seu cuidado e monta um plano de hábitos com dez aulas, leituras e atividades práticas.</p>
           <div class="actions">
-            <a class="button" href="#planos">Conhecer o curso <span aria-hidden="true">↗</span></a>
-            <a class="text-link" href="#metodo">Entender o método <span aria-hidden="true">↓</span></a>
+            <a class="button" href="#planos">Ver versões e preços <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#pratica">Experimentar uma atividade <span aria-hidden="true">↓</span></a>
           </div>
           <p class="micro">Curso online · Acesso por 1 ano · Dr. Sandro Pereira</p>
         </div>
-        <div class="hero-art">
-          <div class="art-caption">
-            <span>CONHECIMENTO + PRÁTICA</span>
-            <span>01 / DOCLIV</span>
-          </div>
-          <div class="book-composition" aria-label="Representação ilustrativa dos materiais do Método Regular">
-            <div class="book workbook">
-              <span class="book-brand">DOCLIV</span>
-              <span class="workbook-title">Da intenção<br><i>à prática.</i></span>
-              <span class="book-bottom">CADERNO DE ATIVIDADES<br>MÉTODO REGULAR</span>
-            </div>
-            <div class="book main-book">
-              <span class="book-brand">DOCLIV <span>↗</span></span>
-              <span class="book-overline">EMAGRECIMENTO · SAÚDE · PERFORMANCE</span>
-              <span class="book-title">Método<br><i>Regular.</i></span>
-              <div class="book-rule"></div>
-              <p>Entender seu cuidado.<br>Organizar sua rotina.<br>Construir regularidade.</p>
-              <span class="book-bottom">DR. SANDRO PEREIRA</span>
-            </div>
-            <div class="art-seal">
-              <strong>10</strong>
-              <span>AULAS PARA<br>LEVAR À VIDA</span>
-            </div>
-          </div>
-          <p class="art-footnote">Representação dos materiais digitais. Seu aprendizado continua na rotina.</p>
-        </div>
+        <figure class="hero-scene">
+          <img src="assets/img/caminhada-960.webp" srcset="assets/img/caminhada-480.webp 480w, assets/img/caminhada-960.webp 960w"
+               sizes="(max-width: 600px) 100vw, (max-width: 1200px) 48vw, 570px"
+               width="960" height="1200" fetchpriority="high" alt="Uma mulher caminha ao ar livre sob a luz da manhã.">
+          <figcaption><span>NA PRÁTICA / MOVIMENTO</span>Uma caminhada que cabe no seu dia.</figcaption>
+        </figure>
       </section>
       <div class="facts">
         <div class="container facts-grid">
@@ -92,36 +71,53 @@
           <p class="small">O curso é educativo. Atendimento e planejamento individualizados são contratados separadamente.</p>
         </div>
       </section>
-      <section class="learning section">
+      <section class="learning section" id="pratica">
         <div class="container">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">O QUE VOCÊ VAI APRENDER</p>
-              <h2>Compreender. Organizar.<br><em>Colocar em prática.</em></h2>
+              <p class="eyebrow">EXPERIMENTE UMA ATIVIDADE</p>
+              <h2>Por onde você<br><em>gostaria de começar?</em></h2>
             </div>
-            <p>Conecte o que você aprende com as decisões que toma todos os dias.</p>
+            <p>Escolha um tema para ver um exemplo de como transformar uma dificuldade do dia a dia em uma ação que você pode experimentar.</p>
           </div>
-          <div class="learning-list">
-            <article>
-              <span class="index">01</span>
-              <h3>Alimentação com organização</h3>
-              <p>Reconhecer seus hábitos e dificuldades para planejar escolhas alimentares possíveis.</p>
-            </article>
-            <article>
-              <span class="index">02</span>
-              <h3>Movimento na sua rotina</h3>
-              <p>Compreender o papel do exercício e da força no cuidado com a saúde e a composição corporal.</p>
-            </article>
-            <article>
-              <span class="index">03</span>
-              <h3>Sono e recuperação</h3>
-              <p>Observar o descanso e entender como ele se conecta à disposição e aos hábitos.</p>
-            </article>
-            <article>
-              <span class="index">04</span>
-              <h3>Regularidade e autonomia</h3>
-              <p>Reconhecer obstáculos, definir prioridades e construir seu próprio plano de hábitos.</p>
-            </article>
+          <div class="practice switcher">
+            <fieldset class="practice-controls" data-switcher-controls hidden>
+              <legend>Escolha um tema</legend>
+              <label class="choice"><input type="radio" name="tema" value="pratica-alimentacao" aria-controls="pratica-alimentacao" checked><span>Alimentação</span></label>
+              <label class="choice"><input type="radio" name="tema" value="pratica-movimento" aria-controls="pratica-movimento"><span>Movimento</span></label>
+              <label class="choice"><input type="radio" name="tema" value="pratica-sono" aria-controls="pratica-sono"><span>Sono</span></label>
+              <label class="choice"><input type="radio" name="tema" value="pratica-habitos" aria-controls="pratica-habitos"><span>Hábitos</span></label>
+            </fieldset>
+            <div class="practice-pages">
+              <article class="practice-page" id="pratica-alimentacao" data-switcher-panel>
+                <p class="folio">CADERNO DE ATIVIDADES <span>01 / 04</span></p>
+                <h3>Quando o jantar fica para a última hora</h3>
+                <p>Em que dia da semana você costuma chegar em casa sem saber o que vai comer?</p>
+                <p class="try"><strong>Experimente</strong> Escolha uma refeição simples que você gosta e anote o que precisa deixar pronto para esse dia.</p>
+              </article>
+              <article class="practice-page" id="pratica-movimento" data-switcher-panel>
+                <p class="folio">CADERNO DE ATIVIDADES <span>02 / 04</span></p>
+                <h3>Um espaço para caminhar</h3>
+                <p>Em qual momento do dia você já sai de casa, mas costuma ter alguns minutos livres?</p>
+                <p class="try"><strong>Experimente</strong> Pense em um trajeto que você faria a pé. Anote o dia e o horário em que seria mais fácil experimentar.</p>
+              </article>
+              <article class="practice-page" id="pratica-sono" data-switcher-panel>
+                <p class="folio">CADERNO DE ATIVIDADES <span>03 / 04</span></p>
+                <h3>O que vem antes de dormir?</h3>
+                <p>Pense na última noite. O que você estava fazendo quando percebeu que já tinha passado da hora de deitar?</p>
+                <p class="try"><strong>Experimente</strong> Escolha uma tarefa da noite que poderia terminar um pouco mais cedo. Observe se isso abre espaço para o descanso.</p>
+              </article>
+              <article class="practice-page" id="pratica-habitos" data-switcher-panel>
+                <p class="folio">CADERNO DE ATIVIDADES <span>04 / 04</span></p>
+                <h3>Uma prioridade para esta semana</h3>
+                <p>Quando a semana aperta, qual cuidado costuma ficar para depois?</p>
+                <p class="try"><strong>Experimente</strong> Escolha uma única ação. Complete a frase: “Nesta semana, vou ___ no dia ___, depois de ___.”</p>
+              </article>
+            </div>
+          </div>
+          <div class="practice-footer">
+            <p>Esta é uma prévia educativa. O curso inclui atividades para você construir seu próprio plano de hábitos.</p>
+            <a class="text-link" href="#planos">Explorar o curso <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
@@ -149,7 +145,7 @@
           </article>
           <article class="material">
             <span class="material-number">02 / APROFUNDAR</span>
-            <div class="type-visual" aria-hidden="true">Ler.<br><i>Compreender.</i></div>
+            <div class="cover-shelf"><img src="assets/img/livro-metodo-regular.webp" alt="Capa do livro Método Regular, do Dr. Sandro Pereira." width="400" height="640" loading="lazy"></div>
             <h3>Livro ampliado e guias</h3>
             <p>Leituras para retomar os conceitos e aprofundar os temas do seu cuidado.</p>
           </article>
@@ -165,7 +161,7 @@
             <p>Exercícios para reconhecer dificuldades e construir um plano de hábitos.</p>
           </article>
         </div>
-        <p class="small materials-note">As ilustrações representam os formatos dos materiais. Aulas, atividades e livros têm liberação progressiva nos primeiros oito dias.</p>
+        <p class="small materials-note">Aulas, atividades e livros têm liberação progressiva nos primeiros oito dias.</p>
       </section>
       <section class="plans-section section" id="planos">
         <div class="container">
@@ -174,8 +170,23 @@
             <h2>O mesmo ponto de partida.<br><em>Você escolhe até onde aprofundar.</em></h2>
             <p>Base e Completo incluem o curso. A diferença está nos guias adicionais.</p>
           </div>
+          <div class="plan-guide switcher">
+            <fieldset class="plan-options" data-switcher-controls hidden>
+              <legend>Qual versão faz sentido para você?</legend>
+              <label class="choice"><input type="radio" name="objetivo" value="dica-base" aria-controls="dica-base" checked><span>Quero organizar meus hábitos</span></label>
+              <label class="choice"><input type="radio" name="objetivo" value="dica-completo" aria-controls="dica-completo"><span>Quero também os três guias extras</span></label>
+            </fieldset>
+            <div class="plan-result" id="dica-base" data-switcher-panel>
+              <p><strong>O Base atende a esse objetivo.</strong> Inclui as dez aulas, o livro, as atividades e os guias de cansaço e de dor e movimento.</p>
+              <a href="#curso-base" class="text-link">Ver o Base · R$ 279,90 à vista <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="plan-result" id="dica-completo" data-switcher-panel>
+              <p><strong>O Completo reúne os cinco guias.</strong> Você recebe tudo do Base e aprofunda medicação, hormônios e manutenção após emagrecer.</p>
+              <a href="#curso-completo" class="text-link">Ver o Completo · R$ 359,90 à vista <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
           <div class="plans-grid">
-            <article class="plan">
+            <article class="plan" id="curso-base">
               <p class="eyebrow">PARA ORGANIZAR O ESSENCIAL</p>
               <h3>Método Regular <em>Base</em></h3>
               <p class="plan-intro">Aprenda os fundamentos e comece a construir sua rotina.</p>
@@ -188,10 +199,10 @@
                 <li>Guias Cansaço e Dor e movimento</li>
                 <li>Acesso por um ano</li>
               </ul>
-              <a class="button purchase" data-checkout="base" data-purchase-label="Comprar Base" href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20curso%20M%C3%A9todo%20Regular%20Base.">Solicitar compra do Base pelo WhatsApp <span aria-hidden="true">↗</span></a>
+              <a class="button purchase" data-checkout="base" href="https://pay.kiwify.com.br/t5IY204">Comprar Método Regular Base <span aria-hidden="true">↗</span></a>
               <p class="small plan-note">Curso educativo. Sem atendimento individual.</p>
             </article>
-            <article class="plan featured">
+            <article class="plan featured" id="curso-completo">
               <span class="plan-tag">CURSO + TODOS OS GUIAS</span>
               <p class="eyebrow">PARA AMPLIAR SEU CONHECIMENTO</p>
               <h3>Método Regular <em>Completo</em></h3>
@@ -205,11 +216,12 @@
                 <li>Guia Depois de emagrecer</li>
                 <li>Os cinco guias com liberação imediata</li>
               </ul>
-              <a class="button purchase" data-checkout="completo" data-purchase-label="Comprar Completo" href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20curso%20M%C3%A9todo%20Regular%20Completo.">Solicitar compra do Completo pelo WhatsApp <span aria-hidden="true">↗</span></a>
+              <p class="checkout-tip" id="aviso-completo">Na Kiwify, selecione a opção <strong>Método Regular Completo</strong> antes de concluir a compra.</p>
+              <a class="button purchase" data-checkout="completo" aria-describedby="aviso-completo" href="https://pay.kiwify.com.br/t5IY204">Comprar Método Regular Completo <span aria-hidden="true">↗</span></a>
               <p class="small plan-note">Curso educativo. Sem atendimento individual.</p>
             </article>
           </div>
-          <p class="purchase-note">Ao solicitar a compra, você fala com a DocLiv para receber o link do produto escolhido.</p>
+          <p class="purchase-note">O pagamento é feito na Kiwify. Base e Completo usam a mesma página de pagamento. Confira a versão e o valor antes de finalizar.</p>
           <div class="comparison-wrap">
             <table class="comparison">
               <caption>Compare o que está incluído</caption>
@@ -271,7 +283,7 @@
             <p>Informação educativa para compreender o papel da medicação no cuidado individualizado.</p>
             <p class="extra-price">R$ 29,90 <span>à vista</span></p>
             <p class="small">Parcelamento conforme o checkout.</p>
-            <a class="text-link purchase" data-checkout="medicacao" data-purchase-label="Comprar guia" href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20Emagrecimento%20com%20medica%C3%A7%C3%A3o.">Solicitar compra do guia <span aria-hidden="true">↗</span></a>
+            <a class="text-link purchase" data-checkout="medicacao" href="https://pay.kiwify.com.br/TUtsETF">Comprar guia de medicação <span aria-hidden="true">↗</span></a>
           </article>
           <article class="extra">
             <span class="eyebrow">GUIA 02</span>
@@ -279,7 +291,7 @@
             <p>Conteúdo para compreender o tema e levar dúvidas para uma avaliação profissional.</p>
             <p class="extra-price">R$ 49,90 <span>à vista</span></p>
             <p class="small">Parcelamento conforme o checkout.</p>
-            <a class="text-link purchase" data-checkout="hormonios" data-purchase-label="Comprar guia" href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20Horm%C3%B4nios%20e%20emagrecimento.">Solicitar compra do guia <span aria-hidden="true">↗</span></a>
+            <a class="text-link purchase" data-checkout="hormonios" href="https://pay.kiwify.com.br/8PFFNL2">Comprar guia de hormônios <span aria-hidden="true">↗</span></a>
           </article>
           <article class="extra">
             <span class="eyebrow">GUIA 03</span>
@@ -287,7 +299,7 @@
             <p>Reflexões sobre continuidade, hábitos e manutenção após o emagrecimento.</p>
             <p class="extra-price">R$ 29,90 <span>à vista</span></p>
             <p class="small">Parcelamento conforme o checkout.</p>
-            <a class="text-link purchase" data-checkout="manutencao" data-purchase-label="Comprar guia" href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20Depois%20de%20emagrecer.">Solicitar compra do guia <span aria-hidden="true">↗</span></a>
+            <a class="text-link purchase" data-checkout="manutencao" href="https://pay.kiwify.com.br/gFyI08R">Comprar Depois de emagrecer <span aria-hidden="true">↗</span></a>
           </article>
         </div>
         <p class="small materials-note">A compra avulsa inclui apenas o guia selecionado, com acesso por um ano. Os materiais são educativos e não substituem avaliação individual.</p>
@@ -323,8 +335,7 @@
             <span class="service-kind">PLANEJAMENTO INDIVIDUAL</span>
             <h3>Consultoria<br>Completa DocLiv</h3>
             <p>Para transformar suas necessidades em um plano alimentar e de treino alinhado à sua rotina.</p>
-            <p class="service-price">R$ 1.090,99 <span>à vista no Pix</span></p>
-            <p class="small">Consulte disponibilidade e condições de pagamento.</p>
+            <p class="service-price">R$ 1.090,99 <span>à vista ou consultar parcelamento</span></p>
             <a class="button" href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20Consultoria%20Completa%20DocLiv.">Consultar disponibilidade <span aria-hidden="true">↗</span></a>
           </div>
           <div class="service-detail">
@@ -375,7 +386,7 @@
             <p class="eyebrow">ANTES DO SEU PRÓXIMO PASSO</p>
             <h2>Suas dúvidas,<br><em>com clareza.</em></h2>
             <p>Entenda o que você recebe e como cada formato funciona.</p>
-            <a class="text-link" href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20as%20ofertas%20DocLiv.">Conversar com a DocLiv <span aria-hidden="true">↗</span></a>
+
           </div>
           <div class="faq-list">
             <details>
@@ -411,7 +422,7 @@
             <details>
               <summary>Como funciona o pagamento?<span aria-hidden="true">+</span></summary>
               <div class="answer">
-                <p>Os valores apresentados são à vista. Os produtos digitais podem ser parcelados conforme as opções disponíveis no checkout. Confira as condições antes de concluir a compra. Para a consultoria e o acompanhamento, fale com a DocLiv sobre disponibilidade e pagamento.</p>
+                <p>Os valores apresentados são à vista. Os produtos digitais podem ser parcelados conforme as opções disponíveis no checkout. Para comprar o Completo, selecione “Método Regular Completo” na página da Kiwify. Confira o valor e as condições antes de finalizar. Para a consultoria e o acompanhamento, fale com a DocLiv sobre disponibilidade e pagamento.</p>
               </div>
             </details>
             <details>
@@ -476,7 +487,7 @@
         </div>
         <div>
           <strong>Fale com a DocLiv</strong>
-          <a href="https://wa.me/5555999070106?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20as%20ofertas%20DocLiv.">WhatsApp · (55) 99907-0106</a>
+          <a href="https://wa.me/5555999070106">WhatsApp · (55) 99907-0106</a>
           <a href="mailto:arsandrodoc@gmail.com">arsandrodoc@gmail.com</a>
           <a href="https://www.instagram.com/dr.sandropj/">Instagram · @dr.sandropj</a>
         </div>

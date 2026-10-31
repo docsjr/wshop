@@ -1,5 +1,5 @@
 'use strict';
-// Core content, FAQ and purchase-contact links remain usable without JavaScript.
+// O conteúdo, os checkouts e as perguntas frequentes funcionam sem JavaScript.
 document.documentElement.classList.add('js');
 const toggle = document.querySelector('.menu-toggle');
 const menu = document.querySelector('#menu');
@@ -24,24 +24,17 @@ if (toggle && menu) {
   });
   mobile.addEventListener('change', () => closeMenu());
 }
-// Only HTTPS checkout URLs explicitly assigned to the corresponding product are used.
-let configured = 0;
-document.querySelectorAll('[data-checkout]').forEach(link => {
-  const value = window.DOCLIV_CHECKOUTS?.[link.dataset.checkout];
-  if (!value) return;
-  try {
-    const url = new URL(value);
-    if (url.protocol !== 'https:') return;
-    link.href = url.href;
-    link.replaceChildren(document.createTextNode(link.dataset.purchaseLabel + ' '));
-    const arrow = document.createElement('span');
-    arrow.setAttribute('aria-hidden', 'true');
-    arrow.textContent = '↗';
-    link.append(arrow);
-    configured += 1;
-  } catch { /* Keep the working, product-specific contact link. */ }
-});
-const notice = document.querySelector('.purchase-note');
-if (configured === document.querySelectorAll('[data-checkout]').length && notice) {
-  notice.textContent = 'Escolha seu produto e confira as condições de pagamento no checkout.';
+
+// A prévia e a escolha de versão usam controles nativos de teclado.
+// Sem JavaScript, todos os exemplos e as duas explicações continuam visíveis.
+for (const switcher of document.querySelectorAll('.switcher')) {
+  const controls = switcher.querySelector('[data-switcher-controls]');
+  const panels = switcher.querySelectorAll('[data-switcher-panel]');
+  function showSelectedPanel() {
+    const selected = controls.querySelector('input:checked');
+    for (const panel of panels) panel.hidden = panel.id !== selected.value;
+  }
+  controls.addEventListener('change', showSelectedPanel);
+  showSelectedPanel();
+  controls.hidden = false;
 }

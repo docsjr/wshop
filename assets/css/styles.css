@@ -24,7 +24,7 @@ body {
   background:var(--cream);
   color:var(--ink);
   font-family:var(--sans);
-  font-size:15px;
+  font-size:16px;
   line-height:1.75;
 }
 
@@ -99,7 +99,7 @@ img {
 }
 
 .eyebrow {
-  font-size:10px;
+  font-size:13px;
   font-weight:800;
   letter-spacing:.19em;
   margin-bottom:23px;
@@ -115,7 +115,7 @@ img {
 }
 
 .small,.micro {
-  font-size:12px;
+  font-size:15px;
   color:var(--muted);
   line-height:1.8;
 }
@@ -160,7 +160,7 @@ img {
 
 .brand span {
   display:block;
-  font:600 7px/1.2 var(--sans);
+  font:600 9px/1.2 var(--sans);
   letter-spacing:.12em;
   margin-top:10px;
 }
@@ -172,7 +172,7 @@ img {
 }
 
 .navigation nav a {
-  font-size:11px;
+  font-size:14px;
   font-weight:600;
   text-decoration:none;
 }
@@ -195,7 +195,7 @@ img {
   background:none;
   border:1px solid var(--line);
   padding:9px 13px;
-  font-size:12px;
+  font-size:15px;
 }
 
 .hero {
@@ -219,7 +219,7 @@ img {
 
 .hero-description {
   max-width:475px;
-  font-size:13px;
+  font-size:16px;
   color:var(--muted);
 }
 
@@ -239,7 +239,7 @@ img {
   padding:14px 23px;
   background:var(--green);
   color:var(--cream);
-  font-size:12px;
+  font-size:15px;
   font-weight:700;
   text-decoration:none;
   border:1px solid var(--green);
@@ -257,7 +257,7 @@ img {
 }
 
 .text-link {
-  font-size:12px;
+  font-size:15px;
   font-weight:700;
   text-decoration:none;
   border-bottom:1px solid var(--gold);
@@ -272,153 +272,9 @@ img {
 }
 
 .micro {
-  font-size:10px;
+  font-size:13px;
   margin-top:20px;
   margin-bottom:0;
-}
-
-.hero-art {
-  align-self:stretch;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  min-width:0;
-}
-
-.art-caption {
-  display:flex;
-  justify-content:space-between;
-  font-size:8px;
-  font-weight:700;
-  letter-spacing:.14em;
-  border-top:1px solid var(--line);
-  padding-top:14px;
-}
-
-.book-composition {
-  height:475px;
-  position:relative;
-  margin:5px -5px;
-}
-
-.book {
-  position:absolute;
-  box-shadow:12px 20px 25px #183c3024;
-  font-family:var(--serif);
-}
-
-.main-book {
-  width:275px;
-  height:380px;
-  left:19%;
-  top:31px;
-  background:var(--green);
-  color:var(--cream);
-  padding:24px 25px;
-  transform:rotate(-7deg);
-  border-left:7px solid #092d22;
-  border-right:1px solid #42634b;
-  z-index:2;
-  display:flex;
-  flex-direction:column;
-}
-
-.book-brand {
-  font:600 10px var(--sans);
-  letter-spacing:.2em;
-  display:flex;
-  justify-content:space-between;
-}
-
-.book-overline {
-  font:500 6px var(--sans);
-  letter-spacing:.1em;
-  margin-top:42px;
-  color:#ded5be;
-}
-
-.book-title {
-  font-size:55px;
-  line-height:.92;
-  letter-spacing:-.03em;
-  margin-top:12px;
-}
-
-.book-title i {
-  color:#d5b98e;
-}
-
-.book-rule {
-  height:1px;
-  background:#79917a;
-  margin-top:24px;
-  width:45px;
-}
-
-.main-book p {
-  font:400 10px/1.7 var(--sans);
-  margin-top:15px;
-}
-
-.book-bottom {
-  margin-top:auto;
-  font:500 7px/1.7 var(--sans);
-  letter-spacing:.16em;
-}
-
-.workbook {
-  width:230px;
-  height:310px;
-  right:0;
-  top:121px;
-  background:#daceb7;
-  transform:rotate(12deg);
-  border-left:6px solid #c8b698;
-  padding:25px;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-}
-
-.workbook-title {
-  font-size:33px;
-  line-height:1.1;
-}
-
-.art-seal {
-  position:absolute;
-  bottom:19px;
-  left:9%;
-  width:100px;
-  height:100px;
-  border-radius:50%;
-  background:var(--cream);
-  border:1px solid var(--gold);
-  z-index:3;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  box-shadow:3px 6px 15px #183c3012;
-}
-
-.art-seal strong {
-  font:500 40px/.9 var(--serif);
-}
-
-.art-seal span {
-  font-size:7px;
-  text-align:center;
-  line-height:1.5;
-  letter-spacing:.1em;
-  margin-top:6px;
-}
-
-.art-footnote {
-  font-size:9px;
-  text-align:center;
-  color:var(--muted);
-  margin:0;
 }
 
 .facts {
@@ -453,7 +309,7 @@ img {
 
 .facts span {
   display:block;
-  font-size:10px;
+  font-size:13px;
   color:#d2dace;
   margin-top:3px;
 }
@@ -469,7 +325,7 @@ img {
 }
 
 .prose>p {
-  font-size:14px;
+  font-size:16px;
   color:var(--muted);
 }
 
@@ -481,7 +337,7 @@ blockquote {
 }
 
 .prose .small {
-  font-size:12px;
+  font-size:15px;
 }
 
 .learning {
@@ -504,38 +360,8 @@ blockquote {
 .section-heading>p {
   margin-bottom:3px;
   max-width:340px;
-  font-size:13px;
+  font-size:16px;
   color:var(--muted);
-}
-
-.learning-list {
-  border-top:1px solid #bfc7b9;
-}
-
-.learning-list article {
-  display:grid;
-  grid-template-columns:80px 1fr 1fr;
-  gap:24px;
-  align-items:center;
-  padding:29px 0;
-  border-bottom:1px solid #bfc7b9;
-}
-
-.learning-list .index {
-  font:italic 500 29px var(--serif);
-  color:#6a7b6a;
-}
-
-.learning-list h3 {
-  font-size:29px;
-  margin:0;
-}
-
-.learning-list p {
-  font-size:13px;
-  color:var(--muted);
-  margin:0;
-  max-width:405px;
 }
 
 .materials-grid {
@@ -558,7 +384,7 @@ blockquote {
 }
 
 .material-number {
-  font-size:9px;
+  font-size:12px;
   letter-spacing:.17em;
   font-weight:700;
 }
@@ -569,13 +395,13 @@ blockquote {
 }
 
 .material p {
-  font-size:12px;
+  font-size:15px;
   line-height:1.8;
   margin:0;
   opacity:.85;
 }
 
-.lesson-visual,.type-visual,.notes-visual {
+.lesson-visual,.notes-visual {
   height:190px;
   margin-top:24px;
 }
@@ -595,12 +421,12 @@ blockquote {
   border-radius:50%;
   height:42px;
   width:42px;
-  font-size:12px;
+  font-size:15px;
   flex-shrink:0;
 }
 
 .lesson-visual div>span {
-  font-size:6px;
+  font-size:8px;
   letter-spacing:.14em;
 }
 
@@ -617,16 +443,6 @@ blockquote {
   width:90px;
 }
 
-.type-visual {
-  font:500 43px/1.05 var(--serif);
-  padding-top:40px;
-  border-bottom:1px solid #c7b99e;
-}
-
-.type-visual i {
-  font-size:37px;
-}
-
 .notes-visual {
   background:var(--paper);
   padding:24px 16px;
@@ -641,7 +457,7 @@ blockquote {
 }
 
 .notes-visual p {
-  font-size:10px;
+  font-size:13px;
   line-height:2.4;
   border-bottom:1px solid #ded9cd;
 }
@@ -650,7 +466,7 @@ blockquote {
   max-width:800px;
   margin-top:20px;
   margin-bottom:0;
-  font-size:10px;
+  font-size:13px;
 }
 
 .plans-section {
@@ -668,7 +484,7 @@ blockquote {
 }
 
 .center-heading>p:last-child {
-  font-size:13px;
+  font-size:16px;
   color:var(--muted);
 }
 
@@ -699,13 +515,13 @@ blockquote {
 }
 
 .plan-intro {
-  font-size:12px;
+  font-size:15px;
   max-width:290px;
   min-height:44px;
 }
 
 .plan .eyebrow {
-  font-size:8px;
+  font-size:10px;
 }
 
 .price {
@@ -720,12 +536,12 @@ blockquote {
 }
 
 .price small {
-  font:400 11px var(--sans);
+  font:400 14px var(--sans);
   letter-spacing:0;
 }
 
 .payment {
-  font-size:10px;
+  font-size:13px;
   color:var(--muted);
   margin:6px 0 25px;
 }
@@ -739,7 +555,7 @@ blockquote {
 .checks li {
   position:relative;
   padding:11px 0 11px 25px;
-  font-size:12px;
+  font-size:15px;
   border-bottom:1px solid var(--line);
 }
 
@@ -754,12 +570,12 @@ blockquote {
   margin-top:auto;
   gap:10px;
   justify-content:space-between;
-  font-size:11px;
+  font-size:14px;
 }
 
 .plan-note {
   text-align:center;
-  font-size:10px;
+  font-size:13px;
   margin:14px 0 0;
 }
 
@@ -774,7 +590,7 @@ blockquote {
   left:30px;
   background:var(--green);
   color:var(--cream);
-  font-size:8px;
+  font-size:10px;
   letter-spacing:.13em;
   padding:7px 15px;
   font-weight:700;
@@ -782,7 +598,7 @@ blockquote {
 
 .purchase-note {
   text-align:center;
-  font-size:11px;
+  font-size:14px;
   margin-top:24px;
   color:var(--muted);
 }
@@ -795,7 +611,7 @@ blockquote {
 .comparison {
   width:100%;
   border-collapse:collapse;
-  font-size:11px;
+  font-size:14px;
 }
 
 .comparison caption {
@@ -847,7 +663,7 @@ blockquote {
 }
 
 .extra>p:not(.eyebrow):not(.extra-price):not(.small) {
-  font-size:12px;
+  font-size:15px;
   color:var(--muted);
   min-height:66px;
 }
@@ -862,11 +678,11 @@ blockquote {
 }
 
 .extra-price span {
-  font:400 11px var(--sans);
+  font:400 14px var(--sans);
 }
 
 .extra .small {
-  font-size:10px;
+  font-size:13px;
 }
 
 .extra .text-link {
@@ -906,14 +722,14 @@ blockquote {
   padding:28px 30px;
   color:var(--cream);
   background:linear-gradient(transparent,#0b231cde);
-  font-size:10px;
+  font-size:13px;
   letter-spacing:.15em;
   padding-top:70px;
 }
 
 .portrait-caption span {
   display:block;
-  font-size:8px;
+  font-size:10px;
   margin-top:5px;
 }
 
@@ -922,7 +738,7 @@ blockquote {
 }
 
 .doctor-copy>p:not(.eyebrow):not(.doctor-name) {
-  font-size:13px;
+  font-size:16px;
   color:var(--muted);
 }
 
@@ -933,12 +749,12 @@ blockquote {
 
 .doctor-name span {
   display:block;
-  font:600 10px var(--sans);
+  font:600 13px var(--sans);
   margin-top:8px;
 }
 
 .doctor-copy .education {
-  font-size:12px!important;
+  font-size:15px!important;
   border-top:1px solid #c8cebf;
   padding-top:20px;
 }
@@ -957,7 +773,7 @@ blockquote {
 }
 
 .service-kind {
-  font-size:8px;
+  font-size:10px;
   letter-spacing:.15em;
   font-weight:800;
   display:block;
@@ -970,7 +786,7 @@ blockquote {
 }
 
 .service-intro>p {
-  font-size:13px;
+  font-size:16px;
   color:var(--muted);
   max-width:350px;
 }
@@ -983,17 +799,17 @@ blockquote {
 }
 
 .service-price span {
-  font:400 11px var(--sans);
+  font:400 14px var(--sans);
   display:block;
   margin-top:6px;
 }
 
 .service-intro .small {
-  font-size:10px;
+  font-size:13px;
 }
 
 .service-intro .button {
-  font-size:11px;
+  font-size:14px;
   gap:20px;
 }
 
@@ -1020,11 +836,11 @@ blockquote {
 }
 
 .service-steps strong {
-  font-size:12px;
+  font-size:15px;
 }
 
 .service-steps p {
-  font-size:12px;
+  font-size:15px;
   color:var(--muted);
   margin:7px 0 0;
 }
@@ -1032,7 +848,7 @@ blockquote {
 .service-note {
   border-top:1px solid var(--line);
   padding-top:19px;
-  font-size:10px;
+  font-size:13px;
   line-height:1.9;
   color:var(--muted);
   margin-bottom:0;
@@ -1043,7 +859,7 @@ blockquote {
 }
 
 .service-intro .compact-price {
-  font:600 13px var(--sans);
+  font:600 16px var(--sans);
   margin-bottom:24px;
 }
 
@@ -1068,7 +884,7 @@ blockquote {
 }
 
 .faq-grid>div>p:not(.eyebrow) {
-  font-size:13px;
+  font-size:16px;
   color:var(--muted);
   max-width:280px;
 }
@@ -1088,7 +904,7 @@ summary {
   gap:25px;
   padding:21px 0;
   cursor:pointer;
-  font-size:12px;
+  font-size:15px;
   font-weight:700;
   list-style:none;
 }
@@ -1107,7 +923,7 @@ details[open] summary span {
 }
 
 .answer p {
-  font-size:12px;
+  font-size:15px;
   color:var(--muted);
   margin-bottom:22px;
   max-width:570px;
@@ -1130,7 +946,7 @@ details[open] summary span {
 }
 
 .closing p:not(.eyebrow) {
-  font-size:13px;
+  font-size:16px;
   color:#d2d9ce;
 }
 
@@ -1153,13 +969,13 @@ details[open] summary span {
 }
 
 .footer-top>div>p {
-  font-size:11px;
+  font-size:14px;
   color:var(--muted);
   margin-top:20px;
 }
 
 .footer-top>div>strong {
-  font-size:10px;
+  font-size:13px;
   display:block;
   margin-bottom:18px;
 }
@@ -1167,7 +983,7 @@ details[open] summary span {
 .footer-top>div>a:not(.brand) {
   display:block;
   text-decoration:none;
-  font-size:11px;
+  font-size:14px;
   margin-bottom:7px;
 }
 
@@ -1177,7 +993,7 @@ details[open] summary span {
   justify-content:space-between;
   border-top:1px solid var(--line);
   padding-block:23px 30px;
-  font-size:9px;
+  font-size:12px;
   color:var(--muted);
 }
 
@@ -1198,15 +1014,7 @@ details[open] summary span {
   .hero {
     padding-block:90px;
   }
-  .book-composition {
-    height:510px;
-  }
-  .main-book {
-    top:45px;
-  }
-  .workbook {
-    top:140px;
-  }
+
 }
 
 @media(max-width:1100px) {
@@ -1217,16 +1025,12 @@ details[open] summary span {
     gap:17px;
   }
   .navigation nav a {
-    font-size:10px;
+    font-size:13px;
   }
   .hero {
     gap:20px;
   }
-  .book-composition {
-    transform:scale(.88);
-    transform-origin:center;
-    margin-inline:-28px;
-  }
+
   .split,.doctor-grid,.faq-grid {
     gap:55px;
   }
@@ -1253,12 +1057,7 @@ details[open] summary span {
     gap:12px;
     padding:12px;
   }
-  .type-visual {
-    font-size:37px;
-  }
-  .type-visual i {
-    font-size:31px;
-  }
+
   .doctor-grid {
     grid-template-columns:1fr 1fr;
   }
@@ -1279,7 +1078,7 @@ details[open] summary span {
     font-size:35px;
   }
   .brand span {
-    font-size:6px;
+    font-size:8px;
   }
   .navigation nav {
     width:100%;
@@ -1298,7 +1097,7 @@ details[open] summary span {
   }
   .js .navigation nav a {
     width:100%;
-    font-size:13px;
+    font-size:16px;
     padding:9px 0;
   }
   .js .navigation nav .nav-button {
@@ -1316,26 +1115,13 @@ details[open] summary span {
     font-size:16px;
   }
   .hero-description {
-    font-size:12px;
+    font-size:15px;
   }
   .actions {
     flex-wrap:wrap;
     gap:17px;
   }
-  .book-composition {
-    transform:scale(.74);
-    margin-inline:-70px;
-    height:410px;
-  }
-  .hero-art {
-    min-height:470px;
-  }
-  .art-caption {
-    font-size:6px;
-  }
-  .art-footnote {
-    font-size:8px;
-  }
+
   .facts-grid {
     grid-template-columns:1fr 1fr;
     gap:22px;
@@ -1358,13 +1144,7 @@ details[open] summary span {
   .section-heading {
     gap:30px;
   }
-  .learning-list article {
-    grid-template-columns:45px 1fr 1fr;
-    gap:18px;
-  }
-  .learning-list h3 {
-    font-size:25px;
-  }
+
   .materials-grid {
     gap:12px;
   }
@@ -1390,12 +1170,7 @@ details[open] summary span {
     height:28px;
     width:28px;
   }
-  .type-visual {
-    font-size:30px;
-  }
-  .type-visual i {
-    font-size:25px;
-  }
+
   .notes-visual {
     padding:20px 10px;
   }
@@ -1403,7 +1178,7 @@ details[open] summary span {
     font-size:20px;
   }
   .notes-visual p {
-    font-size:8px;
+    font-size:10px;
   }
   .plan h3 {
     font-size:30px;
@@ -1418,7 +1193,7 @@ details[open] summary span {
     font-size:44px;
   }
   .plan .button {
-    font-size:10px;
+    font-size:13px;
     padding-inline:14px;
   }
   .extras-grid {
@@ -1431,7 +1206,7 @@ details[open] summary span {
     min-height:85px;
   }
   .extra .text-link {
-    font-size:10px;
+    font-size:13px;
   }
   .doctor-grid {
     gap:40px;
@@ -1443,7 +1218,7 @@ details[open] summary span {
     font-size:36px;
   }
   .service .button {
-    font-size:10px;
+    font-size:13px;
     gap:12px;
     padding-inline:15px;
   }
@@ -1476,7 +1251,7 @@ details[open] summary span {
     font-size:39px;
   }
   .eyebrow {
-    font-size:8px;
+    font-size:10px;
     letter-spacing:.15em;
   }
   .hero {
@@ -1493,7 +1268,7 @@ details[open] summary span {
     max-width:400px;
   }
   .hero-description {
-    font-size:12px;
+    font-size:15px;
     max-width:420px;
   }
   .hero .actions {
@@ -1502,66 +1277,17 @@ details[open] summary span {
   }
   .button {
     padding-inline:18px;
-    font-size:11px;
+    font-size:14px;
     gap:20px;
   }
   .text-link {
-    font-size:11px;
+    font-size:14px;
     gap:12px;
   }
   .micro {
-    font-size:9px;
+    font-size:12px;
   }
-  .hero-art {
-    min-height:0;
-    margin-top:10px;
-  }
-  .art-caption {
-    font-size:7px;
-  }
-  .book-composition {
-    height:420px;
-    max-width:460px;
-    width:100%;
-    margin:0 auto;
-    transform:scale(.9);
-    transform-origin:center;
-  }
-  .main-book {
-    left:10%;
-    width:250px;
-    height:350px;
-    top:10px;
-  }
-  .workbook {
-    width:200px;
-    right:0;
-    top:95px;
-    height:285px;
-  }
-  .main-book .book-title {
-    font-size:50px;
-  }
-  .main-book .book-overline {
-    margin-top:30px;
-  }
-  .art-seal {
-    width:85px;
-    height:85px;
-    bottom:10px;
-    left:2%;
-  }
-  .art-seal strong {
-    font-size:36px;
-  }
-  .art-seal span {
-    font-size:6px;
-  }
-  .art-footnote {
-    font-size:8px;
-    max-width:280px;
-    align-self:center;
-  }
+
   .facts-grid {
     padding-block:23px;
     gap:20px;
@@ -1570,7 +1296,7 @@ details[open] summary span {
     font-size:23px;
   }
   .facts span {
-    font-size:9px;
+    font-size:12px;
     max-width:150px;
   }
   .section {
@@ -1587,7 +1313,7 @@ details[open] summary span {
     padding-top:0;
   }
   .prose>p {
-    font-size:13px;
+    font-size:16px;
   }
   blockquote {
     font-size:26px;
@@ -1598,23 +1324,9 @@ details[open] summary span {
   }
   .section-heading>p {
     max-width:100%;
-    font-size:12px;
+    font-size:15px;
   }
-  .learning-list article {
-    grid-template-columns:35px 1fr;
-    gap:9px 15px;
-    padding-block:24px;
-  }
-  .learning-list p {
-    grid-column:2;
-    font-size:12px;
-  }
-  .learning-list h3 {
-    font-size:27px;
-  }
-  .learning-list .index {
-    font-size:24px;
-  }
+
   .materials-grid {
     grid-template-columns:1fr;
     gap:18px;
@@ -1626,9 +1338,9 @@ details[open] summary span {
     font-size:31px;
   }
   .material-number {
-    font-size:8px;
+    font-size:10px;
   }
-  .lesson-visual,.type-visual,.notes-visual {
+  .lesson-visual,.notes-visual {
     height:180px;
     margin-top:25px;
   }
@@ -1646,18 +1358,12 @@ details[open] summary span {
     width:48px;
   }
   .lesson-visual div>span {
-    font-size:7px;
+    font-size:9px;
   }
   .player-line {
     display:block;
   }
-  .type-visual {
-    font-size:46px;
-    padding-top:35px;
-  }
-  .type-visual i {
-    font-size:40px;
-  }
+
   .notes-visual {
     padding:25px;
   }
@@ -1665,10 +1371,10 @@ details[open] summary span {
     font-size:28px;
   }
   .notes-visual p {
-    font-size:11px;
+    font-size:14px;
   }
   .materials-note {
-    font-size:9px;
+    font-size:12px;
   }
   .center-heading {
     text-align:left;
@@ -1681,7 +1387,7 @@ details[open] summary span {
     font-size:38px;
   }
   .center-heading>p:last-child {
-    font-size:12px;
+    font-size:15px;
   }
   .plans-grid {
     grid-template-columns:1fr;
@@ -1691,7 +1397,7 @@ details[open] summary span {
     padding:30px;
   }
   .plan .eyebrow {
-    font-size:8px;
+    font-size:10px;
   }
   .plan h3 {
     font-size:35px;
@@ -1707,21 +1413,21 @@ details[open] summary span {
     font-size:51px;
   }
   .plan .button {
-    font-size:12px;
+    font-size:15px;
     padding:15px 19px;
   }
   .plan-note {
-    font-size:10px;
+    font-size:13px;
   }
   .purchase-note {
     text-align:left;
-    font-size:10px;
+    font-size:13px;
   }
   .comparison-wrap {
     margin-top:35px;
   }
   .comparison {
-    font-size:9px;
+    font-size:12px;
   }
   .comparison th,.comparison td {
     padding:13px 7px;
@@ -1748,7 +1454,7 @@ details[open] summary span {
     margin-bottom:12px;
   }
   .extra .text-link {
-    font-size:12px;
+    font-size:15px;
   }
   .extra-price {
     font-size:32px;
@@ -1770,7 +1476,7 @@ details[open] summary span {
     padding:45px 20px 55px;
   }
   .doctor-copy .education {
-    font-size:11px!important;
+    font-size:14px!important;
   }
   .doctor-copy blockquote {
     font-size:25px;
@@ -1785,43 +1491,43 @@ details[open] summary span {
     font-size:38px;
   }
   .service-kind {
-    font-size:7px;
+    font-size:9px;
   }
   .service-intro .service-price {
     font-size:34px;
   }
   .service-intro .compact-price {
-    font-size:13px;
+    font-size:16px;
   }
   .service .button {
-    font-size:11px;
+    font-size:14px;
     padding-inline:17px;
     width:100%;
   }
   .service-steps strong {
-    font-size:11px;
+    font-size:14px;
   }
   .service-steps p {
-    font-size:11px;
+    font-size:14px;
   }
   .service-steps li {
     padding-left:34px;
   }
   .service-note {
-    font-size:10px;
+    font-size:13px;
   }
   .service .checks li {
-    font-size:11px;
+    font-size:14px;
   }
   .faq-grid {
     gap:35px;
   }
   .faq-grid>div>p:not(.eyebrow) {
     max-width:100%;
-    font-size:12px;
+    font-size:15px;
   }
   summary {
-    font-size:12px;
+    font-size:15px;
     padding-block:20px;
   }
   .closing {
@@ -1831,7 +1537,7 @@ details[open] summary span {
     font-size:40px;
   }
   .closing p:not(.eyebrow) {
-    font-size:12px;
+    font-size:15px;
   }
   .footer-top {
     grid-template-columns:1fr 1fr;
@@ -1842,7 +1548,7 @@ details[open] summary span {
     grid-column:1/-1;
   }
   .footer-top>div>a:not(.brand) {
-    font-size:10px;
+    font-size:13px;
     overflow-wrap:anywhere;
   }
   .footer-top>div>strong {
@@ -1852,7 +1558,7 @@ details[open] summary span {
     flex-direction:column;
     gap:12px;
     padding-bottom:100px;
-    font-size:9px;
+    font-size:12px;
   }
   .mobile-cta {
     display:flex;
@@ -1866,7 +1572,7 @@ details[open] summary span {
     justify-content:space-between;
     align-items:center;
     padding:17px 24px calc(17px + env(safe-area-inset-bottom));
-    font-size:12px;
+    font-size:15px;
     font-weight:700;
     text-decoration:none;
     box-shadow:0 -3px 12px #183c301a;
@@ -1884,16 +1590,7 @@ details[open] summary span {
     flex-direction:column;
     align-items:start;
   }
-  .book-composition {
-    transform:scale(.8);
-    margin-block:-25px;
-  }
-  .main-book {
-    left:0;
-  }
-  .workbook {
-    right:-10px;
-  }
+
   .plan {
     padding:24px;
   }
@@ -1924,4 +1621,212 @@ details[open] summary span {
   *,*::before,*::after {
     transition:none!important;
   }
+}
+
+/* The main photo and the course exercises use the same ink, paper and gold as the book. */
+.hero {
+  padding-block: clamp(42px, 5vw, 78px);
+}
+.hero-copy, .practice-pages, .plan-result {
+  min-width: 0;
+}
+.hero-scene {
+  position: relative;
+  isolation: isolate;
+  margin: 0;
+  background: var(--green);
+  box-shadow: 8px 8px 0 var(--gold);
+}
+.hero-scene img {
+  width: 100%;
+  height: clamp(440px, 40vw, 560px);
+  object-fit: cover;
+  object-position: 50% 26%;
+}
+.hero-scene figcaption {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 75px 26px 22px;
+  color: white;
+  background: linear-gradient(transparent, rgba(8,34,25,.88));
+  font: 500 clamp(22px, 2.1vw, 33px)/1.1 var(--serif);
+}
+.hero-scene figcaption span {
+  display: block;
+  margin-bottom: 10px;
+  color: #f8e5c9;
+  font: 700 11px/1.4 var(--sans);
+  letter-spacing: .13em;
+}
+.actions { flex-wrap: wrap; }
+.hero .text-link { gap: 10px; }
+.learning {
+  border: 0;
+  background: var(--green);
+  color: var(--cream);
+}
+.learning .eyebrow, .practice-footer .text-link { color: #ebd2aa; }
+.learning .section-heading > p { color: #e0e8de; }
+.practice {
+  display: grid;
+  grid-template-columns: minmax(220px, .8fr) minmax(0, 1.75fr);
+  gap: clamp(22px, 4vw, 64px);
+  align-items: start;
+}
+.practice-controls, .plan-options {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.practice-controls legend, .plan-options legend {
+  padding: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.choice {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  min-height: 48px;
+  margin: 0 0 8px;
+  padding: 12px 16px;
+  border: 1px solid #769386;
+  cursor: pointer;
+  line-height: 1.45;
+}
+.choice input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex: 0 0 auto;
+  accent-color: var(--green);
+}
+.choice:has(:checked) {
+  border-color: var(--gold);
+  background: var(--cream);
+  color: var(--green);
+}
+.choice:focus-within { outline: 3px solid var(--gold); outline-offset: 2px; }
+.practice-page {
+  padding: clamp(24px, 4vw, 44px);
+  border-top: 4px solid var(--gold);
+  background: var(--cream);
+  color: var(--green);
+}
+.practice-page + .practice-page { margin-top: 12px; }
+.js .practice-page + .practice-page { margin-top: 0; }
+.practice-page h3 { margin-bottom: 18px; }
+.practice-page .folio {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+.practice-page .try { margin-bottom: 0; }
+.try strong { display: block; margin-bottom: 4px; }
+.practice-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 25px;
+}
+.practice-footer p { max-width: 670px; margin: 0; font-size: 14px; color: #e0e8de; }
+.practice-footer a { flex-shrink: 0; }
+.cover-shelf {
+  display: grid;
+  place-items: center;
+  height: 190px;
+  margin-top: 24px;
+  background: #d9c5a4;
+}
+.cover-shelf img {
+  width: auto;
+  height: 86%;
+  transform: rotate(-4deg);
+  box-shadow: 5px 7px 12px rgba(15,61,46,.26);
+}
+.plans-section { background: #f0ecdf; }
+.plan-guide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto 35px;
+  padding: clamp(20px, 3vw, 34px);
+  border: 1px solid #c3cbbb;
+  background: #e3e9da;
+}
+.plan-options .choice { border-color: #a3b6a2; background: #f5f5ec; }
+.plan-options .choice:has(:checked) { background: var(--green); color: white; }
+.plan-options .choice:has(:checked) input { accent-color: #ebd2aa; }
+.plan-result { align-self: center; }
+.plan-result p { font-size: 15px; }
+.plan-result strong { display: block; margin-bottom: 5px; }
+.plan-result a { gap: 10px; }
+.plan { background: var(--paper); }
+.plan.featured { background: #e7eee2; border-top: 4px solid var(--green); }
+.checkout-tip {
+  margin: 0 0 18px;
+  padding: 12px 14px;
+  border-left: 3px solid #a78450;
+  background: #f7f2e6;
+  color: var(--ink);
+  font-size: 15px;
+}
+.plan:target { outline: 2px solid #8a723f; outline-offset: 3px; }
+[hidden] { display: none !important; }
+html:not(.js) .practice-pages, html:not(.js) .plan-result { grid-column: 1 / -1; }
+@media (max-width: 850px) {
+  .hero-scene img { height: clamp(410px, 60vw, 490px); }
+  .practice { grid-template-columns: minmax(180px, .7fr) minmax(0, 1.3fr); gap: 20px; }
+  .plan-guide { gap: 20px; }
+  .practice-footer { align-items: start; }
+}
+@media (max-width: 600px) {
+  .hero { gap: 32px; }
+  .hero-scene { margin-right: 5px; box-shadow: 5px 5px 0 var(--gold); }
+  .hero-scene img { height: clamp(260px, 74vw, 390px); object-position: 50% 29%; }
+  .hero-scene figcaption { padding: 50px 18px 16px; font-size: 24px; }
+  .hero .actions { flex-wrap: wrap; gap: 14px 22px; }
+  .practice, .plan-guide { grid-template-columns: 1fr; }
+  .practice-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .choice { margin: 0; min-height: 46px; padding: 10px 12px; font-size: 15px; }
+  .practice-footer { display: grid; gap: 15px; }
+  .practice-footer a { justify-self: start; }
+  .plan-options .choice + .choice { margin-top: 8px; }
+  .comparison th, .comparison td { overflow-wrap: anywhere; }
+  .cover-shelf { height: 185px; }
+  .plan .button { font-size: 15px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .choice { transition: color .16s ease, background-color .16s ease, border-color .16s ease; }
+  .js [data-switcher-panel]:not([hidden]) { animation: show-panel .22s ease-out; }
+  @keyframes show-panel {
+    from { opacity: .6; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Keep the lifestyle image within the first screen on a phone. */
+@media (max-width: 600px) {
+  .hero { gap: 16px; padding-top: 28px; }
+  .hero-copy { display: contents; }
+  .hero .eyebrow { order: 1; margin: 0; }
+  .hero h1 { order: 2; margin: 0; }
+  .hero-scene { order: 3; margin-block: 2px 6px; }
+  .hero-scene img { height: clamp(175px, 51vw, 265px); object-position: 50% 8%; }
+  .hero-scene figcaption { padding: 38px 13px 12px; font-size: 21px; }
+  .hero-scene figcaption span { margin-bottom: 4px; font-size: 9px; }
+  .hero .lead { order: 4; margin: 0; }
+  .hero .actions { order: 5; margin-top: 0; }
+  .hero .hero-description { order: 6; margin: 0; }
+  .hero .micro { order: 7; margin: 0; }
 }
