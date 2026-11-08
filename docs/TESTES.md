@@ -33,3 +33,7 @@ Na medição anterior à normalização de espaços monetários (variação fina
 Compras, cestas e entregas da Kiwify; expiração e liberações na área do aluno; atendimento dos canais; leitores de tela desktop/mobile; dispositivo físico; orientação de tela; zoom nativo a 400%; mediana de três testes de desempenho com CPU/rede controladas; comportamento da futura hospedagem e inventário dos seus logs/cookies. As minutas e qualificações não receberam validação jurídica/profissional nesta implementação.
 
 Não foi executado deploy, não houve merge e nenhum dado de produção foi alterado.
+
+## Atualização de checkouts e contatos — 08/11/2026
+
+Após os novos dados fornecidos pelo usuário: build e 13 testes aprovados. Acrescentada validação do vínculo exato entre os cinco produtos, preços e URLs; conferida ausência das antigas instruções de upgrade no HTML de todas as páginas; verificados contatos públicos e localidade. FAQ, comparador, termos de compra e documentação passaram a refletir o checkout próprio do Completo. Nenhum pagamento ou atendimento externo foi testado. A revisão visual documentada acima corresponde à implementação anterior; esta atualização alterou conteúdo e destinos, sem mudar o layout.

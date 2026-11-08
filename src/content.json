@@ -58,9 +58,9 @@
         "Os dois incluem o curso, os livros, as atividades e os guias Cansaço e Dor e movimento. O Completo acrescenta Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer, com os cinco guias disponíveis desde o início.",
         "Exibir a comparação completa da seção 3.1 e os dois cards:",
         "**Método Regular Base — {{price:base}} à vista.** Dez aulas, livro ampliado, caderno de atividades, Além da balança, Cansaço e Dor e movimento. Liberação conforme o calendário. Acesso por 365 dias. Curso educativo, sem atendimento individual. **Comprar Método Regular Base.**",
-        "**Método Regular Completo — {{price:completo}} à vista.** Todo o conteúdo do Base, mais Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer. Cinco guias imediatos; demais conteúdos conforme o calendário. Acesso por 365 dias. Curso educativo, sem atendimento individual. **Escolher Completo no checkout.**",
-        "Base e Completo usam a mesma página de pagamento na Kiwify. Para escolher o Completo, adiciona a opção correspondente, de {{additional:completo}}, antes de concluir a compra. O guia Hormônios e emagrecimento já está incluído no Completo; não é necessário adicioná-lo novamente.",
-        "As opções de parcelamento e o valor total são apresentados no checkout antes da confirmação da compra. Confere a versão, os adicionais e o total antes de pagar.",
+        "**Método Regular Completo — {{price:completo}} à vista.** Todo o conteúdo do Base, mais Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer. Cinco guias imediatos; demais conteúdos conforme o calendário. Acesso por 365 dias. Curso educativo, sem atendimento individual. **Comprar Método Regular Completo.**",
+        "Base e Completo têm páginas de pagamento próprias na Kiwify. Para comprar o Completo, usa o botão Comprar Método Regular Completo. O guia Hormônios e emagrecimento já está incluído no Completo; não é necessário comprá-lo separadamente.",
+        "As opções de parcelamento e o valor total são apresentados no checkout antes da confirmação da compra. Confere o produto e o total antes de pagar.",
         "**H2: Guias para aprofundar um tema.**",
         "Os três guias abaixo também podem ser comprados separadamente. Cada compra avulsa dá acesso somente ao guia escolhido e às orientações de acesso, por 365 dias após a aprovação.",
         "**Emagrecimento com medicação — {{price:medicacao}} à vista.** Conteúdo educativo para compreender o papel da medicação no cuidado individualizado. Já incluído no Completo. **Comprar guia Emagrecimento com medicação.**",
@@ -183,7 +183,7 @@
         "**H2: Acompanhamento de quatro meses.**",
         "Para entender a avaliação de entrada e as condições do acompanhamento. **Consultar condições do acompanhamento.**",
         "**H2: Canais de contato.**",
-        "WhatsApp: (55) 99907-0106.  \nE-mail: arsandrodoc@gmail.com.  \nAtendimento administrativo: [[HORARIOS_ADMINISTRATIVOS]], no horário de Brasília.  \nPrazo de resposta: [[PRAZO_RESPOSTA_ADMINISTRATIVA]].",
+        "Atendimento: Equipe DocLiv.  \nWhatsApp: +55 (55) 99907-0106.  \nE-mail: arsandrodoc@gmail.com.  \nInstagram: **@dr.sandropj**.  \nDr. Sandro Pereira — CRM-RS 61741.  \nLocalidade: Cândido Godói — RS; atendimento online disponível.  \nAtendimento administrativo: [[HORARIOS_ADMINISTRATIVOS]], no horário de Brasília.  \nPrazo de resposta: [[PRAZO_RESPOSTA_ADMINISTRATIVA]].",
         "**H2: Antes de enviar.**",
         "Para uma dúvida administrativa, informa apenas o necessário para explicar o pedido. Não envies exames ou dados de saúde no contato inicial. Quando houver atendimento, a equipe orientará os canais adequados. O WhatsApp e o e-mail não são canais de urgência; em caso de urgência, procura um serviço de saúde apropriado.",
         "Consulta a **Política de privacidade** e as informações de **Cancelamentos e reembolsos**."
@@ -229,7 +229,7 @@
         "**Fornecedor.** [[IDENTIFICACAO_FORNECEDOR]], [[DOCUMENTO_FORNECEDOR]], [[ENDERECO_FORNECEDOR]]. Contato: arsandrodoc@gmail.com e (55) 99907-0106.",
         "**Produtos digitais.** O Método Regular Base inclui dez aulas, livro ampliado, caderno de atividades, Além da balança e os guias Cansaço e Dor e movimento. O Completo inclui esse conteúdo e acrescenta Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer. Os três guias adicionais também têm compra avulsa. A compra avulsa inclui somente o guia escolhido e as orientações de acesso.",
         "**Natureza do conteúdo.** Os produtos são educativos. Não incluem consulta, diagnóstico, prescrição ou planos individuais. A compra de atendimento é independente.",
-        "**Preço e seleção.** Os valores à vista são {{price:base}} para o Base e {{price:completo}} para o Completo. Os guias avulsos custam, respectivamente, {{price:medicacao}}, {{price:hormonios}} e {{price:manutencao}}. Base e Completo usam o mesmo checkout; o Completo é selecionado como adicional de {{additional:completo}}. O guia Hormônios já integra o Completo. As condições de parcelamento e o total da seleção são apresentados antes da confirmação da compra. Nenhum adicional deve ser contratado sem escolha clara do comprador.",
+        "**Preço e seleção.** Os valores à vista são {{price:base}} para o Base e {{price:completo}} para o Completo. Os guias avulsos custam, respectivamente, {{price:medicacao}}, {{price:hormonios}} e {{price:manutencao}}. Base e Completo têm checkouts próprios. Para comprar o Completo, usa o link exclusivo dessa versão. O guia Hormônios já integra o Completo. As condições de parcelamento e o total da seleção são apresentados antes da confirmação da compra. Nenhum adicional deve ser contratado sem escolha clara do comprador.",
         "**Pagamento e acesso.** O pagamento ocorre na Kiwify. A liberação começa após a aprovação efetiva. A plataforma envia as orientações de acesso ao contato informado na compra. O acesso dura 365 dias desde a aprovação, inclusive para conteúdos liberados posteriormente. Se houver dificuldade, utiliza o suporte da DocLiv; não é necessário contratar atendimento para pedir ajuda.",
         "**Liberação progressiva.** No Dia 1 são liberadas as aulas e atividades 1–3, a primeira parte do livro e a primeira metade de Além da balança. No Dia 4, entram as aulas e atividades 4–5, a continuação do livro, Além da balança integral e Cansaço no Base. No Dia 7, entram as aulas e atividades 6–7, a continuação do livro e Dor e movimento no Base. No Dia 8, entram as aulas e atividades 8–10 e o livro integral. Os marcos correspondem a zero, três, seis e sete dias de espera desde a aprovação. No Completo, os cinco guias são imediatos. Cada guia avulso também é imediato após aprovação.",
         "**Requisitos e uso.** O acesso requer conexão com a internet e [[REQUISITOS_REAIS_AREA_ALUNO]]. Os materiais podem ser utilizados conforme [[REGRAS_DOWNLOAD_IMPRESSAO_USO]]. Não é permitida a redistribuição ou revenda não autorizada. Se houver barreira de acessibilidade, informa a dificuldade pelo suporte para encaminhamento adequado.",
@@ -341,7 +341,7 @@
       "id": "FAQ-06",
       "category": "Compra e acesso",
       "question": "Como escolho o Completo?",
-      "answer": "Base e Completo usam o mesmo checkout. Para o Completo, seleciona o adicional de {{additional:completo}} correspondente à versão, totalizando {{price:completo}} à vista. Os cinco guias já estão incluídos; não é necessário acrescentar Hormônios novamente. Confere a seleção e o total antes de pagar."
+      "answer": "O Método Regular Completo tem checkout próprio. Usa o botão Comprar Método Regular Completo para acessar a página de pagamento dessa versão, no valor de {{price:completo}} à vista. Os cinco guias já estão incluídos; não é necessário comprar Hormônios separadamente. Confere o produto e o total antes de pagar."
     },
     {
       "id": "FAQ-07",
@@ -353,7 +353,7 @@
       "id": "FAQ-08",
       "category": "Compra e acesso",
       "question": "É possível parcelar?",
-      "answer": "As opções de parcelamento e o valor total são apresentados no checkout antes da confirmação da compra. Confere as condições disponíveis para a versão e os adicionais escolhidos."
+      "answer": "As opções de parcelamento e o valor total são apresentados no checkout antes da confirmação da compra. Confere as condições disponíveis para o produto escolhido."
     },
     {
       "id": "FAQ-09",
@@ -456,7 +456,7 @@
     ],
     [
       "Hormônios e emagrecimento",
-      "Não incluído; compra opcional avulsa ou adicional próprio",
+      "Não incluído; compra opcional avulsa",
       "Incluído; imediato"
     ],
     [
@@ -481,8 +481,8 @@
     ],
     [
       "Forma de escolher",
-      "Checkout Base, sem adicionais desejados",
-      "Mesmo checkout; selecionar Completo, adicional de {{additional:completo}}"
+      "Checkout exclusivo do Base",
+      "Checkout exclusivo do Completo"
     ]
   ],
   "calendar": [
@@ -521,7 +521,7 @@
   ],
   "links": {
     "base": "https://pay.kiwify.com.br/t5IY204",
-    "completo": "https://pay.kiwify.com.br/t5IY204",
+    "completo": "https://pay.kiwify.com.br/pE5lrFM",
     "medicacao": "https://pay.kiwify.com.br/TUtsETF",
     "hormonios": "https://pay.kiwify.com.br/8PFFNL2",
     "manutencao": "https://pay.kiwify.com.br/gFyI08R",
@@ -542,7 +542,7 @@
       "id": "completo",
       "name": "Método Regular Completo",
       "price": 359.9,
-      "cta": "Escolher Completo no checkout"
+      "cta": "Comprar Método Regular Completo"
     },
     {
       "id": "medicacao",
@@ -601,5 +601,29 @@
       "approved": false,
       "evidence": null
     }
+  },
+  "contact": {
+    "team": "Equipe DocLiv",
+    "phone": "+55 (55) 99907-0106",
+    "email": "arsandrodoc@gmail.com",
+    "professional": "Dr. Sandro Pereira — CRM-RS 61741",
+    "locality": "Cândido Godói — RS",
+    "availability": "Atendimento online disponível."
+  },
+  "confirmations": {
+    "date": "2026-11-08",
+    "source": "Dados fornecidos diretamente pelo usuário nesta conversa",
+    "confirmed": [
+      "Preços à vista dos cinco produtos",
+      "Checkout exclusivo do Completo e demais quatro checkouts",
+      "WhatsApp, e-mail e Instagram oficiais",
+      "Equipe DocLiv como atendimento",
+      "Identificação profissional e localidade; atendimento online disponível"
+    ],
+    "not_tested": [
+      "Pagamento e entrega na Kiwify",
+      "Parcelamento e adicionais eventualmente configurados na plataforma",
+      "Recebimento e resposta nos canais de contato"
+    ]
   }
 }

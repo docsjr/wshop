@@ -24,11 +24,23 @@ test('todos os destinos locais, âncoras e assets existem',()=>{
  }
  for(const path of files.filter(f=>f.endsWith('.css')))for(const [,relative] of html(path).matchAll(/url\(['"]?([^'"\)]+)['"]?\)/g))assert.ok(existsSync(resolve(dirname(path),relative)),relative);
 });
-test('Kiwify: cinco produtos e checkout compartilhado sem parâmetros inventados',()=>{
+test('Kiwify: cinco checkouts próprios, preços confirmados e nenhuma instrução antiga de upgrade',()=>{
  const s=html(join(root,'metodo-regular/index.html'));
- const expected=['t5IY204','TUtsETF','8PFFNL2','gFyI08R'];for(const id of expected)assert.ok(s.includes('https://pay.kiwify.com.br/'+id));
- assert.equal(content.links.base,content.links.completo);assert.match(s,/Seleciona a opção <strong>Método Regular Completo/);assert.match(s,/adicional de R\$ 80,00/);assert.match(s,/não é necessário adicioná-lo novamente/);
- assert.ok(!s.includes('target="_blank"'));assert.equal(content.products[1].price,content.products[0].price+80);
+ const expected={base:['t5IY204',279.90],completo:['pE5lrFM',359.90],medicacao:['TUtsETF',29.90],hormonios:['8PFFNL2',49.90],manutencao:['gFyI08R',29.90]};
+ for(const [id,[code,price]] of Object.entries(expected)){
+  assert.equal(content.links[id],'https://pay.kiwify.com.br/'+code);
+  assert.equal(content.products.find(p=>p.id===id).price,price);
+  assert.ok(s.includes('href="'+content.links[id]+'"'));
+ }
+ assert.match(s,/<a[^>]+href="https:\/\/pay.kiwify.com.br\/pE5lrFM"[^>]*>Comprar Método Regular Completo<\/a>/);
+ for(const file of pages)assert.doesNotMatch(html(file),/mesmo checkout|mesma página de pagamento|adicional de R\$ 80|Escolher Completo no checkout|Seleciona a opção <strong>Método Regular Completo/);
+ assert.ok(!s.includes('target="_blank"'));
+});
+test('contatos públicos confirmados na página de contato e no rodapé',()=>{
+ const s=html(join(root,'contato/index.html'));
+ for(const value of ['Equipe DocLiv','+55 (55) 99907-0106','arsandrodoc@gmail.com','Dr. Sandro Pereira — CRM-RS 61741','Cândido Godói — RS','atendimento online disponível'])assert.ok(s.includes(value),value);
+ assert.match(s,/https:\/\/www.instagram.com\/dr.sandropj\//);
+ assert.equal(content.links.whatsapp,'https://wa.me/5555999070106');
 });
 test('FAQ usa conteúdo único e associações acessíveis',()=>{
  for(const file of pages){const s=html(file);for(const [,state,id] of s.matchAll(/aria-expanded="(true|false)" aria-controls="([^"]+)"/g)){assert.ok(ids(s).includes(id));assert.equal(state,'true');}}

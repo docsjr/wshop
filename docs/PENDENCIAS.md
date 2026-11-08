@@ -1,14 +1,14 @@
 # Pendências de integração e liberação
 
-A interface está implementada para revisão. Não houve compra, matrícula, envio de mensagem, agendamento, alteração da Kiwify ou publicação. Os links de compra foram preservados; isso não comprova preço, entrega, parcelamento ou funcionamento atual da plataforma.
+A interface está implementada para revisão. Não houve compra, matrícula, envio de mensagem, agendamento, alteração da Kiwify ou publicação. Os cinco preços à vista, os cinco links de compra (incluindo o exclusivo do Completo) e os contatos públicos foram confirmados pelo usuário em 08/11/2026. Essa confirmação não substitui testes de pagamento, entrega, parcelamento ou resposta dos canais.
 
 | Bloqueio | Confirmação necessária |
 |---|---|
-| B01 — Checkout | Produtos corretos, valores finais, pagamentos, parcelamento e regra para evitar duplicar Hormônios quando o Completo é selecionado |
+| B01 — Checkout | Testar a correspondência dos cinco produtos/preços confirmados, pagamentos, parcelamento e adicionais eventualmente presentes nos checkouts próprios; não orientar upgrade de R$ 80 no site |
 | B02 — Entrega | Arquivos finais, acessibilidade dos vídeos/PDFs, permissões Base/Completo/avulsos, marcos 0/3/6/7 dias, expiração em 365 dias e compras sucessivas |
 | B03 — Consultoria | Preço vigente, profissionais, dias corridos/úteis, marco de entrega, retorno, suporte, agenda, regras contratuais e teleconsulta |
 | B04 — Acompanhamento | Avaliação de entrada, investimento, início/fim, agenda, feriados e condições contratuais |
-| B05 — Identidade | Identificação do fornecedor, documento, endereço, registros da equipe e credenciais divulgáveis |
+| B05 — Identidade | Identificação do fornecedor, documento, endereço completo, registros dos demais profissionais e credenciais divulgáveis. Dr. Sandro Pereira — CRM-RS 61741 e Cândido Godói — RS confirmados pelo usuário |
 | B06 — Minutas | Revisão e aprovação dos termos, cancelamento, reembolso e condições assistenciais |
 | B07 — Privacidade | Inventário real de dados e fornecedores, logs, retenção, controlador, canal e procedimentos de direitos |
 | B08 — Infraestrutura | Domínio final, URL da área do aluno, horários administrativos, testes dos canais, ativos autorizados e QA de dispositivos reais |

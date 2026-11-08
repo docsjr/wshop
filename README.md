@@ -46,9 +46,9 @@ Então abra `http://localhost:4173/wshop/`. Use a mesma variável no build e no 
 
 ## Conteúdo e decisões
 
-A especificação mestre de 07/11/2026 tem precedência sobre os dois documentos anteriores. Os textos públicos foram extraídos para o cadastro central. As instruções de montagem foram substituídas pelos respectivos componentes. Aulas, livros, inclusões, avisos e prazos seguem a consolidação. FAQ reutilizada vem de um único banco.
+As atualizações expressas do usuário têm precedência; a especificação mestre de 07/11/2026 orienta os demais pontos e prevalece sobre os dois documentos anteriores. Os textos públicos foram extraídos para o cadastro central. As instruções de montagem foram substituídas pelos respectivos componentes. Aulas, livros, inclusões, avisos e prazos seguem a consolidação. FAQ reutilizada vem de um único banco.
 
-Os cinco botões de produto preservam os quatro endereços Kiwify fornecidos. Base e Completo compartilham o checkout; o Completo exige seleção explícita do adicional de R$ 80,00. Não existe pré-seleção por parâmetro nem confirmação de compra pelo clique. Valores assistenciais históricos não foram recuperados: a especificação mestre exige tabela vigente. Contatos usam somente mensagens administrativas neutras.
+Os cinco produtos usam os cinco checkouts confirmados pelo usuário em 08/11/2026. O Completo tem checkout exclusivo: https://pay.kiwify.com.br/pE5lrFM. Essa atualização substitui a regra anterior de adicional no checkout do Base. Não existe pré-seleção por parâmetro nem confirmação de compra pelo clique. Valores assistenciais históricos não foram recuperados: a especificação mestre exige tabela vigente. Contatos usam somente mensagens administrativas neutras. Equipe DocLiv, WhatsApp com DDI +55, e-mail, Instagram, identificação profissional e Cândido Godói — RS foram confirmados pelo usuário; atendimento online disponível. As confirmações estão registradas em `src/content.json`.
 
 Os arquivos antigos de fotografia e capa foram preservados no repositório, mas ficam fora do build até a liberação dos ativos prevista em B08. A composição atual é tipográfica; não simula retrato, paciente ou material comercial. A biografia alterada no commit de origem permanece recuperável no histórico, mas não substitui a redação mais recente nem a comprovação de qualificações exigida pela especificação.
 
