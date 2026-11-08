@@ -1,0 +1,8 @@
+@font-face{font-family:Manrope;src:url('../fonts/manrope-400.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:Manrope;src:url('../fonts/manrope-600.woff2') format('woff2');font-style:normal;font-weight:600;font-display:swap}
+@font-face{font-family:'Bodoni Moda';src:url('../fonts/bodoni-moda-500.woff2') format('woff2');font-style:normal;font-weight:500;font-display:swap}
+:root{--champagne:#F6EFE4;--alt:#FBF8F2;--green:#0F3D2E;--text:#1B2A22;--muted:#52604F;--gold:#C6A87A;--border:#E4DACB;--error:#8C3B2E;--success:#3E5C45;--hover:#0C3426;--serif:'Bodoni Moda',Georgia,'Times New Roman',serif;--sans:Manrope,-apple-system,'Segoe UI',sans-serif;--h1:2.125rem;--h2:1.75rem;--h3:1.25rem;--lead:1.125rem;--body:1rem;--small:.875rem;--label:.8125rem;--price:2rem;--s1:.25rem;--s2:.5rem;--s3:1rem;--s4:1.5rem;--s5:2rem;--s6:3rem;--s7:4rem;--s8:6rem;--s9:8rem;--s10:10rem;--margin:1.25rem;--container:75rem;--reading:42.5rem;--section:4rem;--radius-sm:.25rem;--radius-button:.5rem;--radius-card:1rem;--line:1px;--focus:3px;--touch:3rem;--shadow:0 8px 24px rgba(15,61,46,.08);--transition:150ms ease}
+@media(min-width:600px){:root{--margin:1.5rem}}
+@media(min-width:768px){:root{--margin:2rem}}
+@media(min-width:1024px){:root{--margin:2.5rem;--container:70rem;--section:6rem;--h1:3.25rem;--h2:2.25rem;--h3:1.5rem;--lead:1.25rem;--body:1.0625rem;--small:.9375rem;--price:2.5rem}}
+@media(min-width:1440px){:root{--margin:4rem;--container:75rem}}

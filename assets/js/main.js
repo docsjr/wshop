@@ -1,40 +1,62 @@
-'use strict';
-// O conteúdo, os checkouts e as perguntas frequentes funcionam sem JavaScript.
-document.documentElement.classList.add('js');
-const toggle = document.querySelector('.menu-toggle');
-const menu = document.querySelector('#menu');
-const mobile = window.matchMedia('(max-width: 850px)');
-function closeMenu(restoreFocus = false) {
-  const wasOpen = toggle.getAttribute('aria-expanded') === 'true';
-  toggle.setAttribute('aria-expanded', 'false');
-  menu.classList.remove('is-open');
-  if (restoreFocus && wasOpen) toggle.focus();
-}
-if (toggle && menu) {
-  toggle.hidden = false;
-  toggle.addEventListener('click', () => {
-    const open = toggle.getAttribute('aria-expanded') !== 'true';
-    toggle.setAttribute('aria-expanded', String(open));
-    menu.classList.toggle('is-open', open);
+/* Progressive enhancement: every article and FAQ is readable without JavaScript. */
+const menu = document.querySelector('#mobile-menu');
+const trigger = document.querySelector('.menu-toggle');
+const close = document.querySelector('.menu-close');
+if (menu && trigger && close && typeof menu.showModal === 'function') {
+  document.body.classList.add('enhanced');
+  trigger.hidden = false;
+  trigger.addEventListener('click', () => {
+    menu.showModal();
+    trigger.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('menu-open');
+    close.focus();
   });
-  menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => closeMenu()));
-  document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(true); });
-  document.addEventListener('click', event => {
-    if (!menu.contains(event.target) && !toggle.contains(event.target)) closeMenu();
+  close.addEventListener('click', () => menu.close());
+  menu.addEventListener('close', () => {
+    trigger.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('menu-open');
+    trigger.focus();
   });
-  mobile.addEventListener('change', () => closeMenu());
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.close()));
+  // Native dialog provides focus containment, inert background and Escape handling.
+  const header = document.querySelector('.header-inner');
+  const reflow = () => {
+    document.body.classList.remove('compact-header');
+    if (header.scrollWidth > header.clientWidth + 1) document.body.classList.add('compact-header');
+  };
+  window.addEventListener('resize', reflow);
+  document.fonts?.ready.then(reflow);
+  reflow();
 }
-
-// A prévia e a escolha de versão usam controles nativos de teclado.
-// Sem JavaScript, todos os exemplos e as duas explicações continuam visíveis.
-for (const switcher of document.querySelectorAll('.switcher')) {
-  const controls = switcher.querySelector('[data-switcher-controls]');
-  const panels = switcher.querySelectorAll('[data-switcher-panel]');
-  function showSelectedPanel() {
-    const selected = controls.querySelector('input:checked');
-    for (const panel of panels) panel.hidden = panel.id !== selected.value;
-  }
-  controls.addEventListener('change', showSelectedPanel);
-  showSelectedPanel();
+document.querySelectorAll('.faq-toggle').forEach(button => {
+  const answer = document.getElementById(button.getAttribute('aria-controls'));
+  if (!answer) return;
+  button.disabled = false;
+  answer.hidden = true;
+  button.setAttribute('aria-expanded', 'false');
+  button.querySelector('span').textContent = '+';
+  button.addEventListener('click', () => {
+    answer.hidden = !answer.hidden;
+    button.setAttribute('aria-expanded', String(!answer.hidden));
+    button.querySelector('span').textContent = answer.hidden ? '+' : '−';
+  });
+});
+document.querySelectorAll('.demonstration').forEach(demo => {
+  const controls = demo.querySelector('.topic-controls');
+  const buttons = [...controls.querySelectorAll('button')];
+  const articles = [...demo.querySelectorAll('.sample')];
+  const select = selected => {
+    buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === selected)));
+    articles.forEach((article, i) => { article.hidden = i !== selected; });
+  };
+  buttons.forEach((button, i) => button.addEventListener('click', () => select(i)));
+  select(0);
   controls.hidden = false;
+});
+// Preserve meaningful old landing-page anchors without replacing whole pages.
+const legacy = {inicio:'',metodo:'metodo-regular/',materiais:'metodo-regular/',planos:'metodo-regular/#versoes-e-precos',pratica:'metodo-regular/#atividade',cuidado:'consultoria/',medico:'sobre/',extras:'metodo-regular/#guias'};
+const home = document.querySelector('.brand').getAttribute('href');
+if (location.pathname === home || location.pathname === `${home}index.html`) {
+  const target = legacy[location.hash.slice(1)];
+  if (target) location.replace(home + target);
 }

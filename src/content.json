@@ -1,0 +1,605 @@
+{
+  "revision": "2026-11-08",
+  "source": "06_ESPECIFICACAO_MESTRE_SITE(1).md, v1.0, fornecida pelo usuário",
+  "status": "homologacao",
+  "pages": [
+    {
+      "id": "P01",
+      "route": "",
+      "label": "Início",
+      "blocks": [
+        "**H1: Informação, planejamento e cuidado para a tua rotina.**",
+        "A DocLiv reúne um curso educativo, uma consultoria individual e um acompanhamento de quatro meses. Cada formato tem uma finalidade: aprender, organizar um planejamento com profissionais ou revisar o cuidado ao longo do tempo.",
+        "Conhecer o Método Regular · Conhecer a Consultoria",
+        "**H2: O cuidado precisa caber na vida real.**",
+        "Horários, preferências, sono e disponibilidade para se movimentar influenciam as escolhas do dia a dia. Entender essas condições ajuda a definir prioridades possíveis. Quando há sintomas, limitações ou necessidade de tratamento, a avaliação individual tem seu próprio lugar.",
+        "**H2: Três formas de começar essa conversa.**",
+        "**Método Regular:** dez aulas, livros, atividades práticas e guias para organizar alimentação, movimento, sono e hábitos. É um curso educativo, com acesso por 365 dias. A consulta e os planos individuais são contratados separadamente. **Conhecer o Método Regular.**",
+        "**Consultoria Completa DocLiv:** consulta médica online, plano alimentar elaborado pelo nutricionista, planejamento de treino elaborado pelo profissional de educação física, retorno médico e suporte no período contratado. **Conhecer a Consultoria.**",
+        "**Acompanhamento de quatro meses:** consultas médicas e revisões mensais do planejamento, com suporte semanal. A contratação depende da avaliação de entrada e das condições apresentadas individualmente. **Entender o acompanhamento.**",
+        "**H2: Conhecimento que ajuda a escolher o próximo passo.**",
+        "No Método Regular, tu estudas um tema, observas tua rotina e experimentas uma ação possível. O objetivo é construir um plano de hábitos que possa ser revisto conforme as dificuldades aparecem. As versões Base e Completo compartilham o curso; o Completo acrescenta três guias e libera os cinco guias desde o início. **Ver versões e preços.**",
+        "**H2: Quando a necessidade é individual.**",
+        "Na Consultoria, tua história, teus objetivos e tuas condições de saúde orientam a avaliação e o planejamento. O curso não é pré-requisito para procurar atendimento. **Conhecer a Consultoria.**",
+        "**H2: A revisão também faz parte do cuidado.**",
+        "O acompanhamento permite observar a adaptação e rever o planejamento ao longo de quatro meses. Não há obrigação de contratá-lo depois da Consultoria. **Entender o acompanhamento.**",
+        "**H2: Quem conduz a DocLiv.**",
+        "Dr. Sandro Pereira — Médico — CRM-RS 61741. A DocLiv considera história clínica, rotina, preferências e limites na organização do cuidado. **Conhecer a DocLiv.**",
+        "**H2: Antes de escolher.**",
+        "Exibir FAQ-01, FAQ-02, FAQ-03 e FAQ-09, com as respostas da seção 6.6.",
+        "**H2: Conhece o formato que faz sentido para o teu momento.**",
+        "Para aprender a organizar hábitos, conhece o Método Regular. Para conversar sobre uma avaliação individual, conhece a Consultoria. **Conhecer o Método Regular · Conhecer a Consultoria.**"
+      ],
+      "title": "DocLiv — Curso, consultoria e acompanhamento",
+      "description": "Conhece o Método Regular, a Consultoria Completa DocLiv e o acompanhamento de quatro meses. Entende as entregas e o próximo passo de cada formato."
+    },
+    {
+      "id": "P02",
+      "route": "metodo-regular",
+      "label": "Método Regular",
+      "blocks": [
+        "**H1: Aprende a organizar teus hábitos na rotina que tu tens.**",
+        "Dez aulas, livros, atividades práticas e guias sobre alimentação, movimento, sono e hábitos. Um curso educativo para reconhecer dificuldades, escolher prioridades e construir um plano de hábitos.",
+        "**Ver versões e preços · Experimentar uma atividade.**",
+        "**H2: Um ponto de partida que considera o teu dia.**",
+        "Às vezes, o jantar fica para a última hora. Em outras semanas, o movimento ou o descanso acabam sem espaço. O curso ajuda a observar essas situações e pensar em ações possíveis. Ele não parte da ideia de que toda dificuldade se resolve apenas com organização: sintomas e necessidades individuais podem exigir avaliação profissional.",
+        "**H2: Como estudar e praticar.**",
+        "Assiste às aulas, acompanha as leituras e usa as atividades para relacionar o conteúdo à tua rotina. Escolhe uma ação, observa como ela funciona e revisa o planejamento quando necessário. Não é preciso mudar todos os hábitos ao mesmo tempo.",
+        "**H2: Experimenta o tipo de reflexão proposto.**",
+        "Escolhe um tema. Os exemplos abaixo são ilustrativos e mostram uma forma de refletir sobre a rotina; não constituem uma avaliação da tua saúde. Não é necessário enviar respostas.",
+        "Exibir as quatro amostras da seção 6.2.1.",
+        "**H2: O que tu recebes.**",
+        "- Dez aulas sobre alimentação, movimento, sono e hábitos.\n- Livro ampliado para acompanhar o estudo.\n- Caderno de atividades práticas.\n- Material complementar Além da balança.\n- Guias conforme a versão escolhida.\n- Acesso por 365 dias a partir da aprovação da compra.",
+        "**H2: Acesso e liberação dos materiais.**",
+        "Após a aprovação do pagamento, a plataforma envia as instruções de acesso. Aulas, atividades e livros são liberados em etapas nos primeiros oito dias. No Base, Cansaço é liberado no Dia 4 e Dor e movimento no Dia 7. No Completo, os cinco guias são liberados desde o início; os demais materiais seguem o mesmo calendário do Base.",
+        "O Dia 1 é o dia da aprovação da compra. O Dia 4 corresponde a três dias de espera; o Dia 7, a seis; e o Dia 8, a sete. O acesso termina 365 dias após a aprovação, inclusive para os materiais liberados depois.",
+        "Exibir calendário com: Dia 1 — aulas e atividades 1–3, primeira parte do livro e primeira metade de Além da balança; Dia 4 — aulas e atividades 4–5, continuação do livro, Além da balança completo e Cansaço no Base; Dia 7 — aulas e atividades 6–7, continuação do livro e Dor e movimento no Base; Dia 8 — aulas e atividades 8–10 e livro completo.",
+        "**H2: Base ou Completo: compara o que está incluído.**",
+        "Os dois incluem o curso, os livros, as atividades e os guias Cansaço e Dor e movimento. O Completo acrescenta Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer, com os cinco guias disponíveis desde o início.",
+        "Exibir a comparação completa da seção 3.1 e os dois cards:",
+        "**Método Regular Base — {{price:base}} à vista.** Dez aulas, livro ampliado, caderno de atividades, Além da balança, Cansaço e Dor e movimento. Liberação conforme o calendário. Acesso por 365 dias. Curso educativo, sem atendimento individual. **Comprar Método Regular Base.**",
+        "**Método Regular Completo — {{price:completo}} à vista.** Todo o conteúdo do Base, mais Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer. Cinco guias imediatos; demais conteúdos conforme o calendário. Acesso por 365 dias. Curso educativo, sem atendimento individual. **Escolher Completo no checkout.**",
+        "Base e Completo usam a mesma página de pagamento na Kiwify. Para escolher o Completo, adiciona a opção correspondente, de {{additional:completo}}, antes de concluir a compra. O guia Hormônios e emagrecimento já está incluído no Completo; não é necessário adicioná-lo novamente.",
+        "As opções de parcelamento e o valor total são apresentados no checkout antes da confirmação da compra. Confere a versão, os adicionais e o total antes de pagar.",
+        "**H2: Guias para aprofundar um tema.**",
+        "Os três guias abaixo também podem ser comprados separadamente. Cada compra avulsa dá acesso somente ao guia escolhido e às orientações de acesso, por 365 dias após a aprovação.",
+        "**Emagrecimento com medicação — {{price:medicacao}} à vista.** Conteúdo educativo para compreender o papel da medicação no cuidado individualizado. Já incluído no Completo. **Comprar guia Emagrecimento com medicação.**",
+        "**Hormônios e emagrecimento — {{price:hormonios}} à vista.** Conteúdo educativo para compreender o tema e organizar dúvidas para uma avaliação profissional. Já incluído no Completo. **Comprar guia Hormônios e emagrecimento.**",
+        "**Depois de emagrecer — {{price:manutencao}} à vista.** Reflexões sobre continuidade, hábitos e manutenção após o emagrecimento. Já incluído no Completo. **Comprar guia Depois de emagrecer.**",
+        "Os guias não substituem avaliação profissional e não incluem prescrição ou orientação individual de tratamento.",
+        "**H2: Autoria e responsabilidade.**",
+        "Dr. Sandro Pereira — Médico — CRM-RS 61741. O Método Regular organiza conteúdo educativo para ajudar na compreensão e na prática de hábitos. **Conhecer a DocLiv.**",
+        "**H2: Antes de comprar.**",
+        "Consulta o calendário, as inclusões da versão escolhida, os termos de compra e as informações de cancelamento. Para dúvidas sobre acesso ou pagamento, **fala com a DocLiv**. O atendimento individual é contratado separadamente.",
+        "**H2: Perguntas frequentes.**",
+        "Exibir FAQ-01 a FAQ-08 e FAQ-13, sem alterar as respostas centrais.",
+        "**H2: Escolhe como queres começar.**",
+        "Compara as versões e os guias antes de decidir. **Ver versões e preços.**"
+      ],
+      "title": "Método Regular: Base e Completo — DocLiv",
+      "description": "Curso educativo sobre alimentação, movimento, sono e hábitos. Compara Base e Completo, confere materiais, preços e calendário de acesso."
+    },
+    {
+      "id": "P03",
+      "route": "consultoria",
+      "label": "Consultoria Completa DocLiv",
+      "blocks": [
+        "**H1: Um planejamento individual começa por compreender tua história.**",
+        "A Consultoria Completa DocLiv reúne consulta médica online, plano alimentar elaborado pelo nutricionista, planejamento de treino elaborado pelo profissional de educação física, retorno médico e suporte durante o período contratado.",
+        "**Consultar disponibilidade da consultoria.**",
+        "**H2: Quando procurar uma avaliação individual.**",
+        "Quando há dúvidas sobre tua saúde, dificuldades persistentes ou necessidade de um planejamento que considere tuas condições, a avaliação individual ajuda a entender quais cuidados são adequados. A definição depende da consulta; a página não faz diagnóstico nem indica um tratamento para todos.",
+        "**H2: Primeiro, conhecer o teu contexto.**",
+        "A consulta médica online tem duração aproximada de uma hora. História clínica, rotina, objetivos, preferências e limitações fazem parte dessa conversa. Exames ou tratamento podem ser considerados quando houver indicação, sem promessa de uma prescrição específica.",
+        "**H2: Cada profissional responde pela sua área.**",
+        "O nutricionista elabora o plano alimentar. O profissional de educação física elabora o planejamento de treino. As consultas incluídas nesta oferta são médicas; não estão incluídas consultas individuais separadas com os outros profissionais. **Conhecer a equipe.**",
+        "**H2: Entregas e retorno.**",
+        "Os planos são entregues em até sete [[TIPO_DE_DIAS_ENTREGA]] após a consulta. O retorno médico, de até 30 minutos, está previsto para 15 [[TIPO_DE_DIAS_RETORNO]] após [[MARCO_ENTREGA_PLANOS]]. O suporte por WhatsApp dura 30 [[TIPO_DE_DIAS_SUPORTE]] a partir desse mesmo marco.",
+        "O suporte funciona em [[JANELA_SUPORTE_CONSULTORIA]], com resposta em [[PRAZO_RESPOSTA_CONSULTORIA]]. As orientações para uso do canal são apresentadas na contratação.",
+        "**H2: O que está incluído e o que é separado.**",
+        "Estão incluídos a consulta inicial, os dois planejamentos, o retorno médico e o período de suporte descritos nesta página. Medicamentos, exames, procedimentos e serviços adicionais não são incluídos automaticamente. Quando necessários, suas condições são informadas separadamente. A compra de medicamentos depende de indicação e é realizada pelo paciente.",
+        "**H2: Atendimento online com avaliação de adequação.**",
+        "A teleconsulta depende de condições técnicas e clínicas adequadas. Pode ser necessário atendimento presencial, exame físico ou encaminhamento. O canal de suporte não substitui atendimento de urgência. **Como funciona o atendimento online.**",
+        "**H2: Disponibilidade e contratação.**",
+        "Fala com a DocLiv para conhecer disponibilidade, investimento e condições de pagamento. Antes de contratar, tu recebes a descrição das entregas, dos prazos e das regras de agendamento, reagendamento e cancelamento. O contato inicial não confirma consulta nem contratação. Não é necessário comprar o Método Regular.",
+        "**Consultar disponibilidade da consultoria.**",
+        "**H2: Perguntas frequentes.**",
+        "Exibir FAQ-09, FAQ-10, FAQ-11 e FAQ-12."
+      ],
+      "title": "Consultoria Completa DocLiv — Atendimento individual",
+      "description": "Conhece a consulta médica online, os planos individuais, o retorno e o suporte da Consultoria Completa DocLiv. Consulta disponibilidade e condições."
+    },
+    {
+      "id": "P04",
+      "route": "acompanhamento",
+      "label": "Acompanhamento de quatro meses",
+      "blocks": [
+        "**H1: O planejamento precisa ser revisto quando a realidade muda.**",
+        "O acompanhamento de quatro meses permite observar a adaptação, revisar dificuldades e ajustar o planejamento conforme a avaliação individual. Inclui consultas médicas mensais, revisão mensal do plano alimentar e do treino e suporte semanal por WhatsApp.",
+        "**Consultar condições do acompanhamento.**",
+        "**H2: Continuidade conforme a necessidade de cada pessoa.**",
+        "Ao longo do cuidado, a rotina pode mudar e novas dúvidas podem aparecer. O acompanhamento cria oportunidades de reavaliação. A indicação e a forma de entrada dependem de avaliação individual; não há promessa de um resultado específico ao final dos quatro meses.",
+        "**H2: Como o cuidado é organizado.**",
+        "- Consulta médica a cada mês.\n- Revisão mensal do plano alimentar pelo profissional responsável.\n- Revisão mensal do planejamento de treino pelo profissional responsável.\n- Suporte semanal por WhatsApp, com respostas às quartas-feiras.",
+        "O período começa em [[MARCO_INICIAL_ACOMPANHAMENTO]] e termina em [[REGRA_FIM_ACOMPANHAMENTO]]. A agenda, a janela de atendimento das quartas-feiras e o funcionamento em feriados são informados antes da contratação.",
+        "**H2: O que acontece entre as consultas.**",
+        "O suporte permite encaminhar dúvidas relacionadas ao planejamento dentro das regras combinadas. Ele não significa disponibilidade contínua ou atendimento de urgência. A revisão do cuidado considera a resposta individual e as informações disponíveis.",
+        "**H2: Limites e despesas separadas.**",
+        "Medicamentos, exames, procedimentos e atendimentos adicionais não são incluídos automaticamente. Medicamentos, quando indicados, são adquiridos separadamente. Pode haver necessidade de avaliação presencial ou encaminhamento, conforme o caso.",
+        "**H2: Antes de contratar.**",
+        "Não é necessário comprar o curso para procurar informações. O acompanhamento é opcional; sua contratação não é obrigatória depois da Consultoria. A avaliação necessária para iniciar, os atendimentos incluídos, os valores e as regras de agenda e cancelamento são apresentados antes da decisão.",
+        "**Consultar condições do acompanhamento.**",
+        "**H2: Perguntas frequentes.**",
+        "Exibir FAQ-09, FAQ-12 e FAQ-14. Para saber como funciona a modalidade online, consulta a página **Como funciona o atendimento online**."
+      ],
+      "title": "Acompanhamento de quatro meses — DocLiv",
+      "description": "Entende como funcionam as consultas e revisões mensais do acompanhamento DocLiv e consulta as condições para iniciar."
+    },
+    {
+      "id": "P05",
+      "route": "sobre",
+      "label": "Sobre a DocLiv",
+      "blocks": [
+        "**H1: Conhece a DocLiv.**",
+        "A DocLiv reúne educação em saúde e cuidado individual. A proposta é tornar compreensíveis as opções de cuidado e considerar o que cabe na rotina de cada pessoa.",
+        "**H2: Como olhamos para o cuidado.**",
+        "Informação ajuda a entender escolhas. A avaliação individual considera história clínica, objetivos, preferências e limites. O acompanhamento permite rever o planejamento quando necessário. Cada formato tem seu papel, sem obrigação de contratar todos eles.",
+        "**H2: Dr. Sandro Pereira.**",
+        "Médico — CRM-RS 61741.",
+        "Conduzo a DocLiv com atenção à história de cada pessoa e às condições em que o cuidado acontece. Na consulta, conversamos sobre os objetivos e sobre o que pode facilitar ou dificultar o planejamento. As decisões são individualizadas e revistas conforme a necessidade.",
+        "**H2: Equipe e responsabilidades.**",
+        "O cuidado descrito nas ofertas reúne profissionais com atribuições diferentes. O médico realiza a avaliação médica. O nutricionista elabora e revisa o plano alimentar. O profissional de educação física elabora e revisa o planejamento de treino.",
+        "[[NOME_NUTRICIONISTA]] — Nutricionista — [[REGISTRO_NUTRICIONISTA]].  \n[[NOME_EDUCACAO_FISICA]] — Profissional de educação física — [[REGISTRO_EDUCACAO_FISICA]].",
+        "Na Consultoria, as consultas incluídas são médicas. A participação dos demais profissionais corresponde às entregas descritas na oferta.",
+        "**H2: Clareza sobre o que é oferecido.**",
+        "O Método Regular é educativo. Consulta, planos individuais e acompanhamento têm contratação própria. Não prometemos um resultado igual para todas as pessoas; a indicação e a evolução dependem da avaliação e de fatores individuais.",
+        "**Conhecer o Método Regular · Conhecer a Consultoria.**"
+      ],
+      "title": "Sobre a DocLiv — Dr. Sandro Pereira",
+      "description": "Conhece a DocLiv, seu modo de organizar o cuidado e as responsabilidades dos profissionais envolvidos."
+    },
+    {
+      "id": "P06",
+      "route": "duvidas",
+      "label": "Perguntas frequentes e banco único de respostas",
+      "blocks": [
+        "**H1: Perguntas frequentes.**",
+        "Encontra aqui as diferenças entre as ofertas e as orientações de compra, acesso e contato. Se a tua dúvida não estiver respondida, **fala com a DocLiv**."
+      ],
+      "title": "Perguntas frequentes — DocLiv",
+      "description": "Respostas sobre o Método Regular, Base e Completo, guias, acesso, consultoria, acompanhamento e canais de suporte."
+    },
+    {
+      "id": "P07",
+      "route": "contato",
+      "label": "Contato",
+      "blocks": [
+        "**H1: Fala com a DocLiv.**",
+        "Escolhe o assunto para chegar ao contato com uma mensagem inicial adequada. O primeiro contato é administrativo e não confirma uma compra ou um agendamento.",
+        "**H2: Curso, compra e acesso.**",
+        "Para dúvidas sobre o Método Regular, guias, pagamento ou acesso. **Pedir ajuda com o curso.**",
+        "**H2: Consultoria Completa DocLiv.**",
+        "Para conhecer disponibilidade, entregas e condições de contratação. **Consultar disponibilidade da consultoria.**",
+        "**H2: Acompanhamento de quatro meses.**",
+        "Para entender a avaliação de entrada e as condições do acompanhamento. **Consultar condições do acompanhamento.**",
+        "**H2: Canais de contato.**",
+        "WhatsApp: (55) 99907-0106.  \nE-mail: arsandrodoc@gmail.com.  \nAtendimento administrativo: [[HORARIOS_ADMINISTRATIVOS]], no horário de Brasília.  \nPrazo de resposta: [[PRAZO_RESPOSTA_ADMINISTRATIVA]].",
+        "**H2: Antes de enviar.**",
+        "Para uma dúvida administrativa, informa apenas o necessário para explicar o pedido. Não envies exames ou dados de saúde no contato inicial. Quando houver atendimento, a equipe orientará os canais adequados. O WhatsApp e o e-mail não são canais de urgência; em caso de urgência, procura um serviço de saúde apropriado.",
+        "Consulta a **Política de privacidade** e as informações de **Cancelamentos e reembolsos**."
+      ],
+      "title": "Contato e suporte — DocLiv",
+      "description": "Fala com a DocLiv sobre o curso, compra e acesso, Consultoria Completa ou acompanhamento de quatro meses."
+    },
+    {
+      "id": "P14",
+      "route": "404",
+      "label": "Página não encontrada",
+      "blocks": [
+        "**H1: Página não encontrada.**",
+        "O endereço pode ter mudado ou não estar disponível. Usa um dos caminhos abaixo para continuar.",
+        "**Voltar ao início · Conhecer o Método Regular · Falar com a DocLiv.**"
+      ],
+      "title": "Página não encontrada — DocLiv",
+      "description": "O endereço solicitado não foi encontrado. Acesse o início, o Método Regular ou os canais de contato."
+    },
+    {
+      "id": "P08",
+      "route": "termos-de-uso",
+      "label": "Termos de uso",
+      "blocks": [
+        "**H1: Termos de uso.**  \nVersão [[VERSAO_TERMOS_USO]] · Atualização [[DATA_TERMOS_USO]].",
+        "**Responsável pelo site.** Este site é mantido por [[IDENTIFICACAO_FORNECEDOR]], [[DOCUMENTO_FORNECEDOR]], com endereço em [[ENDERECO_FORNECEDOR]]. Para contato, utiliza arsandrodoc@gmail.com ou os canais da página Contato.",
+        "**Finalidade.** O site apresenta a DocLiv, seus conteúdos educativos e as condições gerais dos serviços divulgados. O conteúdo público não constitui consulta, diagnóstico ou prescrição individual. A contratação de atendimento segue condições próprias, informadas antes da decisão.",
+        "**Uso das informações.** Os conteúdos devem ser compreendidos em seu contexto educativo. Dúvidas sobre sintomas, tratamentos ou limitações individuais precisam de avaliação apropriada. Não há atendimento de urgência pelo site.",
+        "**Materiais e autoria.** Os textos, imagens, aulas e materiais têm titulares próprios. A aquisição de um produto concede o acesso e os usos previstos nos respectivos termos de compra. Não autoriza redistribuição, revenda ou uso comercial não permitido, preservados os direitos e as exceções legais aplicáveis.",
+        "**Links externos.** Alguns links levam à Kiwify, ao WhatsApp, ao Instagram ou ao aplicativo de e-mail. Esses ambientes têm funcionamento e políticas próprios. A saída do site não transfere automaticamente à plataforma toda responsabilidade da DocLiv por suas ofertas ou pelo atendimento ao consumidor.",
+        "**Disponibilidade e correções.** Se encontrares um erro de informação ou de acesso, entra em contato. A DocLiv avaliará a ocorrência e informará o encaminhamento. Atualizações do site não alteram silenciosamente condições de compras já realizadas nem afastam direitos aplicáveis.",
+        "**Documentos relacionados.** Consulta Termos de compra, Política de privacidade, Cookies e tecnologias semelhantes, Cancelamentos e reembolsos e Como funciona o atendimento online."
+      ],
+      "title": "Termos de uso — DocLiv",
+      "description": "Informações sobre o uso do site DocLiv, seus conteúdos e os documentos relacionados."
+    },
+    {
+      "id": "P09",
+      "route": "termos-de-compra",
+      "label": "Termos de compra",
+      "blocks": [
+        "**H1: Termos de compra.**  \nVersão [[VERSAO_TERMOS_COMPRA]] · Atualização [[DATA_TERMOS_COMPRA]].",
+        "**Fornecedor.** [[IDENTIFICACAO_FORNECEDOR]], [[DOCUMENTO_FORNECEDOR]], [[ENDERECO_FORNECEDOR]]. Contato: arsandrodoc@gmail.com e (55) 99907-0106.",
+        "**Produtos digitais.** O Método Regular Base inclui dez aulas, livro ampliado, caderno de atividades, Além da balança e os guias Cansaço e Dor e movimento. O Completo inclui esse conteúdo e acrescenta Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer. Os três guias adicionais também têm compra avulsa. A compra avulsa inclui somente o guia escolhido e as orientações de acesso.",
+        "**Natureza do conteúdo.** Os produtos são educativos. Não incluem consulta, diagnóstico, prescrição ou planos individuais. A compra de atendimento é independente.",
+        "**Preço e seleção.** Os valores à vista são {{price:base}} para o Base e {{price:completo}} para o Completo. Os guias avulsos custam, respectivamente, {{price:medicacao}}, {{price:hormonios}} e {{price:manutencao}}. Base e Completo usam o mesmo checkout; o Completo é selecionado como adicional de {{additional:completo}}. O guia Hormônios já integra o Completo. As condições de parcelamento e o total da seleção são apresentados antes da confirmação da compra. Nenhum adicional deve ser contratado sem escolha clara do comprador.",
+        "**Pagamento e acesso.** O pagamento ocorre na Kiwify. A liberação começa após a aprovação efetiva. A plataforma envia as orientações de acesso ao contato informado na compra. O acesso dura 365 dias desde a aprovação, inclusive para conteúdos liberados posteriormente. Se houver dificuldade, utiliza o suporte da DocLiv; não é necessário contratar atendimento para pedir ajuda.",
+        "**Liberação progressiva.** No Dia 1 são liberadas as aulas e atividades 1–3, a primeira parte do livro e a primeira metade de Além da balança. No Dia 4, entram as aulas e atividades 4–5, a continuação do livro, Além da balança integral e Cansaço no Base. No Dia 7, entram as aulas e atividades 6–7, a continuação do livro e Dor e movimento no Base. No Dia 8, entram as aulas e atividades 8–10 e o livro integral. Os marcos correspondem a zero, três, seis e sete dias de espera desde a aprovação. No Completo, os cinco guias são imediatos. Cada guia avulso também é imediato após aprovação.",
+        "**Requisitos e uso.** O acesso requer conexão com a internet e [[REQUISITOS_REAIS_AREA_ALUNO]]. Os materiais podem ser utilizados conforme [[REGRAS_DOWNLOAD_IMPRESSAO_USO]]. Não é permitida a redistribuição ou revenda não autorizada. Se houver barreira de acessibilidade, informa a dificuldade pelo suporte para encaminhamento adequado.",
+        "**Suporte e cancelamento.** O atendimento administrativo funciona em [[HORARIOS_ADMINISTRATIVOS]], com [[PRAZO_RESPOSTA_ADMINISTRATIVA]]. As informações de cancelamento, arrependimento e reembolso estão na página Cancelamentos e reembolsos. A liberação escalonada não limita esses direitos.",
+        "**Serviços assistenciais.** Consultoria e acompanhamento dependem de condições específicas, apresentadas antes da contratação: escopo, profissionais, prazos, investimento, agenda, cancelamento e adequação do atendimento online. Estes termos de produtos educativos não substituem o contrato assistencial."
+      ],
+      "title": "Termos de compra — DocLiv",
+      "description": "Consulta inclusões, pagamento, calendário de liberação, validade do acesso e suporte dos produtos digitais DocLiv."
+    },
+    {
+      "id": "P10",
+      "route": "privacidade",
+      "label": "Política de privacidade",
+      "blocks": [
+        "**H1: Política de privacidade.**  \nVersão [[VERSAO_PRIVACIDADE]] · Atualização [[DATA_PRIVACIDADE]].",
+        "**Quem é responsável.** O responsável pelo tratamento de dados relacionado à DocLiv é [[CONTROLADOR_NOME_DOCUMENTO_ENDERECO]]. Para assuntos de privacidade, utiliza [[CANAL_PRIVACIDADE]]. [[IDENTIFICACAO_ENCARREGADO_QUANDO_APLICAVEL]].",
+        "**Navegação neste site.** A versão descrita nesta política não possui formulário de saúde, questionário clínico ou campo de resposta nas amostras educativas. A infraestrutura pode tratar registros técnicos necessários ao funcionamento e à segurança, conforme a tabela abaixo. A ausência de formulário não significa ausência de tratamento de dados.",
+        "**Contatos e compras.** Ao escolher WhatsApp, e-mail ou checkout, tu utilizas também o ambiente do respectivo serviço. A DocLiv pode receber os dados necessários para responder ao contato, atender uma solicitação ou cumprir a compra. Evita enviar dados de saúde em uma dúvida administrativa. Se o contato evoluir para atendimento, a equipe orientará os canais e as informações adequados.",
+        "**Como os dados são utilizados.** A tabela a seguir descreve os tratamentos efetivos, com finalidades, fundamento aplicável, destinatários e prazo ou critério de conservação.",
+        "[[TABELA_INVENTARIO_PUBLICO_DE_DADOS_VALIDADA]]",
+        "**Compartilhamentos.** Os prestadores envolvidos e sua atuação constam da tabela. Eventuais transferências internacionais e suas condições serão informadas em [[INFORMACAO_TRANSFERENCIAS_VALIDADA]]. A DocLiv não usa respostas clínicas ou informações de prontuário para direcionar publicidade neste site.",
+        "**Segurança e conservação.** São adotadas medidas compatíveis com as operações descritas, incluindo [[MEDIDAS_REAIS_PUBLICAVEIS]]. Nenhum serviço deve ser apresentado como livre de todo risco. A conservação segue os prazos ou critérios informados, incluindo obrigações aplicáveis e necessidades justificadas de tratamento. Após o término, o encaminhamento será [[REGRA_ELIMINACAO_OU_CONSERVACAO_VALIDADA]].",
+        "**Direitos e solicitações.** Tu podes entrar em contato para solicitar informações sobre o tratamento e exercer os direitos aplicáveis, como acesso, correção e, quando cabível, eliminação, oposição ou revogação de consentimento. A resposta observará a hipótese legal e as obrigações de conservação. Para proteger os dados, pode ser necessária verificação proporcional da identidade, sem coleta excessiva. O canal é [[CANAL_PRIVACIDADE]], com procedimento descrito em [[ORIENTACAO_SOLICITACAO_DIREITOS]].",
+        "**Atualizações.** Esta política será atualizada quando o tratamento mudar. Alterações relevantes serão comunicadas de forma adequada. Consulta também a página Cookies e tecnologias semelhantes."
+      ],
+      "title": "Política de privacidade — DocLiv",
+      "description": "Conhece os tratamentos de dados da DocLiv, suas finalidades e os canais para solicitações de privacidade."
+    },
+    {
+      "id": "P11",
+      "route": "cookies",
+      "label": "Cookies e tecnologias semelhantes",
+      "blocks": [
+        "**H1: Cookies e tecnologias semelhantes.**  \nVersão [[VERSAO_COOKIES]] · Atualização [[DATA_COOKIES]].",
+        "Cookies e outros mecanismos de armazenamento podem apoiar funções de um site. Esta página informa quais tecnologias estão efetivamente presentes, para qual finalidade e por quanto tempo.",
+        "**O que está ativo nesta versão.** [[DESCRICAO_RESULTADO_INSPECAO_TECNICA]].",
+        "[[TABELA_REAL_COOKIES_E_ARMAZENAMENTO]]",
+        "**Escolhas e controles.** [[CONTROLES_COMPATIVEIS_COM_A_CONFIGURACAO]]. As escolhas feitas neste site não configuram automaticamente as preferências de ambientes externos, como a página de pagamento ou o WhatsApp.",
+        "**Mais informações.** Para entender os demais tratamentos e exercer direitos, consulta a Política de privacidade ou utiliza [[CANAL_PRIVACIDADE]]."
+      ],
+      "title": "Cookies e tecnologias semelhantes — DocLiv",
+      "description": "Informações sobre as tecnologias utilizadas no site DocLiv e os controles disponíveis."
+    },
+    {
+      "id": "P12",
+      "route": "cancelamentos",
+      "label": "Cancelamentos e reembolsos",
+      "blocks": [
+        "**H1: Cancelamentos e reembolsos.**  \nVersão [[VERSAO_CANCELAMENTOS]] · Atualização [[DATA_CANCELAMENTOS]].",
+        "**Como solicitar.** Para tratar de uma compra, usa arsandrodoc@gmail.com, (55) 99907-0106 ou [[CANAL_DE_ARREPENDIMENTO_NA_PLATAFORMA]]. Informa o produto e os dados mínimos necessários para localizar o pedido. Não envies dados completos de cartão ou informações clínicas.",
+        "**Compras a distância.** O direito de arrependimento previsto no Código de Defesa do Consumidor poderá ser exercido no prazo legal de sete dias, contado da assinatura ou do recebimento do produto ou serviço, conforme aplicável. A forma de aplicação ao pedido será tratada de acordo com a legislação. O simples acesso a um conteúdo não será apresentado nesta política como renúncia automática ao direito [R8].",
+        "**Recebimento e andamento.** A solicitação recebe confirmação imediata. O encaminhamento observa o procedimento [[PROCEDIMENTO_REEMBOLSO_VALIDADO]], com informação ao comprador sobre a providência adotada e o meio de pagamento. Os prazos de manifestação e as providências junto ao meio de pagamento seguem as obrigações aplicáveis [R9].",
+        "**Acesso aos conteúdos.** A liberação em etapas não restringe o exercício de direitos. Quando um pedido é cancelado, os efeitos sobre o acesso devem corresponder aos produtos e contratos atingidos, preservando outras compras válidas e os direitos aplicáveis. Erros de entrega, cobrança ou acesso podem ser comunicados mesmo fora do prazo de arrependimento para avaliação da solução cabível.",
+        "**Atendimentos.** Reagendamento, ausência, interrupção e cancelamento de serviços assistenciais seguem [[REGRAS_ASSISTENCIAIS_APROVADAS]], informadas antes da contratação e sem afastar direitos legais. Esta página não cria multa, retenção ou prazo de reagendamento que não tenha sido validado."
+      ],
+      "title": "Cancelamentos e reembolsos — DocLiv",
+      "description": "Consulta como solicitar cancelamento e acompanhar pedidos de reembolso relacionados às ofertas da DocLiv."
+    },
+    {
+      "id": "P13",
+      "route": "atendimento-online",
+      "label": "Como funciona o atendimento online",
+      "blocks": [
+        "**H1: Como funciona o atendimento online.**",
+        "**Uma consulta médica a distância.** A modalidade utilizada para o atendimento direto ao paciente é a teleconsulta. “Consultoria Completa DocLiv” é o nome comercial da oferta; não significa a modalidade técnica de teleconsultoria entre profissionais.",
+        "**Antes da consulta.** A equipe orienta a identificação, o agendamento, o uso de [[PLATAFORMA_TELECONSULTA]] e os documentos necessários. Será apresentado o consentimento aplicável, com informações sobre funcionamento, limitações e tratamento de dados. A contratação, o consentimento assistencial e uma eventual autorização de marketing são assuntos distintos.",
+        "**Preparo.** Procura um ambiente reservado, conexão estável e dispositivo com áudio e vídeo em funcionamento. Se houver barreira de acessibilidade ou dificuldade técnica, informa a equipe previamente para avaliar uma alternativa adequada.",
+        "**Adequação e limites.** A avaliação online não substitui toda necessidade de exame físico ou atendimento presencial. O médico verifica a adequação da modalidade e poderá orientar atendimento presencial ou encaminhamento. A condução deve observar as regras profissionais aplicáveis, inclusive nos acompanhamentos prolongados [R4].",
+        "**Registros e orientações.** As informações assistenciais são registradas conforme os requisitos aplicáveis. Documentos e orientações são encaminhados por [[CANAL_ASSISTENCIAL_VALIDADO]]. O site público não recebe prontuários ou exames.",
+        "**Problemas técnicos e urgência.** Em caso de interrupção, utiliza [[PROCEDIMENTO_FALHA_TELECONSULTA]]. Os canais administrativos e o suporte do acompanhamento não são serviços de urgência. Diante de uma urgência, procura atendimento apropriado.",
+        "**Condições do serviço.** As inclusões, prazos, profissionais e despesas separadas constam da oferta e do contrato específico. **Consultar disponibilidade da consultoria.**"
+      ],
+      "title": "Como funciona o atendimento online — DocLiv",
+      "description": "Informações sobre preparo, funcionamento, limites e canais do atendimento online da DocLiv."
+    }
+  ],
+  "faqs": [
+    {
+      "id": "FAQ-01",
+      "category": "Curso",
+      "question": "O que é o Método Regular?",
+      "answer": "É um curso educativo com dez aulas, livros, atividades e guias para organizar alimentação, movimento, sono e hábitos. O objetivo é ajudar a compreender a rotina e construir um plano de hábitos."
+    },
+    {
+      "id": "FAQ-02",
+      "category": "Curso",
+      "question": "O curso inclui consulta, dieta ou treino individual?",
+      "answer": "Não. Consulta médica, plano alimentar e treino individualizados pertencem ao atendimento contratado separadamente. O curso não inclui diagnóstico nem prescrição."
+    },
+    {
+      "id": "FAQ-03",
+      "category": "Curso",
+      "question": "Qual é a diferença entre Base e Completo?",
+      "answer": "Ambos incluem as dez aulas, livro ampliado, atividades, Além da balança, Cansaço e Dor e movimento. O Completo acrescenta Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer. No Completo, os cinco guias são imediatos; no Base, Cansaço e Dor seguem o calendário."
+    },
+    {
+      "id": "FAQ-04",
+      "category": "Compra e acesso",
+      "question": "Por quanto tempo tenho acesso?",
+      "answer": "O acesso dura 365 dias a partir da aprovação da compra. As liberações posteriores de materiais não reiniciam esse prazo. Os guias avulsos também têm 365 dias de acesso desde a aprovação de sua compra."
+    },
+    {
+      "id": "FAQ-05",
+      "category": "Compra e acesso",
+      "question": "Quando os materiais são liberados?",
+      "answer": "Aulas, atividades e livros são liberados nos Dias 1, 4, 7 e 8. Esses marcos correspondem a zero, três, seis e sete dias de espera desde a aprovação. No Base, Cansaço entra no Dia 4 e Dor e movimento no Dia 7. Consulta o calendário completo na página do curso."
+    },
+    {
+      "id": "FAQ-06",
+      "category": "Compra e acesso",
+      "question": "Como escolho o Completo?",
+      "answer": "Base e Completo usam o mesmo checkout. Para o Completo, seleciona o adicional de {{additional:completo}} correspondente à versão, totalizando {{price:completo}} à vista. Os cinco guias já estão incluídos; não é necessário acrescentar Hormônios novamente. Confere a seleção e o total antes de pagar."
+    },
+    {
+      "id": "FAQ-07",
+      "category": "Compra e acesso",
+      "question": "Posso comprar apenas um guia?",
+      "answer": "Sim. Emagrecimento com medicação, Hormônios e emagrecimento e Depois de emagrecer têm compra avulsa. Essa compra inclui somente o guia escolhido e as orientações de acesso, sem aulas, outros livros ou demais guias."
+    },
+    {
+      "id": "FAQ-08",
+      "category": "Compra e acesso",
+      "question": "É possível parcelar?",
+      "answer": "As opções de parcelamento e o valor total são apresentados no checkout antes da confirmação da compra. Confere as condições disponíveis para a versão e os adicionais escolhidos."
+    },
+    {
+      "id": "FAQ-09",
+      "category": "Atendimento",
+      "question": "Preciso comprar o curso para procurar atendimento?",
+      "answer": "Não. A Consultoria pode ser procurada diretamente. Para o acompanhamento de quatro meses, a DocLiv informa a avaliação necessária para iniciar e as condições específicas antes da contratação."
+    },
+    {
+      "id": "FAQ-10",
+      "category": "Atendimento",
+      "question": "Terei consulta com nutricionista e profissional de educação física?",
+      "answer": "Na Consultoria, as consultas incluídas são médicas. O nutricionista elabora o plano alimentar e o profissional de educação física elabora o treino. Consultas individuais separadas com esses profissionais não estão incluídas nesta oferta."
+    },
+    {
+      "id": "FAQ-11",
+      "category": "Atendimento",
+      "question": "Quando recebo os planos da Consultoria?",
+      "answer": "A entrega está prevista em até sete [[TIPO_DE_DIAS_ENTREGA]] após a consulta. O retorno médico acontece 15 [[TIPO_DE_DIAS_RETORNO]] após [[MARCO_ENTREGA_PLANOS]], e o suporte dura 30 [[TIPO_DE_DIAS_SUPORTE]] a partir desse marco. As regras completas são apresentadas antes da contratação."
+    },
+    {
+      "id": "FAQ-12",
+      "category": "Atendimento",
+      "question": "Medicamentos e exames estão incluídos?",
+      "answer": "Não. Quando indicados, medicamentos e exames são adquiridos ou pagos separadamente pelo paciente. Não há promessa de prescrição de medicamento específico."
+    },
+    {
+      "id": "FAQ-13",
+      "category": "Suporte",
+      "question": "Como peço ajuda ou solicito cancelamento?",
+      "answer": "Usa os canais da página Contato. Para cancelamentos e reembolsos, consulta também a página específica. No primeiro contato, não é necessário enviar exames ou informações clínicas."
+    },
+    {
+      "id": "FAQ-14",
+      "category": "Atendimento",
+      "question": "Sou obrigado a contratar o acompanhamento depois da Consultoria?",
+      "answer": "Não. O acompanhamento de quatro meses é opcional e tem condições próprias de contratação. A decisão considera a avaliação individual."
+    }
+  ],
+  "samples": [
+    {
+      "theme": "Alimentação",
+      "title": "Quando o jantar fica para a última hora",
+      "question": "Em que dia da semana tu costumas chegar em casa sem saber o que vais comer?",
+      "action": "Escolhe uma refeição simples de que tu gostas e anota o que precisas deixar pronto para esse dia."
+    },
+    {
+      "theme": "Movimento",
+      "title": "Um espaço para caminhar",
+      "question": "Em qual momento do dia tu já sais de casa e costumas ter alguns minutos livres?",
+      "action": "Pensa em um trajeto que poderias fazer a pé, considerando teus limites. Anota o dia e o horário em que seria mais fácil experimentar."
+    },
+    {
+      "theme": "Sono",
+      "title": "O que vem antes de dormir?",
+      "question": "Pensa na última noite. O que estavas fazendo quando percebeste que já tinha passado da hora de deitar?",
+      "action": "Escolhe uma tarefa da noite que poderia terminar um pouco mais cedo. Observa se isso abre espaço para o descanso."
+    },
+    {
+      "theme": "Hábitos",
+      "title": "Uma prioridade para esta semana",
+      "question": "Quando a semana aperta, qual cuidado costuma ficar para depois?",
+      "action": "Escolhe uma única ação. Completa a frase para ti: “Nesta semana, vou ___ no dia ___, depois de ___.”"
+    }
+  ],
+  "comparison": [
+    [
+      "10 aulas",
+      "Incluídas; progressivas",
+      "Incluídas; mesmo calendário"
+    ],
+    [
+      "Livro ampliado",
+      "Incluído; progressivo",
+      "Incluído; mesmo calendário"
+    ],
+    [
+      "Caderno de atividades",
+      "Incluído; atividades por etapa",
+      "Incluído; mesmo calendário"
+    ],
+    [
+      "Além da balança",
+      "Incluído; primeira parte e depois integral",
+      "Incluído; mesmo calendário"
+    ],
+    [
+      "Cansaço",
+      "Incluído; Dia 4",
+      "Incluído; imediato"
+    ],
+    [
+      "Dor e movimento",
+      "Incluído; Dia 7",
+      "Incluído; imediato"
+    ],
+    [
+      "Emagrecimento com medicação",
+      "Não incluído; compra opcional avulsa",
+      "Incluído; imediato"
+    ],
+    [
+      "Hormônios e emagrecimento",
+      "Não incluído; compra opcional avulsa ou adicional próprio",
+      "Incluído; imediato"
+    ],
+    [
+      "Depois de emagrecer",
+      "Não incluído; compra opcional avulsa",
+      "Incluído; imediato"
+    ],
+    [
+      "Acesso",
+      "365 dias desde a aprovação",
+      "365 dias desde a aprovação"
+    ],
+    [
+      "Consulta ou plano individualizado",
+      "Não incluídos",
+      "Não incluídos"
+    ],
+    [
+      "Valor à vista documentado",
+      "{{price:base}}",
+      "{{price:completo}}"
+    ],
+    [
+      "Forma de escolher",
+      "Checkout Base, sem adicionais desejados",
+      "Mesmo checkout; selecionar Completo, adicional de {{additional:completo}}"
+    ]
+  ],
+  "calendar": [
+    {
+      "day": "Dia 1",
+      "wait": "0 dias",
+      "lessons": "1 a 3",
+      "book": "Primeira parte do livro",
+      "extra": "Primeira metade",
+      "guides": "Sem liberação neste marco"
+    },
+    {
+      "day": "Dia 4",
+      "wait": "3 dias",
+      "lessons": "4 e 5",
+      "book": "Continuação do livro",
+      "extra": "Integral",
+      "guides": "Cansaço"
+    },
+    {
+      "day": "Dia 7",
+      "wait": "6 dias",
+      "lessons": "6 e 7",
+      "book": "Continuação do livro",
+      "extra": "Já integral",
+      "guides": "Dor e movimento"
+    },
+    {
+      "day": "Dia 8",
+      "wait": "7 dias",
+      "lessons": "8 a 10",
+      "book": "Livro completo",
+      "extra": "Já integral",
+      "guides": "Já liberados"
+    }
+  ],
+  "links": {
+    "base": "https://pay.kiwify.com.br/t5IY204",
+    "completo": "https://pay.kiwify.com.br/t5IY204",
+    "medicacao": "https://pay.kiwify.com.br/TUtsETF",
+    "hormonios": "https://pay.kiwify.com.br/8PFFNL2",
+    "manutencao": "https://pay.kiwify.com.br/gFyI08R",
+    "whatsapp": "https://wa.me/5555999070106",
+    "email": "mailto:arsandrodoc@gmail.com",
+    "instagram": "https://www.instagram.com/dr.sandropj/",
+    "aluno": null,
+    "canonical": null
+  },
+  "products": [
+    {
+      "id": "base",
+      "name": "Método Regular Base",
+      "price": 279.9,
+      "cta": "Comprar Método Regular Base"
+    },
+    {
+      "id": "completo",
+      "name": "Método Regular Completo",
+      "price": 359.9,
+      "cta": "Escolher Completo no checkout"
+    },
+    {
+      "id": "medicacao",
+      "name": "Emagrecimento com medicação",
+      "price": 29.9,
+      "description": "Conteúdo educativo para compreender o papel da medicação no cuidado individualizado."
+    },
+    {
+      "id": "hormonios",
+      "name": "Hormônios e emagrecimento",
+      "price": 49.9,
+      "description": "Conteúdo educativo para compreender o tema e organizar dúvidas para uma avaliação profissional."
+    },
+    {
+      "id": "manutencao",
+      "name": "Depois de emagrecer",
+      "price": 29.9,
+      "description": "Reflexões sobre continuidade, hábitos e manutenção após o emagrecimento."
+    }
+  ],
+  "messages": {
+    "consultoria": "Olá, gostaria de informações sobre a Consultoria Completa DocLiv e disponibilidade de atendimento.",
+    "acompanhamento": "Olá, gostaria de conhecer as condições do acompanhamento de quatro meses.",
+    "curso": "Olá, preciso de ajuda com compra ou acesso ao Método Regular."
+  },
+  "release": {
+    "B01": {
+      "approved": false,
+      "evidence": null
+    },
+    "B02": {
+      "approved": false,
+      "evidence": null
+    },
+    "B03": {
+      "approved": false,
+      "evidence": null
+    },
+    "B04": {
+      "approved": false,
+      "evidence": null
+    },
+    "B05": {
+      "approved": false,
+      "evidence": null
+    },
+    "B06": {
+      "approved": false,
+      "evidence": null
+    },
+    "B07": {
+      "approved": false,
+      "evidence": null
+    },
+    "B08": {
+      "approved": false,
+      "evidence": null
+    }
+  }
+}
