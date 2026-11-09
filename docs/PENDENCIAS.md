@@ -1,10 +1,10 @@
 # Pendências de integração e liberação
 
-A interface está implementada para revisão. Não houve compra, matrícula, envio de mensagem, agendamento, alteração da Kiwify ou publicação. Os cinco preços à vista, os cinco links de compra (incluindo o exclusivo do Completo) e os contatos públicos foram confirmados pelo usuário em 08/11/2026. Essa confirmação não substitui testes de pagamento, entrega, parcelamento ou resposta dos canais.
+A interface está implementada para revisão. Não houve compra, matrícula, envio de mensagem, agendamento, alteração da Kiwify ou publicação. Os cinco preços e contatos públicos estão configurados. A regra vigente utiliza quatro URLs de checkout: Base com adicional opcional do Completo e três guias avulsos. A inspeção pública confirmou os valores; não substitui pagamento, entrega ou resposta dos canais. Ver relatório de integrações de 09/11/2026.
 
 | Bloqueio | Confirmação necessária |
 |---|---|
-| B01 — Checkout | Testar a correspondência dos cinco produtos/preços confirmados, pagamentos, parcelamento e adicionais eventualmente presentes nos checkouts próprios; não orientar upgrade de R$ 80 no site |
+| B01 — Checkout | Base + adicional de R$ 80 observado; corrigir a possibilidade de somar guias já incluídos no Completo. Confirmar pagamentos, entrega, parcelas, cancelamento e reembolso |
 | B02 — Entrega | Arquivos finais, acessibilidade dos vídeos/PDFs, permissões Base/Completo/avulsos, marcos 0/3/6/7 dias, expiração em 365 dias e compras sucessivas |
 | B03 — Consultoria | Preço vigente, profissionais, dias corridos/úteis, marco de entrega, retorno, suporte, agenda, regras contratuais e teleconsulta |
 | B04 — Acompanhamento | Avaliação de entrada, investimento, início/fim, agenda, feriados e condições contratuais |

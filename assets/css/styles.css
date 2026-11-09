@@ -5,3 +5,6 @@
 @media(min-width:1280px){body.enhanced:not(.compact-header) .desktop-nav{display:flex!important;gap:var(--s3);margin-left:auto;align-items:center}body.enhanced:not(.compact-header) .desktop-nav a{font-size:var(--small);padding-block:var(--s3);white-space:nowrap;text-decoration:none}body.enhanced:not(.compact-header) .desktop-nav [aria-current=page]{text-decoration:underline;text-underline-offset:var(--s2)}body.enhanced:not(.compact-header) .menu-toggle{display:none}body.enhanced:not(.compact-header) .header-cta{display:inline-flex!important;font-size:var(--small);padding-inline:var(--s3)}.header-inner{min-height:5.5rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{header,footer,.review-note,dialog,.topic-controls,.actions{display:none!important}.section{padding-block:var(--s5)}.sample[hidden],.faq-answer[hidden]{display:block!important}.contrast{background:transparent;color:var(--text)}.contrast h2{color:var(--green)}}
+
+/* Native disclosure avoids layout shifts while JavaScript loads. */
+.faq-toggle{list-style:none;cursor:pointer}.faq-toggle::-webkit-details-marker{display:none}.faq-toggle h3{font:600 1rem/1.4 var(--sans)}.faq-toggle span::before{content:"+"}.faq-item[open]>.faq-toggle span::before{content:"−"}

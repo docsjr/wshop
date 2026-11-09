@@ -18,7 +18,20 @@ if (menu && trigger && close && typeof menu.showModal === 'function') {
     trigger.focus();
   });
   menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.close()));
-  // Native dialog provides focus containment, inert background and Escape handling.
+  // Keep Tab at the dialog boundaries; native dialog handles inert and Escape.
+  menu.addEventListener('keydown', event => {
+    if (event.key !== 'Tab') return;
+    const controls = [...menu.querySelectorAll('button:not([disabled]), a[href]')];
+    const first = controls[0];
+    const last = controls.at(-1);
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
   const header = document.querySelector('.header-inner');
   const reflow = () => {
     document.body.classList.remove('compact-header');
@@ -28,19 +41,6 @@ if (menu && trigger && close && typeof menu.showModal === 'function') {
   document.fonts?.ready.then(reflow);
   reflow();
 }
-document.querySelectorAll('.faq-toggle').forEach(button => {
-  const answer = document.getElementById(button.getAttribute('aria-controls'));
-  if (!answer) return;
-  button.disabled = false;
-  answer.hidden = true;
-  button.setAttribute('aria-expanded', 'false');
-  button.querySelector('span').textContent = '+';
-  button.addEventListener('click', () => {
-    answer.hidden = !answer.hidden;
-    button.setAttribute('aria-expanded', String(!answer.hidden));
-    button.querySelector('span').textContent = answer.hidden ? '+' : '−';
-  });
-});
 document.querySelectorAll('.demonstration').forEach(demo => {
   const controls = demo.querySelector('.topic-controls');
   const buttons = [...controls.querySelectorAll('button')];

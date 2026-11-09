@@ -1,0 +1,1094 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "client": 305,
+    "path": "/",
+    "scroll": 305
+  },
+  {
+    "route": "/",
+    "width": 360,
+    "client": 345,
+    "path": "/",
+    "scroll": 345
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "client": 375,
+    "path": "/",
+    "scroll": 375
+  },
+  {
+    "route": "/",
+    "width": 599,
+    "client": 584,
+    "path": "/",
+    "scroll": 584
+  },
+  {
+    "route": "/",
+    "width": 600,
+    "client": 585,
+    "path": "/",
+    "scroll": 585
+  },
+  {
+    "route": "/",
+    "width": 767,
+    "client": 752,
+    "path": "/",
+    "scroll": 752
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "client": 753,
+    "path": "/",
+    "scroll": 753
+  },
+  {
+    "route": "/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/",
+    "scroll": 1008
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/",
+    "scroll": 1009
+  },
+  {
+    "route": "/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/",
+    "scroll": 1264
+  },
+  {
+    "route": "/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/",
+    "scroll": 1265
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/",
+    "scroll": 1425
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 320,
+    "client": 305,
+    "path": "/metodo-regular/",
+    "scroll": 305
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 360,
+    "client": 345,
+    "path": "/metodo-regular/",
+    "scroll": 345
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 390,
+    "client": 375,
+    "path": "/metodo-regular/",
+    "scroll": 375
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 599,
+    "client": 584,
+    "path": "/metodo-regular/",
+    "scroll": 584
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 600,
+    "client": 585,
+    "path": "/metodo-regular/",
+    "scroll": 585
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 767,
+    "client": 752,
+    "path": "/metodo-regular/",
+    "scroll": 752
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 768,
+    "client": 753,
+    "path": "/metodo-regular/",
+    "scroll": 753
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/metodo-regular/",
+    "scroll": 1008
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/metodo-regular/",
+    "scroll": 1009
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/metodo-regular/",
+    "scroll": 1264
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/metodo-regular/",
+    "scroll": 1265
+  },
+  {
+    "route": "/metodo-regular/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/metodo-regular/",
+    "scroll": 1425
+  },
+  {
+    "route": "/consultoria/",
+    "width": 320,
+    "client": 305,
+    "path": "/consultoria/",
+    "scroll": 305
+  },
+  {
+    "route": "/consultoria/",
+    "width": 360,
+    "client": 345,
+    "path": "/consultoria/",
+    "scroll": 345
+  },
+  {
+    "route": "/consultoria/",
+    "width": 390,
+    "client": 375,
+    "path": "/consultoria/",
+    "scroll": 375
+  },
+  {
+    "route": "/consultoria/",
+    "width": 599,
+    "client": 584,
+    "path": "/consultoria/",
+    "scroll": 584
+  },
+  {
+    "route": "/consultoria/",
+    "width": 600,
+    "client": 585,
+    "path": "/consultoria/",
+    "scroll": 585
+  },
+  {
+    "route": "/consultoria/",
+    "width": 767,
+    "client": 752,
+    "path": "/consultoria/",
+    "scroll": 752
+  },
+  {
+    "route": "/consultoria/",
+    "width": 768,
+    "client": 753,
+    "path": "/consultoria/",
+    "scroll": 753
+  },
+  {
+    "route": "/consultoria/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/consultoria/",
+    "scroll": 1008
+  },
+  {
+    "route": "/consultoria/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/consultoria/",
+    "scroll": 1009
+  },
+  {
+    "route": "/consultoria/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/consultoria/",
+    "scroll": 1264
+  },
+  {
+    "route": "/consultoria/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/consultoria/",
+    "scroll": 1265
+  },
+  {
+    "route": "/consultoria/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/consultoria/",
+    "scroll": 1425
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 320,
+    "client": 305,
+    "path": "/acompanhamento/",
+    "scroll": 305
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 360,
+    "client": 345,
+    "path": "/acompanhamento/",
+    "scroll": 345
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 390,
+    "client": 375,
+    "path": "/acompanhamento/",
+    "scroll": 375
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 599,
+    "client": 584,
+    "path": "/acompanhamento/",
+    "scroll": 584
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 600,
+    "client": 585,
+    "path": "/acompanhamento/",
+    "scroll": 585
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 767,
+    "client": 752,
+    "path": "/acompanhamento/",
+    "scroll": 752
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 768,
+    "client": 753,
+    "path": "/acompanhamento/",
+    "scroll": 753
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/acompanhamento/",
+    "scroll": 1008
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/acompanhamento/",
+    "scroll": 1009
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/acompanhamento/",
+    "scroll": 1264
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/acompanhamento/",
+    "scroll": 1265
+  },
+  {
+    "route": "/acompanhamento/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/acompanhamento/",
+    "scroll": 1425
+  },
+  {
+    "route": "/sobre/",
+    "width": 320,
+    "client": 305,
+    "path": "/sobre/",
+    "scroll": 305
+  },
+  {
+    "route": "/sobre/",
+    "width": 360,
+    "client": 345,
+    "path": "/sobre/",
+    "scroll": 345
+  },
+  {
+    "route": "/sobre/",
+    "width": 390,
+    "client": 375,
+    "path": "/sobre/",
+    "scroll": 375
+  },
+  {
+    "route": "/sobre/",
+    "width": 599,
+    "client": 584,
+    "path": "/sobre/",
+    "scroll": 584
+  },
+  {
+    "route": "/sobre/",
+    "width": 600,
+    "client": 585,
+    "path": "/sobre/",
+    "scroll": 585
+  },
+  {
+    "route": "/sobre/",
+    "width": 767,
+    "client": 752,
+    "path": "/sobre/",
+    "scroll": 752
+  },
+  {
+    "route": "/sobre/",
+    "width": 768,
+    "client": 753,
+    "path": "/sobre/",
+    "scroll": 753
+  },
+  {
+    "route": "/sobre/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/sobre/",
+    "scroll": 1008
+  },
+  {
+    "route": "/sobre/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/sobre/",
+    "scroll": 1009
+  },
+  {
+    "route": "/sobre/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/sobre/",
+    "scroll": 1264
+  },
+  {
+    "route": "/sobre/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/sobre/",
+    "scroll": 1265
+  },
+  {
+    "route": "/sobre/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/sobre/",
+    "scroll": 1425
+  },
+  {
+    "route": "/duvidas/",
+    "width": 320,
+    "client": 305,
+    "path": "/duvidas/",
+    "scroll": 305
+  },
+  {
+    "route": "/duvidas/",
+    "width": 360,
+    "client": 345,
+    "path": "/duvidas/",
+    "scroll": 345
+  },
+  {
+    "route": "/duvidas/",
+    "width": 390,
+    "client": 375,
+    "path": "/duvidas/",
+    "scroll": 375
+  },
+  {
+    "route": "/duvidas/",
+    "width": 599,
+    "client": 584,
+    "path": "/duvidas/",
+    "scroll": 584
+  },
+  {
+    "route": "/duvidas/",
+    "width": 600,
+    "client": 585,
+    "path": "/duvidas/",
+    "scroll": 585
+  },
+  {
+    "route": "/duvidas/",
+    "width": 767,
+    "client": 752,
+    "path": "/duvidas/",
+    "scroll": 752
+  },
+  {
+    "route": "/duvidas/",
+    "width": 768,
+    "client": 753,
+    "path": "/duvidas/",
+    "scroll": 753
+  },
+  {
+    "route": "/duvidas/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/duvidas/",
+    "scroll": 1008
+  },
+  {
+    "route": "/duvidas/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/duvidas/",
+    "scroll": 1009
+  },
+  {
+    "route": "/duvidas/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/duvidas/",
+    "scroll": 1264
+  },
+  {
+    "route": "/duvidas/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/duvidas/",
+    "scroll": 1265
+  },
+  {
+    "route": "/duvidas/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/duvidas/",
+    "scroll": 1425
+  },
+  {
+    "route": "/contato/",
+    "width": 320,
+    "client": 305,
+    "path": "/contato/",
+    "scroll": 305
+  },
+  {
+    "route": "/contato/",
+    "width": 360,
+    "client": 345,
+    "path": "/contato/",
+    "scroll": 345
+  },
+  {
+    "route": "/contato/",
+    "width": 390,
+    "client": 375,
+    "path": "/contato/",
+    "scroll": 375
+  },
+  {
+    "route": "/contato/",
+    "width": 599,
+    "client": 584,
+    "path": "/contato/",
+    "scroll": 584
+  },
+  {
+    "route": "/contato/",
+    "width": 600,
+    "client": 585,
+    "path": "/contato/",
+    "scroll": 585
+  },
+  {
+    "route": "/contato/",
+    "width": 767,
+    "client": 752,
+    "path": "/contato/",
+    "scroll": 752
+  },
+  {
+    "route": "/contato/",
+    "width": 768,
+    "client": 753,
+    "path": "/contato/",
+    "scroll": 753
+  },
+  {
+    "route": "/contato/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/contato/",
+    "scroll": 1008
+  },
+  {
+    "route": "/contato/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/contato/",
+    "scroll": 1009
+  },
+  {
+    "route": "/contato/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/contato/",
+    "scroll": 1264
+  },
+  {
+    "route": "/contato/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/contato/",
+    "scroll": 1265
+  },
+  {
+    "route": "/contato/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/contato/",
+    "scroll": 1425
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 320,
+    "client": 305,
+    "path": "/termos-de-uso/",
+    "scroll": 305
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 360,
+    "client": 345,
+    "path": "/termos-de-uso/",
+    "scroll": 345
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 390,
+    "client": 375,
+    "path": "/termos-de-uso/",
+    "scroll": 375
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 599,
+    "client": 584,
+    "path": "/termos-de-uso/",
+    "scroll": 584
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 600,
+    "client": 585,
+    "path": "/termos-de-uso/",
+    "scroll": 585
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 767,
+    "client": 752,
+    "path": "/termos-de-uso/",
+    "scroll": 752
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 768,
+    "client": 753,
+    "path": "/termos-de-uso/",
+    "scroll": 753
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/termos-de-uso/",
+    "scroll": 1008
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/termos-de-uso/",
+    "scroll": 1009
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/termos-de-uso/",
+    "scroll": 1264
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/termos-de-uso/",
+    "scroll": 1265
+  },
+  {
+    "route": "/termos-de-uso/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/termos-de-uso/",
+    "scroll": 1425
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 320,
+    "client": 305,
+    "path": "/termos-de-compra/",
+    "scroll": 305
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 360,
+    "client": 345,
+    "path": "/termos-de-compra/",
+    "scroll": 345
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 390,
+    "client": 375,
+    "path": "/termos-de-compra/",
+    "scroll": 375
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 599,
+    "client": 584,
+    "path": "/termos-de-compra/",
+    "scroll": 584
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 600,
+    "client": 585,
+    "path": "/termos-de-compra/",
+    "scroll": 585
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 767,
+    "client": 752,
+    "path": "/termos-de-compra/",
+    "scroll": 752
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 768,
+    "client": 753,
+    "path": "/termos-de-compra/",
+    "scroll": 753
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/termos-de-compra/",
+    "scroll": 1008
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/termos-de-compra/",
+    "scroll": 1009
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/termos-de-compra/",
+    "scroll": 1264
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/termos-de-compra/",
+    "scroll": 1265
+  },
+  {
+    "route": "/termos-de-compra/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/termos-de-compra/",
+    "scroll": 1425
+  },
+  {
+    "route": "/privacidade/",
+    "width": 320,
+    "client": 305,
+    "path": "/privacidade/",
+    "scroll": 305
+  },
+  {
+    "route": "/privacidade/",
+    "width": 360,
+    "client": 345,
+    "path": "/privacidade/",
+    "scroll": 345
+  },
+  {
+    "route": "/privacidade/",
+    "width": 390,
+    "client": 375,
+    "path": "/privacidade/",
+    "scroll": 375
+  },
+  {
+    "route": "/privacidade/",
+    "width": 599,
+    "client": 584,
+    "path": "/privacidade/",
+    "scroll": 584
+  },
+  {
+    "route": "/privacidade/",
+    "width": 600,
+    "client": 585,
+    "path": "/privacidade/",
+    "scroll": 585
+  },
+  {
+    "route": "/privacidade/",
+    "width": 767,
+    "client": 752,
+    "path": "/privacidade/",
+    "scroll": 752
+  },
+  {
+    "route": "/privacidade/",
+    "width": 768,
+    "client": 753,
+    "path": "/privacidade/",
+    "scroll": 753
+  },
+  {
+    "route": "/privacidade/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/privacidade/",
+    "scroll": 1008
+  },
+  {
+    "route": "/privacidade/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/privacidade/",
+    "scroll": 1009
+  },
+  {
+    "route": "/privacidade/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/privacidade/",
+    "scroll": 1264
+  },
+  {
+    "route": "/privacidade/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/privacidade/",
+    "scroll": 1265
+  },
+  {
+    "route": "/privacidade/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/privacidade/",
+    "scroll": 1425
+  },
+  {
+    "route": "/cookies/",
+    "width": 320,
+    "client": 305,
+    "path": "/cookies/",
+    "scroll": 305
+  },
+  {
+    "route": "/cookies/",
+    "width": 360,
+    "client": 345,
+    "path": "/cookies/",
+    "scroll": 345
+  },
+  {
+    "route": "/cookies/",
+    "width": 390,
+    "client": 375,
+    "path": "/cookies/",
+    "scroll": 375
+  },
+  {
+    "route": "/cookies/",
+    "width": 599,
+    "client": 584,
+    "path": "/cookies/",
+    "scroll": 584
+  },
+  {
+    "route": "/cookies/",
+    "width": 600,
+    "client": 585,
+    "path": "/cookies/",
+    "scroll": 585
+  },
+  {
+    "route": "/cookies/",
+    "width": 767,
+    "client": 752,
+    "path": "/cookies/",
+    "scroll": 752
+  },
+  {
+    "route": "/cookies/",
+    "width": 768,
+    "client": 753,
+    "path": "/cookies/",
+    "scroll": 753
+  },
+  {
+    "route": "/cookies/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/cookies/",
+    "scroll": 1008
+  },
+  {
+    "route": "/cookies/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/cookies/",
+    "scroll": 1009
+  },
+  {
+    "route": "/cookies/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/cookies/",
+    "scroll": 1264
+  },
+  {
+    "route": "/cookies/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/cookies/",
+    "scroll": 1265
+  },
+  {
+    "route": "/cookies/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/cookies/",
+    "scroll": 1425
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 320,
+    "client": 305,
+    "path": "/cancelamentos/",
+    "scroll": 305
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 360,
+    "client": 345,
+    "path": "/cancelamentos/",
+    "scroll": 345
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 390,
+    "client": 375,
+    "path": "/cancelamentos/",
+    "scroll": 375
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 599,
+    "client": 584,
+    "path": "/cancelamentos/",
+    "scroll": 584
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 600,
+    "client": 585,
+    "path": "/cancelamentos/",
+    "scroll": 585
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 767,
+    "client": 752,
+    "path": "/cancelamentos/",
+    "scroll": 752
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 768,
+    "client": 753,
+    "path": "/cancelamentos/",
+    "scroll": 753
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/cancelamentos/",
+    "scroll": 1008
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/cancelamentos/",
+    "scroll": 1009
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/cancelamentos/",
+    "scroll": 1264
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/cancelamentos/",
+    "scroll": 1265
+  },
+  {
+    "route": "/cancelamentos/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/cancelamentos/",
+    "scroll": 1425
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 320,
+    "client": 305,
+    "path": "/atendimento-online/",
+    "scroll": 305
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 360,
+    "client": 345,
+    "path": "/atendimento-online/",
+    "scroll": 345
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 390,
+    "client": 375,
+    "path": "/atendimento-online/",
+    "scroll": 375
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 599,
+    "client": 584,
+    "path": "/atendimento-online/",
+    "scroll": 584
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 600,
+    "client": 585,
+    "path": "/atendimento-online/",
+    "scroll": 585
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 767,
+    "client": 752,
+    "path": "/atendimento-online/",
+    "scroll": 752
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 768,
+    "client": 753,
+    "path": "/atendimento-online/",
+    "scroll": 753
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 1023,
+    "client": 1008,
+    "path": "/atendimento-online/",
+    "scroll": 1008
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 1024,
+    "client": 1009,
+    "path": "/atendimento-online/",
+    "scroll": 1009
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 1279,
+    "client": 1264,
+    "path": "/atendimento-online/",
+    "scroll": 1264
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 1280,
+    "client": 1265,
+    "path": "/atendimento-online/",
+    "scroll": 1265
+  },
+  {
+    "route": "/atendimento-online/",
+    "width": 1440,
+    "client": 1425,
+    "path": "/atendimento-online/",
+    "scroll": 1425
+  }
+]

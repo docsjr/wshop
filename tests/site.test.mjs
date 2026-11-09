@@ -24,16 +24,19 @@ test('todos os destinos locais, âncoras e assets existem',()=>{
  }
  for(const path of files.filter(f=>f.endsWith('.css')))for(const [,relative] of html(path).matchAll(/url\(['"]?([^'"\)]+)['"]?\)/g))assert.ok(existsSync(resolve(dirname(path),relative)),relative);
 });
-test('Kiwify: cinco checkouts próprios, preços confirmados e nenhuma instrução antiga de upgrade',()=>{
+test('Kiwify: Base com upgrade opcional e três checkouts avulsos',()=>{
  const s=html(join(root,'metodo-regular/index.html'));
- const expected={base:['t5IY204',279.90],completo:['pE5lrFM',359.90],medicacao:['TUtsETF',29.90],hormonios:['8PFFNL2',49.90],manutencao:['gFyI08R',29.90]};
+ const expected={base:['t5IY204',279.90],completo:['t5IY204',359.90],medicacao:['TUtsETF',29.90],hormonios:['8PFFNL2',49.90],manutencao:['gFyI08R',29.90]};
  for(const [id,[code,price]] of Object.entries(expected)){
   assert.equal(content.links[id],'https://pay.kiwify.com.br/'+code);
   assert.equal(content.products.find(p=>p.id===id).price,price);
   assert.ok(s.includes('href="'+content.links[id]+'"'));
  }
- assert.match(s,/<a[^>]+href="https:\/\/pay.kiwify.com.br\/pE5lrFM"[^>]*>Comprar Método Regular Completo<\/a>/);
- for(const file of pages)assert.doesNotMatch(html(file),/mesmo checkout|mesma página de pagamento|adicional de R\$ 80|Escolher Completo no checkout|Seleciona a opção <strong>Método Regular Completo/);
+ assert.equal(content.links.base,content.links.completo);
+ assert.equal(content.products[0].price+content.commerce.upgradeAmount,content.products[1].price);
+ assert.match(s,/<a[^>]+href="https:\/\/pay.kiwify.com.br\/t5IY204"[^>]*>Escolher Completo no checkout<\/a>/);
+ assert.match(s,/adicional de R\$ 80,00/);
+ for(const file of pages)assert.doesNotMatch(html(file),/pE5lrFM|checkout próprio|checkout exclusivo do Completo/);
  assert.ok(!s.includes('target="_blank"'));
 });
 test('contatos públicos confirmados na página de contato e no rodapé',()=>{
@@ -42,9 +45,10 @@ test('contatos públicos confirmados na página de contato e no rodapé',()=>{
  assert.match(s,/https:\/\/www.instagram.com\/dr.sandropj\//);
  assert.equal(content.links.whatsapp,'https://wa.me/5555999070106');
 });
-test('FAQ usa conteúdo único e associações acessíveis',()=>{
+test('FAQ nativa funciona sem JavaScript e mantém conteúdo único',()=>{
  for(const file of pages){const s=html(file);for(const [,state,id] of s.matchAll(/aria-expanded="(true|false)" aria-controls="([^"]+)"/g)){assert.ok(ids(s).includes(id));assert.equal(state,'true');}}
  assert.equal(content.faqs.length,14);
+ const faq=html(join(root,'duvidas/index.html'));assert.equal((faq.match(/<details class="faq-item">/g)||[]).length,14);assert.equal((faq.match(/<summary class="faq-toggle">/g)||[]).length,14);
 });
 test('sem JavaScript, respostas e quatro amostras permanecem legíveis',()=>{
  const s=html(join(root,'metodo-regular/index.html'));for(const sample of content.samples)assert.ok(s.includes(sample.question));assert.equal((s.match(/class="sample"/g)||[]).length,4);assert.ok(!/<(?:article|div)[^>]*class="(?:sample|faq-answer)"[^>]*hidden/.test(s));
@@ -76,4 +80,31 @@ test('servidor: 200, redirecionamento, 404, HEAD, método e CSP',async()=>{
  assert.equal((await request('/')).status,200);const redirect=await request('/metodo-regular');assert.equal(redirect.status,308);assert.equal(redirect.headers.Location,'/metodo-regular/');
  const missing=await request('/nao-existe');assert.equal(missing.status,404);assert.match(missing.body.toString(),/Página não encontrada/);assert.equal((await request('/','POST')).status,405);assert.equal((await request('/','HEAD')).body,undefined);
  assert.match(missing.headers['Content-Security-Policy'],/form-action 'none'/);assert.equal(missing.headers['X-Robots-Tag'],'noindex, nofollow');assert.equal((await request('/%zz')).status,404);
+});
+
+test('todo CTA de compra aponta ao produto correspondente',()=>{
+ const expected=new Map(content.products.map(p=>[p.id==='base'?p.cta:p.id==='completo'?p.cta:'Comprar guia '+p.name,content.links[p.id]]));
+ const seen=new Set();
+ for(const file of pages)for(const [,href,body] of html(file).matchAll(/<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)){
+  const label=body.replace(/<[^>]+>/g,'').trim();
+  if(expected.has(label)){assert.equal(href,expected.get(label));seen.add(label);}
+  if(href.startsWith('https://pay.kiwify.com.br/'))assert.ok(expected.has(label),label);
+ }
+ assert.equal(seen.size,5);
+});
+test('CTAs de atendimento preservam telefone e mensagem oficiais',()=>{
+ const expected={'Consultar disponibilidade da consultoria':'consultoria','Consultar condições do acompanhamento':'acompanhamento','Pedir ajuda com o curso':'curso'};
+ const seen=new Set();
+ for(const file of pages)for(const [,href,label] of html(file).matchAll(/<a[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)){
+  if(!href.startsWith('https://wa.me/'))continue;
+  const target=new URL(href.replaceAll('&amp;','&'));assert.equal(target.pathname,'/5555999070106');
+  if(expected[label]){assert.equal(target.searchParams.get('text'),content.messages[expected[label]]);seen.add(label);}
+  else assert.equal(target.search,'');
+ }
+ assert.equal(seen.size,3);
+});
+test('destinos ausentes e texto não confiável não viram links ativos',async()=>{
+ const {Button,escape}=await import('../src/components.mjs');
+ assert.doesNotMatch(Button('Área do aluno'),/<a/);assert.match(Button('Área do aluno'),/destino pendente/);
+ assert.equal(escape('<script>"&'), '&lt;script&gt;&quot;&amp;');
 });

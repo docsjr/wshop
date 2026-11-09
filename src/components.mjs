@@ -22,7 +22,7 @@ export function Button(label, href=destinations[label], variant='primary') {
  return href ? `<a class="button ${variant}" href="${escape(href)}">${escape(label)}</a>` : `<span class="unavailable">${escape(label)} — destino pendente de confirmação</span>`;
 }
 function inline(text) {
- const priced = text.replace(/\{\{price:([a-z]+)\}\}/g, (_,id) => { const product=data.products.find(p=>p.id===id); if(!product) throw new Error(`Produto desconhecido: ${id}`); return money(product.price); });
+ const priced = text.replace(/\{\{(price|additional):([a-z]+)\}\}/g, (_,kind,id) => { const product=data.products.find(p=>p.id===id); if(!product) throw new Error(`Produto desconhecido: ${id}`); return money(kind==='additional'?data.commerce.upgradeAmount:product.price); });
  let result = escape(priced).replace(/\[R\d+\]/g,'').replace(/\[\[([^\]]+)\]\]/g,(_,name)=>`<mark class="pending" title="Dado ainda não fornecido">A confirmar: ${name.toLowerCase().replaceAll('_',' ')}</mark>`);
  result=result.replace(/\*\*(.+?)\*\*/g,(_,value)=>{
    const label=value.replace(/\.$/,'');
@@ -40,10 +40,10 @@ export function OfferCard(text) {
 }
 export function FAQ(ids, prefix='faq') {
  const entries=data.faqs.filter(f=>ids.includes(Number(f.id.slice(-2))));
- return `<div class="faq-list">${entries.map(f=>`<div class="faq-item"><h3><button type="button" class="faq-toggle" aria-expanded="true" aria-controls="${prefix}-${f.id}" disabled>${escape(f.question)}<span aria-hidden="true">−</span></button></h3><div id="${prefix}-${f.id}" class="faq-answer"><p>${inline(f.answer)}</p></div></div>`).join('')}</div>`;
+ return `<div class="faq-list">${entries.map(f=>`<details class="faq-item"><summary class="faq-toggle"><h3>${escape(f.question)}</h3><span aria-hidden="true"></span></summary><div id="${prefix}-${f.id}" class="faq-answer"><p>${inline(f.answer)}</p></div></details>`).join('')}</div>`;
 }
 export function Comparison() {
- return `<div class="grid two comparison">${data.products.slice(0,2).map((p,i)=>`<article class="card" id="curso-${p.id}"><p class="label">${i?'Curso + cinco guias':'Curso + dois guias'}</p><h3>${escape(p.name)}</h3>${PriceBlock(p)}<dl>${data.comparison.filter(row=>!['Valor à vista documentado','Forma de escolher'].includes(row[0])).map(row=>`<div><dt>${escape(row[0])}</dt><dd>${escape(row[i+1])}</dd></div>`).join('')}</dl>${i?`<p class="purchase-note">O Método Regular Completo tem checkout próprio. O guia Hormônios e emagrecimento já está incluído no Completo; não é necessário comprá-lo separadamente.</p>`:''}${Button(p.cta,data.links[p.id])}<p class="small">Pagamento na Kiwify. Curso educativo, sem atendimento individual.</p></article>`).join('')}</div>`;
+ return `<div class="grid two comparison">${data.products.slice(0,2).map((p,i)=>`<article class="card" id="curso-${p.id}"><p class="label">${i?'Curso + cinco guias':'Curso + dois guias'}</p><h3>${escape(p.name)}</h3>${PriceBlock(p)}<dl>${data.comparison.filter(row=>!['Valor à vista documentado','Forma de escolher'].includes(row[0])).map(row=>`<div><dt>${escape(row[0])}</dt><dd>${escape(row[i+1])}</dd></div>`).join('')}</dl>${i?`<p class="purchase-note">No checkout do Base, seleciona a opção <strong>Método Regular Completo</strong>, com adicional de ${money(data.commerce.upgradeAmount)}. Os três guias avulsos já estão incluídos no Completo; não é necessário adicioná-los novamente.</p>`:''}${Button(p.cta,data.links[p.id])}<p class="small">Pagamento na Kiwify. Curso educativo, sem atendimento individual.</p></article>`).join('')}</div>`;
 }
 export function Guides(){return `<div class="grid three">${data.products.slice(2).map(p=>Card(p.name,`${PriceBlock(p)}<p>${escape(p.description)}</p><p>Já incluído no Completo.</p><p class="small">Compra avulsa: somente este guia. Acesso por 365 dias após a aprovação.</p>`,`${Button('Comprar guia '+p.name,data.links[p.id])}<p class="small">Pagamento na Kiwify.</p>`)).join('')}</div>`;}
 export function Timeline(){return `<ol class="timeline">${data.calendar.map(c=>`<li><h3>${escape(c.day)}</h3><p class="small">${escape(c.wait)} de espera após a aprovação</p><p>Aulas e atividades ${escape(c.lessons)}.</p><p>${escape(c.book)}. Além da balança: ${escape(c.extra.toLowerCase())}.</p><p>Guias do Base: ${escape(c.guides.toLowerCase())}.</p></li>`).join('')}</ol>`;}

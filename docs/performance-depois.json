@@ -1,0 +1,233 @@
+[
+  {
+    "page": "inicio",
+    "run": 1,
+    "lcpMs": 124,
+    "cls": 0.056608642119942404,
+    "fcpMs": 124,
+    "domContentLoadedMs": 106.90000000002328,
+    "loadMs": 114.5,
+    "resourceRequests": 7,
+    "externalResources": []
+  },
+  {
+    "page": "inicio",
+    "run": 2,
+    "lcpMs": 52,
+    "cls": 0.056608642119942404,
+    "fcpMs": 52,
+    "domContentLoadedMs": 42.59999999997672,
+    "loadMs": 57.20000000006985,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "inicio",
+    "run": 3,
+    "lcpMs": 72,
+    "cls": 0.007480401930341229,
+    "fcpMs": 72,
+    "domContentLoadedMs": 44.09999999997672,
+    "loadMs": 59.199999999953434,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "metodo-regular",
+    "run": 1,
+    "lcpMs": 64,
+    "cls": 0.0012034153076713105,
+    "fcpMs": 64,
+    "domContentLoadedMs": 45.90000000002328,
+    "loadMs": 58.59999999997672,
+    "resourceRequests": 7,
+    "externalResources": []
+  },
+  {
+    "page": "metodo-regular",
+    "run": 2,
+    "lcpMs": 76,
+    "cls": 0.0012034153076713105,
+    "fcpMs": 76,
+    "domContentLoadedMs": 58.5,
+    "loadMs": 73.90000000002328,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "metodo-regular",
+    "run": 3,
+    "lcpMs": 56,
+    "cls": 0.04924386806373284,
+    "fcpMs": 56,
+    "domContentLoadedMs": 45.300000000046566,
+    "loadMs": 53.60000000009313,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "consultoria",
+    "run": 1,
+    "lcpMs": 64,
+    "cls": 0.0016596498660816387,
+    "fcpMs": 64,
+    "domContentLoadedMs": 41.59999999997672,
+    "loadMs": 57.39999999990687,
+    "resourceRequests": 7,
+    "externalResources": []
+  },
+  {
+    "page": "consultoria",
+    "run": 2,
+    "lcpMs": 64,
+    "cls": 0.0016596498660816387,
+    "fcpMs": 64,
+    "domContentLoadedMs": 42,
+    "loadMs": 50.29999999993015,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "consultoria",
+    "run": 3,
+    "lcpMs": 64,
+    "cls": 0,
+    "fcpMs": 64,
+    "domContentLoadedMs": 36.70000000006985,
+    "loadMs": 43.09999999997672,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "acompanhamento",
+    "run": 1,
+    "lcpMs": 60,
+    "cls": 0.049700102622143166,
+    "fcpMs": 60,
+    "domContentLoadedMs": 42.699999999953434,
+    "loadMs": 53.29999999993015,
+    "resourceRequests": 7,
+    "externalResources": []
+  },
+  {
+    "page": "acompanhamento",
+    "run": 2,
+    "lcpMs": 56,
+    "cls": 0.049700102622143166,
+    "fcpMs": 56,
+    "domContentLoadedMs": 43.5,
+    "loadMs": 51.09999999997672,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "acompanhamento",
+    "run": 3,
+    "lcpMs": 64,
+    "cls": 0.0016596498660816387,
+    "fcpMs": 64,
+    "domContentLoadedMs": 44.10000000009313,
+    "loadMs": 56.60000000009313,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "sobre",
+    "run": 1,
+    "lcpMs": 60,
+    "cls": 0.049090792705275735,
+    "fcpMs": 60,
+    "domContentLoadedMs": 48,
+    "loadMs": 57.09999999997672,
+    "resourceRequests": 7,
+    "externalResources": []
+  },
+  {
+    "page": "sobre",
+    "run": 2,
+    "lcpMs": 52,
+    "cls": 0.049090792705275735,
+    "fcpMs": 52,
+    "domContentLoadedMs": 37.300000000046566,
+    "loadMs": 48.70000000006985,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "sobre",
+    "run": 3,
+    "lcpMs": 56,
+    "cls": 0.049090792705275735,
+    "fcpMs": 56,
+    "domContentLoadedMs": 38.90000000002328,
+    "loadMs": 46.5,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "duvidas",
+    "run": 1,
+    "lcpMs": 72,
+    "cls": 0.0013477983338266513,
+    "fcpMs": 72,
+    "domContentLoadedMs": 47.40000000002328,
+    "loadMs": 60.300000000046566,
+    "resourceRequests": 7,
+    "externalResources": []
+  },
+  {
+    "page": "duvidas",
+    "run": 2,
+    "lcpMs": 68,
+    "cls": 0.04938825108988818,
+    "fcpMs": 68,
+    "domContentLoadedMs": 43.79999999993015,
+    "loadMs": 54.40000000002328,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "duvidas",
+    "run": 3,
+    "lcpMs": 60,
+    "cls": 0.0013477983338266513,
+    "fcpMs": 60,
+    "domContentLoadedMs": 37.199999999953434,
+    "loadMs": 44.5,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "contato",
+    "run": 1,
+    "lcpMs": 64,
+    "cls": 0.049205937886416036,
+    "fcpMs": 64,
+    "domContentLoadedMs": 46.59999999997672,
+    "loadMs": 57.79999999993015,
+    "resourceRequests": 7,
+    "externalResources": []
+  },
+  {
+    "page": "contato",
+    "run": 2,
+    "lcpMs": 68,
+    "cls": 0.001165485130354505,
+    "fcpMs": 68,
+    "domContentLoadedMs": 42.800000000046566,
+    "loadMs": 55.09999999997672,
+    "resourceRequests": 8,
+    "externalResources": []
+  },
+  {
+    "page": "contato",
+    "run": 3,
+    "lcpMs": 68,
+    "cls": 0.001165485130354505,
+    "fcpMs": 68,
+    "domContentLoadedMs": 42.800000000046566,
+    "loadMs": 56.800000000046566,
+    "resourceRequests": 8,
+    "externalResources": []
+  }
+]
