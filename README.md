@@ -50,7 +50,7 @@ As atualizações expressas do usuário têm precedência; a especificação mes
 
 A regra comercial vigente é Base com upgrade opcional para Completo no mesmo checkout: https://pay.kiwify.com.br/t5IY204. O adicional observado na Kiwify é R$ 80,00 (total à vista de R$ 359,90). Os três guias mantêm compra avulsa. O checkout independente anteriormente fornecido não é utilizado. Não existe pré-seleção por parâmetro nem confirmação de compra pelo clique. Valores assistenciais históricos não foram recuperados: a especificação mestre exige tabela vigente. Contatos usam somente mensagens administrativas neutras. Equipe DocLiv, WhatsApp com DDI +55, e-mail, Instagram, identificação profissional e Cândido Godói — RS foram confirmados pelo usuário; atendimento online disponível. As confirmações estão registradas em `src/content.json`.
 
-Os arquivos antigos de fotografia e capa foram preservados no repositório, mas ficam fora do build até a liberação dos ativos prevista em B08. A composição atual é tipográfica; não simula retrato, paciente ou material comercial. A biografia alterada no commit de origem permanece recuperável no histórico, mas não substitui a redação mais recente nem a comprovação de qualificações exigida pela especificação.
+Os arquivos antigos de fotografia e capa foram preservados no repositório, mas ficam fora do build até a liberação dos ativos prevista em B08. A página de vendas utiliza duas imagens enviadas e indicadas pelo usuário nesta revisão; os demais ativos antigos continuam preservados. A representação do livro é tipográfica e não reproduz uma capa final. A biografia alterada no commit de origem permanece recuperável no histórico, mas não substitui a redação mais recente nem a comprovação de qualificações exigida pela especificação.
 
 A antiga página única na raiz foi substituída pelo gerador. A versão anterior continua no histórico Git. Navegação, compras e conteúdo essencial funcionam sem JavaScript; a FAQ usa abertura nativa sem JavaScript e as quatro amostras permanecem disponíveis sem o aprimoramento. O menu usa `dialog.showModal()`, fundo inativo, circulação de foco por Tab/Shift+Tab, Escape e retorno de foco.
 
@@ -63,3 +63,9 @@ Toda esta entrega tem `noindex, nofollow`, aviso de revisão e `robots.txt` rest
 `npm run check:release` deve falhar: B01–B08 continuam sem evidências de encerramento, há 46 campos a confirmar e o domínio final não foi definido. O comando não publica. Mesmo após preencher os dados, a rotina pública, o sitemap, os cabeçalhos da hospedagem e a remoção das marcações de revisão precisam de preparação e autorização explícitas. Nenhum workflow de deploy foi adicionado.
 
 Detalhes em [Integrações e testes](docs/INTEGRACOES_E_TESTES.md), [Pendências](docs/PENDENCIAS.md) e [Configuração e checklist](docs/PRE_PUBLICACAO.md).
+
+## Atualização da página de vendas — 09/11/2026
+
+Início e Método Regular agora compartilham `src/sales.mjs`, com texto comercial conciso, fotografia fornecida pelo usuário, quatro pilares, livro, bônus, comparação de versões e extras. O estilo específico está em `assets/css/sales.css`. Preços, links e detalhes operacionais continuam em `src/content.json`. Os dois arquivos de imagem usados estão em `assets/img/sales/`; não houve alteração da identidade ou geração de retrato.
+
+Os resultados anteriores de navegador/performance não validam automaticamente este novo layout. Consulte `docs/PAGINA_DE_VENDAS.md`. Para gerar a prévia local sem servidor, após o build: `python3 scripts/export-preview.py`.

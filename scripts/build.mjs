@@ -9,7 +9,7 @@ if(production){
  throw new Error('Esta entrega é somente de revisão. Requer configurar a versão pública após aprovação documentada.');
 }
 rmSync('dist',{recursive:true,force:true});mkdirSync('dist',{recursive:true});
-cpSync('assets/css','dist/assets/css',{recursive:true});cpSync('assets/js','dist/assets/js',{recursive:true});cpSync('assets/fonts','dist/assets/fonts',{recursive:true});mkdirSync('dist/assets/img',{recursive:true});cpSync('assets/img/favicon.svg','dist/assets/img/favicon.svg');
+cpSync('assets/css','dist/assets/css',{recursive:true});cpSync('assets/js','dist/assets/js',{recursive:true});cpSync('assets/fonts','dist/assets/fonts',{recursive:true});mkdirSync('dist/assets/img',{recursive:true});cpSync('assets/img/favicon.svg','dist/assets/img/favicon.svg');cpSync('assets/img/sales','dist/assets/img/sales',{recursive:true});
 for(const page of data.pages){const target=page.id==='P14'?'dist/404.html':`dist/${page.route?`${page.route}/`:''}index.html`;mkdirSync(target.slice(0,target.lastIndexOf('/')),{recursive:true});writeFileSync(target,Layout(page,PageContent(page)));}
 const review={route:'revisao',title:'Revisão da implementação — DocLiv',description:'Pendências de conteúdo e integração. Ambiente de revisão.'};
 const list=missing.map(p=>`<li><code>${escape(p)}</code></li>`).join('');
