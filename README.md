@@ -66,6 +66,6 @@ Detalhes em [Integrações e testes](docs/INTEGRACOES_E_TESTES.md), [Pendências
 
 ## Atualização da página de vendas — 09/11/2026
 
-Início e Método Regular agora compartilham `src/sales.mjs`, com texto comercial conciso, fotografia fornecida pelo usuário, quatro pilares, livro, bônus, comparação de versões e extras. O estilo específico está em `assets/css/sales.css`. Preços, links e detalhes operacionais continuam em `src/content.json`. Os dois arquivos de imagem usados estão em `assets/img/sales/`; não houve alteração da identidade ou geração de retrato.
+Início e Método Regular agora compartilham `src/sales.mjs`, com texto comercial conciso, fotografia fornecida pelo usuário, quatro pilares, livro, bônus, comparação de versões e extras. O estilo específico está em `assets/css/sales.css`. Preços, links e detalhes operacionais continuam em `src/content.json`. Os ativos estão em `assets/img/sales/`: logo e fotos fornecidos pelo usuário, com identidade preservada, e ilustração dos quatro pilares.
 
-Os resultados anteriores de navegador/performance não validam automaticamente este novo layout. Consulte `docs/PAGINA_DE_VENDAS.md`. Para gerar a prévia local sem servidor, após o build: `python3 scripts/export-preview.py`.
+A revisão atual usa verde profundo, monograma, foto real, pilares ilustrados e animados, comparativo conciso e convites destacados para atendimento. Consulte `docs/PAGINA_DE_VENDAS.md` para validação e limites. Para gerar a prévia local sem servidor, após o build: `python3 scripts/export-preview.py`.

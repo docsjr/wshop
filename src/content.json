@@ -421,68 +421,53 @@
   "comparison": [
     [
       "10 aulas",
-      "Incluídas; progressivas",
-      "Incluídas; mesmo calendário"
+      "Incluído",
+      "Incluído"
     ],
     [
       "Livro ampliado",
-      "Incluído; progressivo",
-      "Incluído; mesmo calendário"
+      "Incluído",
+      "Incluído"
     ],
     [
       "Caderno de atividades",
-      "Incluído; atividades por etapa",
-      "Incluído; mesmo calendário"
+      "Incluído",
+      "Incluído"
     ],
     [
       "Além da balança",
-      "Incluído; primeira parte e depois integral",
-      "Incluído; mesmo calendário"
+      "Incluído",
+      "Incluído"
     ],
     [
       "Cansaço",
-      "Incluído; Dia 4",
-      "Incluído; imediato"
+      "Incluído",
+      "Incluído"
     ],
     [
       "Dor e movimento",
-      "Incluído; Dia 7",
-      "Incluído; imediato"
+      "Incluído",
+      "Incluído"
     ],
     [
       "Emagrecimento com medicação",
-      "Não incluído; compra opcional avulsa",
-      "Incluído; imediato"
+      "Não incluído",
+      "Incluído"
     ],
     [
       "Hormônios e emagrecimento",
-      "Não incluído; compra opcional avulsa",
-      "Incluído; imediato"
+      "Não incluído",
+      "Incluído"
     ],
     [
       "Depois de emagrecer",
-      "Não incluído; compra opcional avulsa",
-      "Incluído; imediato"
+      "Não incluído",
+      "Incluído"
     ],
     [
-      "Acesso",
-      "365 dias desde a aprovação",
-      "365 dias desde a aprovação"
-    ],
-    [
-      "Consulta ou plano individualizado",
-      "Não incluídos",
-      "Não incluídos"
-    ],
-    [
-      "Valor à vista documentado",
-      "{{price:base}}",
-      "{{price:completo}}"
-    ],
-    [
-      "Forma de escolher",
-      "Checkout Base, sem adicionais desejados",
-      "Mesmo checkout; selecionar Completo, adicional de {{additional:completo}}"
+      "Acesso por 365 dias",
+      "Incluído",
+      "Incluído"
     ]
   ],
   "calendar": [

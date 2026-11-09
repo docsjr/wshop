@@ -1,42 +1,36 @@
-# Página de vendas — revisão de 09/11/2026
+# Página de vendas — revisão autorizada em 09/11/2026
 
-## Entrega
+## Resultado
 
-Início e Método Regular usam o componente compartilhado `src/sales.mjs`, com fotografia, mensagem curta, situações da rotina, benefícios, livro completo, bônus, comparação Base × Completo, extras avulsos e chamadas para compra. As demais páginas e componentes funcionais foram preservados. A redação comercial desta atualização está sujeita à revisão final do responsável.
+Início e Método Regular compartilham `src/sales.mjs`. Fundo verde profundo #082F25, superfícies esmeralda e champagne, monograma no cabeçalho/rodapé/fechamento, retrato real novo na apresentação médica, quatro pilares ilustrados, comparação Base × Completo e convites destacados para consultoria e acompanhamento.
 
-O custo de continuar no improviso é apresentado em tempo, energia para recomeçar e falta de clareza; não há promessas de emagrecimento ou resultados garantidos. Sono é conteúdo do curso, acompanhado pelo guia Cansaço; não foi inventado um guia extra de sono. Além da balança integra os materiais comuns. A representação tipográfica do livro não reproduz uma capa final.
+A tabela apresenta dez conteúdos com apenas Incluído/Não incluído. Foram removidos os dois parágrafos indicados dos cartões e a linha de consulta/plano individualizado do comparativo. Calendário e orientação sobre a escolha do Completo seguem disponíveis nas dúvidas, sem mudar a entrega. A animação dos pilares respeita movimento reduzido; o conteúdo funciona sem JavaScript.
 
-## Imagens fornecidas
+## Ativos e autorização
 
-- `upload/e11.jpg` → `assets/img/sales/sandro-retrato.jpg`: retrato original, sem alteração do rosto.
-- `upload/eeeee.png` → `assets/img/sales/metodo-apresentacao.png`: peça original do Método Regular. A peça inteira está vinculada à seção de versões e preços.
+- `assets/img/sales/docliv-logo-original.png`: logo enviado como e(1).png; o enquadramento CSS exibe o monograma.
+- `assets/img/sales/sandro-cuidado.png`: foto enviada como eee(1).png; enquadramento CSS preserva o arquivo e os traços faciais.
+- `assets/img/sales/sandro-retrato.jpg`: foto real mantida na abertura.
+- `assets/img/sales/quatro-pilares.webp`: ilustração gerada para o site, codificada em WebP nas mesmas dimensões.
 
-As duas imagens foram indicadas pelo usuário para este trabalho. Isso não encerra a revisão geral de ativos antigos prevista no checklist de publicação.
+Brief da ilustração: composição fotorealista 2×2 com preparo de refeição brasileira simples, caminhada no parque, sono e planejamento em agenda; luz natural, champagne e esmeralda, sem texto, logos, pacientes, depoimentos ou antes/depois. Gerada com a ferramenta integrada de imagens e identificada como ilustrativa na página.
 
-## Integrações mantidas
+O usuário autorizou explicitamente o envio das novas imagens ao repositório público `docsjr/wshop`, ciente de que ficarão acessíveis a terceiros, mantendo o site sem publicação. Essa autorização resolve o bloqueio anterior de upload; não autoriza deploy.
 
-Base: R$ 279,90; Completo: R$ 359,90. Ambos conduzem a `https://pay.kiwify.com.br/t5IY204`; o visitante seleciona o adicional de R$ 80,00 no checkout. Não existe seleção automática nem segundo checkout independente ativo.
+## Recuperação e testes
 
-Os três guias avulsos preservam preços e URLs oficiais. Contatos da consultoria e WhatsApp continuam nos componentes compartilhados. Não foram criados formulários, pixels, analytics ou coleta de informações clínicas.
+Nesta retomada, o ambiente local continha uma cópia anterior. Foi aberta uma cópia isolada a partir do commit remoto d2790da; as alterações aprovadas foram recuperadas a partir do registro da implementação e dos mesmos arquivos de imagem persistidos. A cópia anterior foi preservada.
 
-## Validação executada
+`npm run build`: 14 rotas e página de revisão. `npm test`: 17 aprovados, zero falhas após a recuperação. `git diff --check`: aprovado. Sintaxe JavaScript validada. A suíte cobre rotas, SEO básico, âncoras/assets, links comerciais, contatos, calendário, FAQ, ausência de rastreadores, contraste dos tokens, orçamento de arquivos, respostas HTTP, estados de erro e comparativo simplificado.
 
-`npm run build`: geração concluída. `npm test`: 16 aprovados, zero falhas. `node --check src/sales.mjs` e `git diff --check`: aprovados.
+Na sessão anterior, foram inspecionados no navegador logo, cores, fotos, pilares, comparativo e bloco final. CTAs de consultoria e acompanhamento chegaram às páginas corretas. Início e Método Regular foram verificados em frames de 320, 360, 390, 599, 600, 767, 768, 1023, 1024, 1279, 1280 e 1440 px, 24 combinações sem transbordamento horizontal do documento. Menu mobile abriu e fechou com Escape; comparativo abriu com Enter. Esses são registros da sessão anterior, não uma nova rodada visual nesta retomada. Testes em dispositivos físicos, leitores de tela e métricas reais de performance continuam pendentes de auditoria final.
 
-A suíte verifica rotas, idioma, metadados individuais, H1, regiões semânticas, existência de links locais e âncoras, destinos comerciais e de contato, calendário, FAQ nativa, ausência de rastreadores, contraste dos tokens de paleta, orçamento de arquivos, respostas HTTP, bloqueio de produção e tratamento de destinos ausentes. Esses controles não equivalem a uma auditoria visual completa de acessibilidade ou de performance real.
+## Integrações e publicação
 
-O ZIP da prévia é validado quanto à integridade e existência de destinos internos durante a exportação. A abertura em navegador pelo destinatário permanece necessária.
+Base R$ 279,90 e Completo R$ 359,90 conduzem ao checkout oficial `https://pay.kiwify.com.br/t5IY204`, com escolha opcional do Completo. Três guias avulsos preservam preços e URLs. Não houve compra, mensagem ou agendamento; nenhum formulário, analytics ou pixel foi acrescentado.
 
-## Limites e pendências
+A configuração da Kiwify que pode permitir somar guia já incluído no Completo continua pendente de validação externa. Demais pendências em `docs/PENDENCIAS.md` e `docs/PRE_PUBLICACAO.md` permanecem válidas. Noindex/nofollow e bloqueios B01–B08 mantidos. Nenhuma publicação ou alteração em main.
 
-A abertura da prévia no navegador foi recusada pela revisão automática por limite de uso do ambiente. Portanto, mobile/desktop, sobreposição de elementos, foco e interações no novo layout, contraste sobre imagens, métricas reais de carregamento e capturas de tela desta atualização NÃO foram validados. Resultados visuais anteriores não devem ser apresentados como resultados desta versão.
+## Execução
 
-A inspeção anterior da Kiwify encontrou possibilidade de adicionar um guia já incluído ao escolher Completo. A página informa que não é necessário comprar novamente; a regra de exclusão precisa ser configurada na plataforma de pagamento. Nenhuma compra foi concluída ou simulada como aprovada.
-
-Pendências de domínio, área do aluno, documentação e dados finais continuam em `docs/PENDENCIAS.md` e `docs/PRE_PUBLICACAO.md`. Não há publicação nem autorização presumida para deploy.
-
-## Como revisar
-
-Execute `npm run build` e `npm run dev`. Para revisão sem servidor, execute `python3 scripts/export-preview.py`, extraia o ZIP e abra `DocLiv-previa/index.html`. Destinos externos exigem internet.
-
-Antes da publicação: revisar o novo layout em celular e desktop; conferir teclado, leitores de tela e performance real; validar textos e condições comerciais; ajustar a regra de extras na Kiwify; resolver bloqueios B01–B08; configurar domínio e SEO público; obter auditoria final e autorização explícita. A prévia mantém `noindex, nofollow` e as marcações de revisão.
+`npm run build`, `npm run dev`. Para prévia sem servidor: `python3 scripts/export-preview.py`; extrair a pasta inteira e abrir `index.html`. Destinos externos exigem internet.

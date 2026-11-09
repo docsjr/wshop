@@ -60,3 +60,13 @@ if (location.pathname === home || location.pathname === `${home}index.html`) {
   const target = legacy[location.hash.slice(1)];
   if (target) location.replace(home + target);
 }
+// Gentle one-time reveal; all content remains visible without JS or with reduced motion.
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const observer = new IntersectionObserver(entries => {
+    for (const entry of entries) if (entry.isIntersecting) {
+      entry.target.classList.add('pillar-arrived');
+      observer.unobserve(entry.target);
+    }
+  }, {threshold: .12});
+  document.querySelectorAll('.sales-pillars article').forEach(card => observer.observe(card));
+}

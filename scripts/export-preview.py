@@ -33,7 +33,7 @@ with ZipFile(output, 'w', ZIP_DEFLATED) as archive:
     archive.writestr('DocLiv-previa/LEIA-ME.txt',
         'PREVIA LOCAL — NAO PUBLICADA\nExtraia a pasta inteira e abra index.html no navegador.\n'
         'Compras e contatos abrem os canais externos oficiais e precisam de internet.\n'
-        'O layout desta atualização ainda precisa de conferência visual em navegador.\n')
+        'Versão de revisão: auditoria final e autorização de publicação pendentes.\n')
 with ZipFile(output) as archive:
     assert archive.testzip() is None
 print(f'{count} páginas empacotadas: {output}')

@@ -65,6 +65,7 @@ test('contraste AA de texto e controles da paleta',()=>{
  const contrast=(a,b)=>(Math.max(lum(a),lum(b))+.05)/(Math.min(lum(a),lum(b))+.05);
  for(const bg of ['F6EFE4','FBF8F2'])for(const color of ['0F3D2E','1B2A22','52604F','8C3B2E','3E5C45'])assert.ok(contrast(color,bg)>=4.5,`${color}/${bg}`);
  assert.ok(contrast('C6A87A','0F3D2E')>=4.5);
+ for(const bg of ['082f25','0f3d2e','103d30','245440'])for(const color of ['f6efe4','d7dfd6'])assert.ok(contrast(color,bg)>=4.5,`${color}/${bg}`);
 });
 test('orçamentos de transferência e JavaScript',()=>{
  const assets=files.filter(f=>!f.endsWith('.html')&&!f.endsWith('.txt')&&!f.endsWith('_headers'));const assetBytes=assets.reduce((sum,f)=>sum+statSync(f).size,0);
@@ -107,4 +108,18 @@ test('destinos ausentes e texto não confiável não viram links ativos',async()
  const {Button,escape}=await import('../src/components.mjs');
  assert.doesNotMatch(Button('Área do aluno'),/<a/);assert.match(Button('Área do aluno'),/destino pendente/);
  assert.equal(escape('<script>"&'), '&lt;script&gt;&quot;&amp;');
+});
+
+test('comparativo conciso preserva inclusões e remove os avisos solicitados',()=>{
+ for(const route of ['', 'metodo-regular/']) {
+  const page=html(join(root,route,'index.html'));
+  const table=page.match(/<table>[\s\S]*?<\/table>/)[0];
+  const values=[...table.matchAll(/<td><span[^>]*>([^<]+)<\/span><\/td>/g)].map(m=>m[1]);
+  assert.equal(values.length,20);
+  assert.equal(values.filter(v=>v==='Não incluído').length,3);
+  assert.ok(values.every(v=>['Incluído','Não incluído'].includes(v)));
+  assert.doesNotMatch(table,/calendário|imediato|Dia 4|Dia 7|compra avulsa|Consulta ou plano individualizado/);
+  const offers=page.match(/<div class="sales-plans">[\s\S]*?<details class="sales-details sales-comparison">/)[0];
+  assert.doesNotMatch(offers,/purchase-note|No checkout do Base, seleciona Método Regular Completo: adicional|Aulas, livros e atividades em etapas/);
+ }
 });
