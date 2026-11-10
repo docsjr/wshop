@@ -1830,3 +1830,76 @@ html:not(.js) .practice-pages, html:not(.js) .plan-result { grid-column: 1 / -1;
   .hero .hero-description { order: 6; margin: 0; }
   .hero .micro { order: 7; margin: 0; }
 }
+
+/* Course-first sales journey: clear application, one checkout, optional upgrade. */
+.audience-grid,.included-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; }
+.audience-grid { margin-top:45px; }
+.audience-grid article { padding-top:24px; border-top:1px solid var(--gold); }
+.audience-grid h3,.included-grid h3 { margin:16px 0; font-size:32px; }
+.audience-grid p,.included-grid p:not(.eyebrow) { font-size:15px; color:var(--muted); }
+.step-number { color:var(--muted); font-size:12px; font-weight:800; letter-spacing:.12em; }
+.scope-note { margin:28px 0 0; font-size:14px; color:var(--muted); }
+.method-heading { margin-top:75px; max-width:650px; }
+.method-heading>p:last-child { color:var(--muted); }
+.method-steps,.access-timeline { list-style:none; padding:0; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:26px; margin:35px 0; }
+.method-steps li,.access-timeline li { border-top:1px solid var(--gold); padding-top:22px; }
+.method-steps h3 { font-size:28px; margin:15px 0; }
+.method-steps p,.access-timeline p { font-size:15px; color:var(--muted); }
+.included-section { background:#eee6d8; }
+.included-grid article { padding:25px 0 0; border-top:1px solid #bfa985; }
+.included-grid .eyebrow { font-size:11px; letter-spacing:.07em; min-height:38px; }
+.doctor-copy .small { font-size:14px; }
+.focused-offer { grid-template-columns:1.05fr 1fr; }
+.focused-offer .plan { min-width:0; }
+.focused-offer .plan-intro { min-height:0; }
+.focused-offer .button { white-space:normal; text-align:left; margin-top:auto; line-height:1.45; }
+.installment { margin:8px 0 2px; font-size:19px; color:var(--green); line-height:1.2; }
+.installment strong { display:block; font:500 clamp(40px,4vw,58px)/1.1 var(--serif); }
+.cash-price { font-size:17px; margin-bottom:16px; }
+.upgrade-price { font:500 44px/1.15 var(--serif); margin:8px 0 16px; }
+.upgrade-price span { display:block; font:400 14px/1.7 var(--sans); margin-top:4px; }
+.plan.upgrade-plan { background:var(--paper); border-top:1px solid var(--line); }
+.value-note { font-size:14px; padding-block:18px; border-block:1px solid var(--line); }
+.offer-comparison { margin-top:30px; border-top:1px solid var(--line); }
+.offer-comparison .comparison-wrap { margin-top:5px; overflow-x:auto; }
+.offer-comparison .comparison { min-width:480px; }
+.refund-summary { max-width:850px; margin-top:35px; padding-top:30px; border-top:1px solid var(--line); }
+.refund-summary h3 { font-size:30px; margin-bottom:16px; }
+.refund-summary p { font-size:15px; }
+.refund-summary .small { font-size:13px; }
+.access-timeline strong { display:block; font:500 35px/1.2 var(--serif); }
+.access-timeline span { display:block; font-size:12px; font-weight:700; margin:8px 0 15px; }
+.secondary-details { margin-top:25px; border-top:1px solid var(--line); }
+.secondary-details>summary { font-size:17px; padding-block:25px; }
+.secondary-details .extras-grid { padding-top:25px; }
+.secondary-details .materials-note { margin-bottom:30px; }
+.secondary-details .service:last-child { margin-bottom:30px; }
+.closing .closing-price { font-size:14px; margin:18px 0 0; }
+.comparison-wrap:focus-visible { outline:3px solid #a17b3f; outline-offset:4px; }
+@media(max-width:1000px) {
+  .method-steps,.access-timeline { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .audience-grid,.included-grid { gap:22px; }
+}
+@media(max-width:600px) {
+  .audience-grid,.included-grid,.focused-offer { grid-template-columns:1fr; gap:25px; }
+  .audience-grid { margin-top:25px; }
+  .audience-grid article { padding-top:18px; }
+  .audience-grid h3,.included-grid h3 { margin-block:12px; }
+  .audience-grid p { margin-bottom:5px; }
+  .method-heading { margin-top:50px; }
+  .method-steps,.access-timeline { gap:22px 18px; }
+  .method-steps h3 { font-size:26px; }
+  .method-steps p,.access-timeline p { font-size:14px; }
+  .step-number { font-size:10px; letter-spacing:.06em; }
+  .included-grid .eyebrow { min-height:0; }
+  .installment strong { font-size:53px; }
+  .upgrade-price { font-size:39px; }
+  .focused-offer .plan .button { font-size:14px; }
+  .refund-summary h3 { font-size:29px; }
+  .purchase-note { overflow-wrap:anywhere; }
+}
+@media(max-width:360px) {
+  .method-steps,.access-timeline { grid-template-columns:1fr; }
+}
+/* Explicit dimensions prevent the intrinsic book image from expanding its grid row. */
+.cover-shelf img { height:160px; max-height:160px; width:auto; max-width:90%; object-fit:contain; }
