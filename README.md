@@ -4,7 +4,7 @@ Página estática em português, publicada em https://docsjr.github.io/wshop/ a 
 
 ## Jornada da página
 
-Promessa e público → dificuldades da rotina → sequência de aplicação → atividade demonstrativa → materiais e benefícios → autor → oferta Base com adicional opcional do Completo → acesso → dúvidas e reembolso → chamada final. Guias avulsos e serviços individuais permanecem disponíveis em seções secundárias expansíveis.
+Promessa e público → dificuldades da rotina → sequência de aplicação → atividade demonstrativa → materiais e benefícios → autor → oferta Base com adicional opcional do Completo → acesso → dúvidas e reembolso → chamada final. Guias avulsos e serviços individuais ficam sempre visíveis.
 
 As atividades exibidas são exemplos educativos, identificados como tais, e não reproduções de páginas do caderno. A capa e as fotos existentes foram preservadas. Não há depoimentos inventados, garantia de emagrecimento ou escassez artificial.
 
@@ -27,9 +27,9 @@ Parcelamento com acréscimo. Conferir novamente se as condições na plataforma 
 
 Mantida a oferta documentada: 365 dias de acesso desde a aprovação, aulas e materiais nos dias 1/4/7/8 (espera de 0/3/6/7 dias). Guias do Completo após aprovação. A área do aluno e a entrega de conteúdo não foram acessadas ou testadas; validar suas permissões e o calendário na plataforma.
 
-Contatos: (55) 99907-0106, com código de país +55; arsandrodoc@gmail.com. O cancelamento tem resumo junto à oferta e na FAQ. Não foi criado um prazo próprio de reembolso ou uma garantia de resultado clínico.
+Contatos: (55) 99907-0106, com código de país +55; arsandrodoc@gmail.com. A seção de cancelamento foi retirada da página a pedido do responsável. Não foi criado um prazo próprio de reembolso ou uma garantia de resultado clínico.
 
-Os serviços individuais conservaram o escopo, os valores e os contatos da versão existente, agora dentro de uma seção expansível. O Meta Pixel preexistente foi preservado; seu fallback `noscript` foi movido do `head` para o `body` para manter HTML válido. Não foram acrescentados rastreadores ou coleta de respostas das atividades.
+Os serviços individuais conservaram o escopo, os valores e os contatos da versão existente, em uma seção sempre visível. O Meta Pixel preexistente foi preservado; seu fallback `noscript` foi movido do `head` para o `body` para manter HTML válido. Não foram acrescentados rastreadores ou coleta de respostas das atividades.
 
 ## Verificações desta edição
 
@@ -54,3 +54,7 @@ Validação visual em desktop e quadros de 390 e 320 px, troca de pilares por cl
 Textos reduzidos em aproximadamente 28%, com frases curtas na abertura, benefícios, materiais e apresentação do autor. FAQ sem perguntas repetidas. Calendário e termos de reembolso completos em detalhes expansíveis. Preços, entregas, contatos e destinos de compra preservados.
 
 CTAs em champanhe quente #F5DDB3 com texto verde #163C2B; botão do Completo em esmeralda claro. Abertura, preços e economia recebem maior contraste. Fundo musgo e imagens da edição anterior preservados. Verificados build, sintaxe, estrutura HTML, referências e navegação.
+
+## Arquitetura e contraste em champanhe
+
+Blocos de indicadores, identificação do público, textos dos quatro pilares, materiais, guias incluídos, convite final e guias avulsos recebem fundo champanhe com texto verde profundo. Atendimento individual em seção clara de largura total. Comparação com Manrope 800 em tamanho ampliado. Guias avulsos, consultoria e acompanhamento sem controles de recolhimento. Seção de cancelamento, pergunta relacionada e link no rodapé removidos; calendário retirado, preservando o resumo de acesso por e-mail, liberação em etapas e 365 dias. Nenhuma configuração de checkout, entrega ou reembolso da plataforma foi alterada.
