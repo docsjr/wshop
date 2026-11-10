@@ -2112,3 +2112,87 @@ a:focus-visible,button:focus-visible,summary:focus-visible,.comparison-wrap:focu
   .pillar-copy { padding-inline:18px; }
   .comparison td,.comparison th { font-size:11px; }
 }
+
+/* Shorter reading path: stronger contrast at decisions and quieter supporting copy. */
+:root { --cta:#f5ddb3; --cta-ink:#163c2b; }
+.hero h1 { font-size:clamp(50px,5.5vw,83px); line-height:1.02; max-width:620px; }
+.hero h1 em,.plans-section .center-heading h2 em,.closing h2 em { color:var(--cta); }
+.hero .lead { font-size:20px; max-width:470px; margin-bottom:24px; }
+.hero .actions { margin-top:22px; gap:18px 24px; }
+.button { background:var(--cta); color:var(--cta-ink); border-color:var(--cta); min-height:58px; padding:16px 25px; font-size:16px; font-weight:800; box-shadow:0 8px 24px #0d1d2530; }
+.button:hover { background:#fff0d4; color:var(--cta-ink); }
+.button>span { display:grid; place-items:center; line-height:1; border:1px solid currentColor; width:28px; height:28px; border-radius:50%; flex:0 0 28px; }
+.navigation .nav-button { background:var(--cta); color:var(--cta-ink); border-color:var(--cta); font-weight:800; }
+.navigation .nav-button:hover { background:#fff0d4; color:var(--cta-ink); }
+.hero .text-link { font-weight:600; color:var(--muted); }
+.hero .micro { color:var(--cream); }
+.author-chip { margin-top:22px; }
+.section { padding-block:80px; }
+.section-heading { margin-bottom:32px; }
+.section-heading:has(>div:only-child) { grid-template-columns:1fr; }
+.method-heading { margin-top:55px; }
+.method-steps { margin-bottom:0; }
+.audience-grid { margin-top:32px; }
+.audience-grid article,.included-grid article { padding:25px; }
+.audience-grid h3 { font-size:32px; }
+.audience-grid p,.included-grid p { margin-bottom:0; }
+.included-grid h3 { margin-top:0; }
+.practice-page h3 { font-size:clamp(32px,3.1vw,44px); }
+.pillar-photo { min-height:345px; }
+.pillar-copy { padding:32px; }
+.practice-page .folio { margin-bottom:20px; }
+.practice-footer p { max-width:600px; font-size:13px; }
+.doctor-grid { padding-block:40px; }
+.portrait img { max-height:690px; }
+.doctor-copy blockquote { margin-block:25px; }
+.center-heading { margin-bottom:44px; }
+.focused-offer .plan.featured { background:#1d3024; border-color:var(--cta); box-shadow:0 12px 30px #15261c45; }
+.plan-tag { background:var(--cta); color:var(--cta-ink); }
+.focused-offer .plan h3 em { color:var(--cta); }
+.focused-offer .button { font-size:17px; min-height:62px; }
+.plan .button.outline { background:var(--emerald); border-color:var(--emerald); color:var(--cta-ink); }
+.plan .button.outline:hover { background:#c0eed2; }
+.plan .installment strong { color:var(--cta); }
+.value-note { background:var(--cta); color:var(--cta-ink); border-color:var(--cta); padding:20px 23px; }
+.value-note>span,.value-note>p { color:var(--cta-ink); }
+.value-note>strong { font-size:36px; }
+.offer-comparison { border-color:var(--cta); }
+.comparison-title em,.offer-comparison>summary .comparison-plus { color:var(--cta); }
+.offer-comparison>summary .comparison-plus { border-color:var(--cta); }
+.refund-summary { padding-top:0; margin-top:28px; border-bottom:1px solid var(--line); }
+.refund-summary>summary { font-size:17px; padding-block:23px; }
+.refund-summary p { max-width:950px; }
+.refund-summary .small { margin-bottom:25px; }
+.access-details { border-top:1px solid var(--line); }
+.access-details>summary { font-size:17px; padding-block:23px; }
+.access-details .access-timeline { margin-top:10px; }
+.faq-list summary { font-size:16px; }
+.closing { background:#1d3024; border-color:var(--cta); padding-block:65px; }
+.closing .signature { margin-bottom:24px; }
+.closing .button { min-width:280px; font-size:18px; }
+.closing p:not(.eyebrow) { color:var(--cream); }
+.closing .closing-price { font-size:15px; }
+.mobile-cta { background:var(--cta); color:var(--cta-ink); border-top-color:var(--cta); font-weight:800; }
+@media(max-width:850px) {
+  .hero h1 { font-size:clamp(43px,5.7vw,65px); }
+  .hero .lead { font-size:18px; }
+  .pillar-copy { padding:25px; }
+  .pillar-photo { min-height:375px; }
+}
+@media(max-width:600px) {
+  .section { padding-block:55px; }
+  .hero h1 { font-size:clamp(41px,10.8vw,61px); }
+  .hero .lead { font-size:18px; }
+  .hero .actions { margin-top:4px; gap:17px; }
+  .hero .actions>.button { width:100%; font-size:17px; }
+  .hero .micro { font-size:12px; }
+  .hero-scene figcaption { font-size:23px; }
+  .method-heading { margin-top:40px; }
+  .pillar-photo { min-height:0; }
+  .pillar-copy { min-height:285px; padding:25px 22px; }
+  .practice-page h3 { font-size:34px; }
+  .focused-offer .plan .button { font-size:16px; }
+  .value-note>strong { font-size:31px; }
+  .closing .button { min-width:0; width:100%; max-width:360px; font-size:17px; }
+  .mobile-cta { font-size:16px; }
+}

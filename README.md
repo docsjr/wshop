@@ -48,3 +48,9 @@ Fundo contínuo #293C2E, superfícies em variações de musgo, tipografia champa
 Os quatro pilares usam fotografias ilustrativas geradas com IA, otimizadas em WebP (cerca de 329 KB no total), com carregamento sob demanda. Alternância por controles de rádio nativos, teclado e animação que respeita a preferência de movimento reduzido. Sem reprodução automática. A tabela comparativa foi desmembrada por conteúdo e simplificada. A orientação detalhada sobre seleção do Completo permanece na FAQ. A economia de R$ 29,70 compara o adicional de três guias com os mesmos guias separados.
 
 Validação visual em desktop e quadros de 390 e 320 px, troca de pilares por clique e teclado, comparação expansível e larguras sem transbordamento. Os novos assets e suas instruções de geração estão documentados em assets/img/README.md.
+
+## Edição de concisão e contraste
+
+Textos reduzidos em aproximadamente 28%, com frases curtas na abertura, benefícios, materiais e apresentação do autor. FAQ sem perguntas repetidas. Calendário e termos de reembolso completos em detalhes expansíveis. Preços, entregas, contatos e destinos de compra preservados.
+
+CTAs em champanhe quente #F5DDB3 com texto verde #163C2B; botão do Completo em esmeralda claro. Abertura, preços e economia recebem maior contraste. Fundo musgo e imagens da edição anterior preservados. Verificados build, sintaxe, estrutura HTML, referências e navegação.
