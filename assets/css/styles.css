@@ -1903,3 +1903,212 @@ html:not(.js) .practice-pages, html:not(.js) .plan-result { grid-column: 1 / -1;
 }
 /* Explicit dimensions prevent the intrinsic book image from expanding its grid row. */
 .cover-shelf img { height:160px; max-height:160px; width:auto; max-width:90%; object-fit:contain; }
+
+/* DocLiv moss edition: a continuous green canvas and champagne typography. */
+:root {
+  --moss:#293c2e;
+  --moss-card:#314936;
+  --moss-deep:#233428;
+  --emerald:#a0d9b9;
+  --ink:#f6efe4;
+  --muted:#d4d5c5;
+  --paper:#314936;
+  --line:#63725d;
+  --gold:#d8c4a2;
+}
+body { background:var(--moss); color:var(--cream); }
+.header { background:rgba(41,60,46,.97); backdrop-filter:blur(12px); }
+.facts,.learning,.included-section,.doctor-section,.plans-section,.faq-section,.closing,footer { background:var(--moss); }
+.facts,.learning,.included-section,.doctor-section,.closing { border-block:1px solid var(--line); }
+h1,h2,h3 { color:var(--cream); font-weight:600; }
+h1 em,h2 em,h3 em { color:var(--emerald); }
+h2 { font-size:clamp(40px,4vw,63px); }
+h3 { letter-spacing:-.025em; }
+.eyebrow,.step-number { color:var(--emerald); }
+.navigation nav a:hover,.text-link:hover { color:var(--emerald); }
+a:focus-visible,button:focus-visible,summary:focus-visible,.comparison-wrap:focus-visible { outline-color:var(--emerald); }
+.menu-toggle { color:var(--cream); }
+.nav-button { border-color:var(--emerald); border-radius:4px; }
+.brand { display:inline-flex; align-items:center; gap:12px; color:var(--cream); }
+.brand .brand-mark { width:44px; height:44px; flex:0 0 44px; border:1px solid var(--gold); border-radius:12px; }
+.brand .brand-word { font:500 40px/.9 var(--serif); letter-spacing:-.065em; margin:0; }
+.brand small { display:block; font:600 8px/1.2 var(--sans); letter-spacing:.12em; margin-top:9px; }
+.signature { margin-bottom:27px; }
+.hero h1 { font-size:clamp(48px,4.75vw,74px); }
+.hero-scene { box-shadow:9px 9px 0 #557359; border-radius:90px 8px 8px 8px; overflow:hidden; }
+.hero-scene figcaption,.hero-scene figcaption span { color:var(--cream); }
+.hero .lead { font-size:19px; }
+.button { background:var(--cream); border-color:var(--cream); color:var(--green); border-radius:5px; font-weight:800; box-shadow:0 5px 20px #13201926; }
+.button:hover { background:#dbe9d9; color:var(--green); }
+.button.outline { background:var(--green); color:var(--cream); border-color:var(--emerald); }
+.button.outline:hover { background:#1d533d; }
+.author-chip { display:flex; align-items:center; gap:13px; max-width:430px; margin-top:28px; text-decoration:none; padding-block:16px; border-block:1px solid var(--line); }
+.author-chip img { width:54px; height:54px; border-radius:50%; object-fit:cover; object-position:50% 20%; border:1px solid var(--gold); }
+.author-chip strong { display:block; font-size:14px; }
+.author-chip small { display:block; font-size:11px; color:var(--muted); }
+.author-chip>span:last-child { margin-left:auto; color:var(--emerald); }
+.facts-grid { padding-block:34px; }
+.facts strong { font-size:30px; color:var(--emerald); }
+.facts span { color:var(--muted); }
+.facts p { border-color:var(--line); }
+.audience-grid article,.included-grid article { padding:27px; background:var(--moss-card); border:1px solid var(--line); border-radius:8px; }
+.audience-grid h3,.included-grid h3 { font-size:34px; }
+.audience-grid article .step-number { display:block; font:500 44px/1 var(--serif); color:var(--emerald); }
+.method-heading { margin-top:85px; }
+.method-steps { gap:24px; }
+.method-steps li { padding:23px 0; border-top:2px solid var(--emerald); }
+.method-steps h3 { font-size:30px; }
+.learning .eyebrow,.practice-footer .text-link { color:var(--emerald); }
+.learning .section-heading>p,.practice-footer p { color:var(--muted); }
+.pillar-mantra { font:500 clamp(25px,2.7vw,37px)/1.3 var(--serif); margin:20px 0 0; }
+.practice { display:block; }
+.practice-controls { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-bottom:24px; }
+.practice-controls legend { color:var(--muted); font-size:14px; margin-bottom:18px; }
+.choice { min-width:0; padding:18px; margin:0; border-color:var(--line); background:var(--moss-card); border-radius:6px; gap:10px; }
+.choice input { accent-color:var(--green); }
+.choice>span { display:flex; align-items:center; gap:10px; font-weight:700; }
+.choice small { font:500 25px/1 var(--serif); }
+.choice b { margin-left:auto; font-weight:400; }
+.choice:has(:checked) { background:var(--cream); border-color:var(--cream); color:var(--green); }
+.practice-page { display:grid; grid-template-columns:1fr 1fr; padding:0; border:1px solid var(--line); background:var(--moss-card); color:var(--cream); border-radius:10px; overflow:hidden; }
+.pillar-photo { overflow:hidden; min-height:410px; }
+.pillar-photo img { width:100%; height:100%; object-fit:cover; }
+.pillar-copy { padding:clamp(25px,3vw,45px); align-self:center; }
+.practice-page h3 { font-size:clamp(31px,3.1vw,46px); }
+.practice-page .folio { color:var(--emerald); }
+.practice-page .try { border-left:2px solid var(--emerald); padding-left:18px; color:var(--muted); }
+.try strong { color:var(--cream); }
+.material,.material-dark { background:var(--moss-card); border:1px solid var(--line); border-radius:8px; color:var(--cream); }
+.material-number { color:var(--emerald); }
+.material h3 { font-size:34px; }
+.material p { opacity:1; color:var(--muted); }
+.cover-shelf { background:var(--moss-deep); border-radius:6px; }
+.notes-visual { background:var(--moss-deep); color:var(--cream); }
+.notes-visual p { border-color:var(--line); }
+.lesson-visual { border-color:var(--line); background:var(--moss-deep); }
+.doctor-grid { gap:70px; padding-block:45px; }
+.portrait { border-radius:80px 8px 8px 8px; overflow:hidden; border:1px solid var(--line); }
+.portrait img { min-height:0; max-height:830px; }
+.portrait-caption { color:var(--cream); }
+.doctor-copy { padding-block:15px; }
+.doctor-copy blockquote { font-size:32px; color:var(--emerald); }
+.center-heading { max-width:900px; margin-inline:auto; }
+.focused-offer { max-width:1100px; gap:28px; }
+.plan,.plan.featured,.plan.upgrade-plan { background:var(--moss-card); border:1px solid var(--line); border-radius:12px; }
+.plan.featured { border:2px solid var(--cream); }
+.plan-tag { background:var(--cream); color:var(--green); border-radius:4px; }
+.plan h3 { font-size:38px; }
+.plan h3 em { font-size:49px; }
+.plan .eyebrow { color:var(--emerald); font-size:11px; letter-spacing:.11em; }
+.installment,.service-intro .service-price { color:var(--cream); }
+.installment strong { font-size:64px; }
+.checks li::before { color:var(--emerald); }
+.upgrade-price { color:var(--cream); }
+.value-note { border:1px solid var(--emerald); border-radius:8px; padding:20px; background:var(--moss-deep); }
+.value-note>span { color:var(--emerald); font-size:10px; letter-spacing:.12em; font-weight:800; }
+.value-note>strong { display:block; font:600 33px/1.2 var(--serif); margin:8px 0 12px; }
+.value-note>p { margin:0; font-size:14px; color:var(--muted); }
+.offer-comparison { border:1px solid var(--emerald); border-radius:10px; padding:0 32px; margin-top:40px; background:var(--moss-card); }
+.offer-comparison>summary { padding:30px 0; gap:25px; }
+.offer-comparison>summary .comparison-title { font:600 clamp(31px,3.5vw,51px)/1.12 var(--serif); letter-spacing:-.025em; color:var(--cream); transform:none; }
+.comparison-title em { color:var(--emerald); }
+.offer-comparison>summary .comparison-plus { display:grid; place-items:center; flex-shrink:0; width:48px; height:48px; border:1px solid var(--emerald); border-radius:50%; font-size:32px; color:var(--emerald); }
+.offer-comparison[open]>summary { border-bottom:1px solid var(--line); }
+.offer-comparison .comparison-wrap { max-width:none; margin:25px 0 30px; }
+.offer-comparison .comparison { min-width:0; font-size:15px; }
+.comparison th:first-child { width:52%; }
+.comparison thead { color:var(--emerald); }
+.comparison thead th { font-size:17px; }
+.comparison td.included { color:var(--emerald); font-weight:800; }
+.comparison td.not-included { color:var(--muted); }
+.comparison tbody tr:hover { background:var(--moss-deep); }
+.comparison th,.comparison td { padding-block:17px; }
+.refund-summary { max-width:none; }
+.refund-summary h3 { font-size:32px; }
+.access-timeline strong { color:var(--emerald); }
+.followup,.service { background:var(--moss-card); border-radius:8px; }
+.service-steps li::before { color:var(--emerald); }
+.closing { position:relative; }
+.closing .signature { justify-content:center; text-align:left; }
+.closing .eyebrow,.closing p:not(.eyebrow) { color:var(--muted); }
+.closing .button { margin-top:14px; padding:19px 28px; font-size:17px; }
+.mobile-cta { background:var(--moss-deep); color:var(--cream); border-top:1px solid var(--emerald); }
+@media(hover:hover) and (prefers-reduced-motion:no-preference) {
+  .audience-grid article,.included-grid article,.material { transition:transform .2s,border-color .2s; }
+  .audience-grid article:hover,.included-grid article:hover,.material:hover { transform:translateY(-5px); border-color:var(--emerald); }
+}
+@media(prefers-reduced-motion:no-preference) {
+  .js [data-switcher-panel]:not([hidden]) .pillar-photo img { animation:pillar-arrive .6s ease-out both; }
+  @keyframes pillar-arrive { from { opacity:.55; transform:scale(1.035); } to { opacity:1; transform:scale(1); } }
+}
+@media(max-width:1100px) {
+  .brand .brand-word { font-size:34px; }
+  .brand small { font-size:7px; }
+  .navigation { gap:20px; }
+  .navigation nav { gap:16px; }
+  .choice { padding:15px 12px; gap:8px; }
+  .choice>span { gap:7px; font-size:14px; }
+  .choice small { font-size:20px; }
+  .doctor-grid { gap:40px; }
+}
+@media(max-width:850px) {
+  .practice-controls { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .choice>span { font-size:16px; }
+  .practice-page { grid-template-columns:.9fr 1.1fr; }
+  .pillar-photo { min-height:460px; }
+  .pillar-copy { padding:25px; }
+  .hero h1 { font-size:48px; }
+  .hero .lead { font-size:17px; }
+  .author-chip strong { font-size:12px; }
+  .author-chip small { font-size:10px; }
+}
+@media(max-width:600px) {
+  h2,.center-heading h2 { font-size:42px; }
+  .hero h1 { font-size:clamp(40px,10.3vw,60px); }
+  .hero-scene { border-radius:45px 6px 6px 6px; }
+  .author-chip { order:7; margin-top:4px; width:100%; }
+  .hero .micro { order:8; }
+  .author-chip strong { font-size:14px; }
+  .author-chip small { font-size:10px; }
+  .facts strong { font-size:26px; }
+  .audience-grid article,.included-grid article { padding:24px; }
+  .practice-controls { gap:9px; }
+  .choice { min-height:60px; }
+  .choice>span { font-size:14px; }
+  .choice small { display:none; }
+  .practice-page { grid-template-columns:1fr; }
+  .pillar-photo { min-height:0; height:220px; }
+  .pillar-photo img { height:220px; }
+  .pillar-copy { padding:25px 22px; min-height:365px; }
+  .practice-page h3 { font-size:35px; }
+  .practice-page .folio { font-size:10px; }
+  .doctor-grid { padding-block:30px; }
+  .doctor-copy { padding:35px 20px 20px; }
+  .portrait img { height:auto; }
+  .plan h3 { font-size:35px; }
+  .plan h3 em { font-size:42px; }
+  .installment strong { font-size:58px; }
+  .offer-comparison { padding-inline:16px; }
+  .offer-comparison>summary { gap:12px; padding-block:25px; }
+  .offer-comparison>summary .comparison-title { font-size:32px; }
+  .offer-comparison>summary .comparison-plus { width:33px; height:33px; font-size:25px; }
+  .offer-comparison .comparison { font-size:12px; table-layout:fixed; }
+  .comparison th:first-child { width:44%; }
+  .comparison th,.comparison td { padding:14px 5px; overflow-wrap:normal; }
+  .comparison thead th { font-size:12px; }
+  .comparison caption { font-size:25px; }
+  .closing .button { font-size:15px; padding-inline:20px; text-align:left; }
+}
+@media(max-width:360px) {
+  .brand .brand-word { font-size:31px; }
+  .brand small { font-size:6px; }
+  .brand { gap:8px; }
+  .brand .brand-mark { width:36px; height:36px; flex-basis:36px; }
+  .menu-toggle { padding:8px; font-size:13px; }
+  .choice { padding:12px 9px; gap:6px; }
+  .choice>span { font-size:12px; }
+  .choice b { display:none; }
+  .offer-comparison>summary .comparison-title { font-size:28px; }
+  .pillar-copy { padding-inline:18px; }
+  .comparison td,.comparison th { font-size:11px; }
+}

@@ -36,7 +36,15 @@ Os serviços individuais conservaram o escopo, os valores e os contatos da vers�
 - `node --check assets/js/main.js` e `node scripts/build.mjs`.
 - HTML balanceado; um H1; IDs únicos; referências ARIA, âncoras e arquivos locais válidos.
 - Cinco destinos comerciais e totais financeiros conferidos.
-- Revisão no navegador desktop e em quadros de 390 e 320 px; sem rolagem horizontal da página nas larguras verificadas. A tabela comparativa tem rolagem própria em telas estreitas.
+- Revisão no navegador desktop e em quadros de 390 e 320 px; sem rolagem horizontal da página nas larguras verificadas. A comparação desta edição cabe nas larguras verificadas e usa somente Incluído / Não incluído.
 - Menu móvel, alternância de atividades e abertura da comparação verificados.
 
 A revisão responsiva não equivale a testes em aparelhos físicos nem a certificação de acessibilidade. Não foram testados pagamento, matrícula, e-mails de acesso, permissões de conteúdo, cancelamento real ou reembolso. Os exemplos e a documentação não comprovam conversão em vendas.
+
+## Edição visual — verde musgo
+
+Fundo contínuo #293C2E, superfícies em variações de musgo, tipografia champanhe #F6EFE4 e destaque esmeralda claro #A0D9B9 para contraste no fundo escuro. Monograma existente e assinatura DocLiv em quatro pontos. Foto original do autor na abertura e na seção de apresentação.
+
+Os quatro pilares usam fotografias ilustrativas geradas com IA, otimizadas em WebP (cerca de 329 KB no total), com carregamento sob demanda. Alternância por controles de rádio nativos, teclado e animação que respeita a preferência de movimento reduzido. Sem reprodução automática. A tabela comparativa foi desmembrada por conteúdo e simplificada. A orientação detalhada sobre seleção do Completo permanece na FAQ. A economia de R$ 29,70 compara o adicional de três guias com os mesmos guias separados.
+
+Validação visual em desktop e quadros de 390 e 320 px, troca de pilares por clique e teclado, comparação expansível e larguras sem transbordamento. Os novos assets e suas instruções de geração estão documentados em assets/img/README.md.
